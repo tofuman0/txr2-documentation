@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<div class="screen">
+  <header class="screen-header"><h1>Documentation</h1></header>
+  <nav class="menu" aria-label="Documentation sections">
+    <div class="menu-title">Contents</div>
+    <a class="row {% if page.section == 'overview' %}selected{% endif %}" href="{{ '/' | relative_url }}" {% if page.section == 'overview' %}aria-current="page"{% endif %}>Overview</a>
+    <a class="row {% if page.section == 'cars' %}selected{% endif %}" href="{{ '/cars.html' | relative_url }}" {% if page.section == 'cars' %}aria-current="page"{% endif %}>Cars</a>
+    <a class="row {% if page.section == 'rivals' %}selected{% endif %}" href="{{ '/rivals.html' | relative_url }}" {% if page.section == 'rivals' %}aria-current="page"{% endif %}>Rivals &amp; Teams</a>
+    <a class="row {% if page.section == 'courses' %}selected{% endif %}" href="{{ '/courses.html' | relative_url }}" {% if page.section == 'courses' %}aria-current="page"{% endif %}>Courses &amp; Areas</a>
+    <a class="row {% if page.section == 'secrets' %}selected{% endif %}" href="{{ '/secrets.html' | relative_url }}" {% if page.section == 'secrets' %}aria-current="page"{% endif %}>Secrets &amp; Unused</a>
+    <a class="row {% if page.section == 'completion' %}selected{% endif %}" href="{{ '/completion.html' | relative_url }}" {% if page.section == 'completion' %}aria-current="page"{% endif %}>100% Completion</a>
+    <a class="row {% if page.section == 'port' %}selected{% endif %}" href="{{ '/port.html' | relative_url }}" {% if page.section == 'port' %}aria-current="page"{% endif %}>The Port</a>
+    <a class="row" href="https://github.com/tofuman0/TXR2-Port-Distribution">Get the Port</a>
+  </nav>
+  <div class="help"><span>{{ page.help | escape }}</span></div>
+  <main class="content">{{ content }}</main>
+  <footer>Tokyo Xtreme Racer 2 &nbsp; · &nbsp; Documentation</footer>
+</div>
+</body>
+</html>

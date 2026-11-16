@@ -1,0 +1,5 @@
+title: Tokyo Xtreme Racer 2 Documentation
+description: A guide to Tokyo Xtreme Racer 2 and its native port.
+baseurl: /txr2-documentation
+markdown: kramdown
+exclude: [README.md]
