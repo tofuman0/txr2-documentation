@@ -12,10 +12,10 @@ Welcome to a growing reference for the original Dreamcast game and its native po
 ## Explore
 
 - [Cars]({{ '/cars.html' | relative_url }}) — vehicles and their specifications.
-- [Rivals and teams]({{ '/rivals.html' | relative_url }}) — racers, their cars and appearance requirements.
-- [Courses and areas]({{ '/courses.html' | relative_url }}) — the road network and its locations.
-- [Secrets and unused content]({{ '/secrets.html' | relative_url }}) — cheats, hidden features and discoveries.
-- [100% completion]({{ '/completion.html' | relative_url }}) — progression, requirements and open questions.
+- [Rivals]({{ '/rivals.html' | relative_url }}) — teams, racers, their cars and appearance requirements.
+- [Course & areas]({{ '/courses.html' | relative_url }}) — the road network and its locations.
+- [Secrets]({{ '/secrets.html' | relative_url }}) — cheats, hidden features and unused content.
+- [Complete guide]({{ '/completion.html' | relative_url }}) — progression, requirements and open questions.
 - [The port]({{ '/port.html' | relative_url }}) — information about the native project.
 
 ## Research status
