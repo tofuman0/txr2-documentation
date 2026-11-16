@@ -1,0 +1,19 @@
+{
+  "release": "T40211N V1.002 US",
+  "resource_sha256": "df5c99555607836851dbdecc6bcd62356380e89b0b4ae38a2570d2f76ab57037",
+  "specification_source": "CarSpecsCatalog::GetFactory, source-derived 04C436 formatting",
+  "capture_source": "native capture-car batch, first factory paint",
+  "records": 140,
+  "normal_records": 132,
+  "additional_traffic_records": 8,
+  "missing_image_ids": [
+    136,
+    138
+  ],
+  "notes": [
+    "Car ID is zero-based CARMODEL record index; type code is from the record.",
+    "Additional traffic records do not imply player availability.",
+    "Images 136 and 138 need corrected camera framing.",
+    "Capture batch previously generated; per-vehicle original comparisons remain outstanding."
+  ]
+}
