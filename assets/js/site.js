@@ -89,6 +89,64 @@ function initRivalDetails() {
     update();
 }
 
+function initChallengeDetails() {
+    const heading = document.getElementById("challenge-response");
+    if (!heading || !heading.closest("main.content")) {
+        return;
+    }
+    const original = heading.nextElementSibling;
+    const cars = original?.nextElementSibling;
+    const source = cars?.nextElementSibling;
+    if (original?.tagName !== "P" || cars?.tagName !== "P" || source?.tagName !== "P" ||
+        !original.textContent.startsWith("This rival’s source record enables") ||
+        !cars.textContent.startsWith("The original normal-car records matching") ||
+        !source.textContent.startsWith("These values follow")) {
+        return;
+    }
+    const match = original.textContent.match(/classification value (\d+)/);
+    const classification = original.querySelector("a");
+    if (!match || !classification) {
+        return;
+    }
+    const summary = document.createElement("p");
+    const link = classification.cloneNode(true);
+    link.textContent = "driving classification";
+    summary.append("A challenge may be cancelled if your ", link,
+        ` is below ${match[1]} and your car is from a different family. The cars below match this rival’s family and bypass this particular check; other challenge conditions still apply.`);
+    const technical = document.createElement("section");
+    technical.id = "rival-challenge-technical-details";
+    technical.setAttribute("aria-label", "Challenge response technical details");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "rival-technical-toggle";
+    button.setAttribute("aria-controls", technical.id);
+    heading.after(summary);
+    technical.append(original, source);
+    cars.after(button, technical);
+
+    let expanded = false;
+    try {
+        expanded = localStorage.getItem("txr2-technical-details") === "on";
+    } catch (_) {
+        // The control still works without browser storage.
+    }
+    function update() {
+        technical.hidden = !expanded;
+        button.setAttribute("aria-expanded", String(expanded));
+        button.textContent = expanded ? "Hide challenge details" : "Show challenge details";
+    }
+    button.addEventListener("click", () => {
+        expanded = !expanded;
+        try {
+            localStorage.setItem("txr2-technical-details", expanded ? "on" : "off");
+        } catch (_) {
+            // Keep the current page usable without persistent storage.
+        }
+        update();
+    });
+    update();
+}
+
 function initPartFilters() {
     const content = document.querySelector("main.content");
     if (!content) {
@@ -188,6 +246,7 @@ function initPartFilters() {
 function initPage() {
     initCarFilters();
     initRivalDetails();
+    initChallengeDetails();
     initPartFilters();
 }
 
