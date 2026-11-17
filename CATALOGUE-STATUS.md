@@ -7,7 +7,7 @@ that files exist; they do not establish that every value or image is accurate.
 | --- | ---: | --- |
 | Original car records | 140 pages, 140 images | Compare all values and images against the supported original release. IDs 132–139 are traffic vehicles; their Class T purchase and upgrade features are port additions. |
 | Original rival records | 372 pages, 372 images | Compare each reconstructed car appearance and configuration with the original game. |
-| Port traffic challenges | 8 pages | Verify each challenge and unlock against current port behaviour. |
+| Port traffic challenges | 8 pages | Eligibility and prices checked against current port source; verify the full challenge and unlock flow in gameplay. |
 | Teams | 43 pages, 43 existing logos | Team pages 01–42 display the supplied AI-upscaled sheet. Team 00 retains its previous logo while the sheet’s Rolling Guy lettering is corrected. The upscaled versions may differ from the originals and still need individual comparison. |
 
 A catalogue link check found no missing local targets among relative links to
@@ -26,6 +26,10 @@ All eight page prices match the source and fixture at commit `a66040a6`:
 10,000, 15,000, 12,000, 30,000, 100,000, 20,000, 40,000 and 80,000 CP,
 respectively. This is a source comparison; the purchase test was not run as
 part of this documentation check. These dealer prices are port additions.
+
+## Class T challenge eligibility check
+
+The vehicle requirements on all eight traffic challenge pages were compared with the current port's [QuestTrafficCandidate::Find](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_cruise_candidate.cpp) and the Keep Garage gate in [RaceFreeRun](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/race_free_run.cpp). The taxi accepts a normal car with normal parts or a Class T car; the other ordinary models require Class T, with additional vehicle restrictions for the tanker and delivery lorry. The delivery lorry also requires wins against the seven other traffic models. All eight page prices match the current dealer-price source. This is a source comparison, not an end-to-end gameplay or save-persistence test.
 
 ## Regular-team roster check
 
