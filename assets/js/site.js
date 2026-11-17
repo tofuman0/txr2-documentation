@@ -49,7 +49,7 @@ function initRivalDetails() {
     technical.setAttribute("aria-label", "Detailed rival performance calculations");
     let next = heading.nextElementSibling;
     while (next && next.tagName !== "H2" &&
-        !(next.tagName === "P" && next.textContent.trim().startsWith("A first win in the current Quest period"))) {
+        !(next.tagName === "P" && next.textContent.trim().startsWith("Beating this rival for the first time in the current Quest period"))) {
         const following = next.nextElementSibling;
         technical.appendChild(next);
         next = following;
