@@ -11,7 +11,7 @@ help: View the port’s traffic challenge and unlock.
 
 **Port addition:** This traffic challenge and Class T purchase are features of the native port. The original game did not allow traffic vehicles to be bought.
 
-![Native port view of traffic model 137]({{ "/assets/cars/car-137.png" | relative_url }})
+[![Native port view of traffic model 137]({{ "/assets/cars/car-137.png" | relative_url }})]({{ "/assets/cars/car-137.png" | relative_url }})
 
 *Representative native port model view; the encountered traffic style may differ.*
 

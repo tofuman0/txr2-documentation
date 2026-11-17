@@ -11,3 +11,18 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     display: block;
     overflow-x: auto;
 }
+
+/* Preserve image proportions and keep images inside the content panel. */
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content img[src*="/team-logos/"] {
+    max-width: min(100%, 256px);
+}
+
+.content a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}
