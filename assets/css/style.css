@@ -119,3 +119,19 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
         max-width: calc(100% + 16px);
     }
 }
+
+/* Keep detailed rival calculations available without overwhelming new players. */
+.rival-technical-toggle {
+    border: 1px solid #888;
+    border-radius: 7px;
+    padding: 7px 12px;
+    background: #3c3c3e;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+}
+
+.rival-technical-toggle:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}

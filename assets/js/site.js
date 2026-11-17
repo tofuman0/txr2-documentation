@@ -37,3 +37,54 @@
     selectClass("all");
     filters.hidden = false;
 })();
+
+(() => {
+    const heading = document.getElementById("performance-multipliers");
+    if (!heading || !heading.closest("main.content")) {
+        return;
+    }
+
+    const technical = document.createElement("section");
+    technical.id = "rival-technical-details";
+    technical.setAttribute("aria-label", "Detailed rival performance calculations");
+    let next = heading.nextElementSibling;
+    while (next && next.tagName !== "H2" &&
+        !(next.tagName === "P" && next.textContent.trim().startsWith("A first win in the current Quest period"))) {
+        const following = next.nextElementSibling;
+        technical.appendChild(next);
+        next = following;
+    }
+    if (!technical.children.length) {
+        return;
+    }
+
+    const summary = document.createElement("p");
+    summary.textContent = "Rivals get extra grip, and their target speed can change depending on the distance between cars. Their fitted parts and settings also affect their performance. Open the technical details for the exact values.";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "rival-technical-toggle";
+    button.setAttribute("aria-controls", technical.id);
+    heading.after(summary, button, technical);
+
+    let expanded = false;
+    try {
+        expanded = localStorage.getItem("txr2-technical-details") === "on";
+    } catch (_) {
+        // The control still works when browser storage is unavailable.
+    }
+    function update() {
+        technical.hidden = !expanded;
+        button.setAttribute("aria-expanded", String(expanded));
+        button.textContent = expanded ? "Hide technical details" : "Show technical details";
+    }
+    button.addEventListener("click", () => {
+        expanded = !expanded;
+        try {
+            localStorage.setItem("txr2-technical-details", expanded ? "on" : "off");
+        } catch (_) {
+            // Keep the current page usable without persistent storage.
+        }
+        update();
+    });
+    update();
+})();
