@@ -115,6 +115,10 @@ All 13 factory specification fields on all 140 car pages were independently comp
 
 The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relative_url }}), [A80RZM]({{ "/cars/008.html" | relative_url }}) and [R34RV]({{ "/cars/034.html" | relative_url }}) show the same weight, maximum horsepower, displacement and drivetrain as their catalogue pages: 2,094 lb / 114 HP / 1.6 litres / FR; 3,329 lb / 280 HP / 3.0 litres / FR; and 3,439 lb / 280 HP / 2.6 litres / 4WD, respectively. This independent visual comparison covers four displayed fields on three cars only; it does not verify the other specifications or part effects.
 
+## S15R original dealer comparison
+
+An original US game capture from the Quest dealer shows S15R (car 025) at 23,900 CP, 2,756 lb, 250 HP, 2.0 litres and FR; these five displayed values match its catalogue page. The capture is linked on that page. This does not verify its remaining specifications, parts, or visual parity with the port.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
