@@ -233,6 +233,10 @@ original game or proof of a correct model, paint or camera angle.
 
 All 140 catalogue images were reviewed as contact sheets. The original graphics-test captures for cars 106–108, 117–120 and 123 showed unusually large gaps between the body and wheels. They have been replaced with browser-garage captures in which the wheels sit in the arches. A gap between the car and its shadow remains visible in some garage views. These checks do not establish the cause of the graphics-test issue or confirm original-game visual fidelity.
 
+## Rival capture file comparison
+
+All 372 catalogue rival PNGs matched the SHA-256 hashes of their corresponding files in the retained native capture batch, using the same rival ID for both files. This verifies the file mapping. Visual comparison with the original game remains outstanding.
+
 ## Rival capture framing review
 
 All 372 published rival images were reviewed as contact sheets. Each shows a vehicle in frame, with no blank capture apparent at thumbnail size. Some dark-coloured cars are difficult to distinguish from the night scene. This is a framing check only: thumbnail review cannot confirm the rival's identity, small visual details, or fidelity to the original game.
