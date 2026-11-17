@@ -99,6 +99,10 @@ source-derived export used to produce the pages; it is not an independent
 comparison with the original game's displayed screens. Modified-car values
 and Class T port-only upgrades are separate.
 
+## Direct factory-record comparison
+
+All 140 car pages were independently compared with the supplied US CARMODEL resource 0x2000 using the [recovered factory display field offsets and conversions](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md). Length, width, height, wheelbase, front and rear track, weight and factory power including its RPM all matched: 1,120 values in total. The comparison decodes the original records directly rather than reading the existing specification export. It uses the port's recovered interpretation of the original display logic, and does not establish the remaining factory fields, part effects or original-game rendering.
+
 ## Original-game displayed specification sample
 
 The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relative_url }}), [A80RZM]({{ "/cars/008.html" | relative_url }}) and [R34RV]({{ "/cars/034.html" | relative_url }}) show the same weight, maximum horsepower, displacement and drivetrain as their catalogue pages: 2,094 lb / 114 HP / 1.6 litres / FR; 3,329 lb / 280 HP / 3.0 litres / FR; and 3,439 lb / 280 HP / 2.6 litres / 4WD, respectively. This independent visual comparison covers four displayed fields on three cars only; it does not verify the other specifications or part effects.
