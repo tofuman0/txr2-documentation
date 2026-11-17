@@ -11,7 +11,15 @@ This page will document mechanics that affect the game as a whole, separate from
 
 ## Shared multipliers
 
-Research into shared performance multipliers, their affected statistics and when they apply is ongoing. No blanket numerical value is confirmed here yet. Battle reward multipliers are a separate mechanic from vehicle-performance multipliers.
+The original actor-condition update applies a 2× multiplier to configured grip coefficients for rival actors and other automatic-control states. Battle reward and AI target-speed multipliers are separate mechanics. See the conditions below.
+
+## Automatic-control grip multiplier
+
+The original actor-condition update sets both front and rear current grip coefficients to **2.00× their configured base values** when actor flags contain any of `0xE0` or `0x04`. A normal rival actor receives the rival category flag `0x20`, so this rule applies to rivals. Traffic actors use `0x40`; the player can also receive the adjustment temporarily while under automatic control, such as during a rolling start. It is a control-state rule rather than an upgrade unique to a particular rival.
+
+The update also doubles the two corresponding brake-input coefficients and the separate configured field at source offset `0x310`. It writes twice the base values each update; it does not repeatedly double the previous frame’s values. The manual path can apply wear before the automatic override, so the comparison is to the configured base, not necessarily to a worn manual value. These are coefficients used by the physics calculation, not a claim that cornering speed or final tyre force always doubles.
+
+This follows the source-recovered actor update around `01D0AA` and condition calculation `021A40`. The project’s original-data contact test checks configured grip and the automatic/manual transition.
 
 ## Battle CP rewards
 

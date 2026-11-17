@@ -275,5 +275,6 @@
   ],
   "appearance_pool_source": "QuestRivalProgress::Build, QuestRivalEligibility::Select and QuestRivalPool::Populate; team pool uses the first team record's category, wanderers use their own category, and the six possible starts come from QuestRivalDefinition::m_Starts. Special rivals use the category mapping and progression counters in QuestRivalProgress::Build.",
   "configured_ratio_source": "Port RaceCarTuning::Configure and PhysicalCoefficients using the source SessionRivals part/settings record; compared against the same car with neutral all-Normal parameters. Ratios describe calculated configured values, not independently proven rival-only boosts.",
-  "tuning_settings_source": "SessionRivals parameters +0x15..+0x26, mapped through QuestTuningSetting; first 17 signed, boost unsigned. Values are the original record, not a claim of player menu availability."
+  "tuning_settings_source": "SessionRivals parameters +0x15..+0x26, mapped through QuestTuningSetting; first 17 signed, boost unsigned. Values are the original record, not a claim of player menu availability.",
+  "automatic_grip_source": "Source-recovered actor update 01D0AA / 021A40; RaceActorConditionModel::Advance doubles configured coefficients under actor flags 0xE0 or 0x04. RaceAutomaticActorCallback assigns 0x20 to rival actors; original-data race contact tests check automatic/manual conditions."
 }

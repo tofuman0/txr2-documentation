@@ -26,7 +26,10 @@ help: View the port’s traffic challenge and unlock.
 | Vehicle requirement | Drive a Class T car. |
 | Challenge | Flash the headlights when an eligible traffic vehicle is in range. |
 | Unlock | Win the battle to add this vehicle to the Class T dealer for 20,000 CP. |
+| Traffic opponent grip | 2.00× configured base coefficients under the traffic actor condition. |
 | Win reward | 100 CP base plus remaining-SP and distance components. |
 | Loss or draw | No CP is deducted and no new model is unlocked. |
 
 See the linked car page for its specifications, part prices and calculated tuning effects. The game also applies proximity, alignment, speed and state checks before it accepts a challenge.
+
+The grip rule is shared with automatic actors; see [Game Details]({{ "/game-details.html#automatic-control-grip-multiplier" | relative_url }}). A Class T car driven manually by the player is not automatically treated as a traffic opponent.
