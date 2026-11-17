@@ -11,7 +11,9 @@ The supported US release contains 372 rival records. This list is in zero-based 
 
 [How vehicle images were captured]({{ "/vehicle-image-sources.html" | relative_url }})
 
-[View source appearance pools and starting positions]({{ "/rival-appearance-pools.html" | relative_url }})
+Jump to [teams](#teams), [all rivals](#all-rivals), or the [port’s Class T traffic challenges](#class-t-traffic-challenges).
+
+[View rival priority and parts unlocks]({{ "/rival-priorities.html" | relative_url }}) · [View appearance pools and starting positions]({{ "/rival-appearance-pools.html" | relative_url }})
 
 ## Teams
 
