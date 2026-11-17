@@ -4,6 +4,7 @@
   "specification_source": "CarSpecsCatalog::GetFactory, source-derived 04C436 formatting",
   "capture_source": "native capture-car batch, first factory paint",
   "parts_price_source": "US 05F5E0 and 060308, transcribed in QuestPartsSession; original class, gear and tire/wheel dimensions from CarInfo",
+  "dealer_price_source": "US CarInfo signed halfword at 0x310 times ten; original class index at 0x06; Class T is a port addition",
   "parts_price_scope": "Normal cars 000-131; prices are quotes, not a guarantee that the part is unlocked or compatible",
   "records": 140,
   "normal_records": 132,
