@@ -113,7 +113,7 @@ The player-facing team-selection text on all 255 regular team-member pages was c
 
 ## Boss progression team-group check
 
-All 43 teams in the boss-progression guide were compared with the original rival records and the recovered pool-to-boss group mapping. Every team appeared once in the correct group and in the expected early or advanced roster. This checks the guide's grouping, not an end-to-end Quest playthrough or every boss-selection path.
+All 43 teams in the boss-progression guide were compared with the original rival records and the recovered pool-to-boss group mapping. Every team appeared once in the correct group and in the expected early or advanced roster. The 23 group and zone-boss variants also match their original type, category and stage, and the three stage/final bosses have the expected source types. This checks the guide's grouping, not an end-to-end Quest playthrough or every boss-selection path.
 
 ## Original rival-rule record comparison
 
