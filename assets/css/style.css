@@ -26,3 +26,34 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     outline: 2px solid #fff;
     outline-offset: 3px;
 }
+
+/* World 1 road map: road segments and starts remain clickable. */
+.course-map {
+    display: block;
+    width: min(100%, 560px);
+    height: auto;
+    max-height: 85vh;
+    margin: 20px auto;
+    background: #111;
+    border: 1px solid #777;
+}
+
+.course-map path {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+    pointer-events: stroke;
+}
+
+.course-map a:hover path,
+.course-map a:focus-visible path {
+    stroke: #f33;
+    stroke-width: 4;
+}
+
+.course-map .course-start circle {
+    fill: #c62122;
+    stroke: white;
+    stroke-width: 1;
+}
