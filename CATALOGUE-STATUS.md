@@ -80,7 +80,11 @@ Team pages 01, 07, 13, 24 and 42 were loaded from GitHub Pages in Edge at
 390 px and 1,280 px viewport widths. Each loaded its selected logo from the
 supplied sheet at 64 × 62 CSS pixels; the five mobile captures were visually
 checked for the intended artwork and cropping. This sample does not establish
-that the AI-upscaled designs match the original game artwork.
+that the AI-upscaled designs match the original game artwork. A subsequent
+check compared all 42 page crop coordinates with their intended positions in
+the supplied sheet; all matched. This checks placement rather than artwork
+fidelity. Team 00 continues to use the original-based image while the sheet’s
+Rolling Guy lettering remains incorrect.
 
 ## Factory specification export check
 
