@@ -464,4 +464,3 @@ The game uses either current-period or retained defeat records depending on Ques
 | 003 | [Rolling Boy No. 4]({{ "/rivals/003.html" | relative_url }}) |
 | 004 | [Rolling Boy No. 5]({{ "/rivals/004.html" | relative_url }}) |
 | 005 | [Rolling Boy No. 6]({{ "/rivals/005.html" | relative_url }}) |
-
