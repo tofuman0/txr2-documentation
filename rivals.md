@@ -13,7 +13,7 @@ The supported US release contains 372 rival records. This list is in zero-based 
 
 Jump to [teams](#teams), [all rivals](#all-rivals), or the [port’s Class T traffic challenges](#class-t-traffic-challenges).
 
-[View rival priority and parts unlocks]({{ "/rival-priorities.html" | relative_url }}) · [View appearance pools and starting positions]({{ "/rival-appearance-pools.html" | relative_url }}) · [View Quick Race rivals]({{ "/quick-race-rivals.html" | relative_url }})
+[View rival priority and parts unlocks]({{ "/rival-priorities.html" | relative_url }}) · [View appearance pools and starting positions]({{ "/rival-appearance-pools.html" | relative_url }}) · [View Quick Race rivals]({{ "/quick-race-rivals.html" | relative_url }}) · [View Quest boss progression]({{ "/quest-boss-progression.html" | relative_url }})
 
 ## Teams
 
