@@ -7,7 +7,7 @@ help: How the vehicle images were captured and what they show.
 
 # Vehicle image sources
 
-The car and rival images are screenshots from the native TXR2 port using the supported US release’s game data. They show the port’s reconstructed appearance, lighting and rendering; they are not screenshots of the original Dreamcast game. Individual comparisons with the original game remain outstanding.
+Unless identified as an original-game reference, the car and rival images are screenshots from the native TXR2 port using the supported US release’s game data. They show the port’s reconstructed appearance, lighting and rendering; they are not screenshots of the original Dreamcast game. Individual comparisons with the original game remain outstanding.
 
 ## Car images
 
