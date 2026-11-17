@@ -13,6 +13,8 @@ Quest organizes eligible rivals into nine source pools. Each pool has up to six 
 
 Road IDs and offsets below are the game’s internal positions, not geographic area names. They are included so the source locations can be traced to the course map.
 
+For special-rival progression, the source groups pools 0–1 as category 9, pools 2–3 as category 10, pool 4 as category 11, pools 5–6 as category 12 and pools 7–8 as category 13.
+
 ## Pool 0
 
 | Slot | Road ID | Source offset |
