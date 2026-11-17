@@ -135,6 +135,10 @@ Original US Quest dealer captures show all eight starting Class C selections: AE
 
 An isolated US-game reference session enabled the 132 standard-car availability bits in emulator memory, then opened the original Quest dealer. Captures of 100MV (014), SW20GT (004), ST205 (078), A80RZ (006) and 100TV (012) show their TYPE, prices and headline weight, power, displacement and drivetrain. All five prices and all 20 displayed specification values match their pages. This seeded session does not demonstrate normal unlock paths or validate full visual parity and other specifications. The saved game files were not modified by this flag adjustment.
 
+## Additional seeded dealer comparisons
+
+The same isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for 100TVM (013), 100MVM (015), JZZ30 (075), S161V (097), R34GT (035) and C34 (096). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The session does not establish their natural unlock paths, remaining specifications or exact port visual parity. A separate S141V frame showed the car suspended above the ground and was not used; its rendering needs another reference.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
