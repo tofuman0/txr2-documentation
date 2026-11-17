@@ -84,3 +84,11 @@ supported US car records. This checks 1,820 table values against the same
 source-derived export used to produce the pages; it is not an independent
 comparison with the original game's displayed screens. Modified-car values
 and Class T port-only upgrades are separate.
+
+## Rival tuning export check
+
+All 18 recorded tuning values on each of the 372 rival pages were compared
+with the existing local rival-settings export: 6,696 values matched. This
+checks that the published tables reproduce that export, which was also used
+to generate them. It is not an independent verification of the original
+records, whether a setting is available to players, or its gameplay effect.
