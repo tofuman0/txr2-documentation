@@ -131,6 +131,10 @@ Original US Quest dealer captures show all eight starting Class B selections: XE
 
 Original US Quest dealer captures show all eight starting Class C selections: AE86T3 (001), AE86L2 (002), W30 (088), N15N1 (084), EF8 (098), EG6 (077), EK9M (041) and NB8RS (076). Each image displays the TYPE code, dealer price, weight, power, displacement and drivetrain; all eight prices and all 32 displayed specification values match their car pages. The dark EG6 paint obscures some detail, as noted on its page. These checks do not establish full visual parity or verify other specifications and modifications.
 
+## Original seeded dealer comparisons
+
+An isolated US-game reference session enabled the 132 standard-car availability bits in emulator memory, then opened the original Quest dealer. Captures of 100MV (014), SW20GT (004), ST205 (078), A80RZ (006) and 100TV (012) show their TYPE, prices and headline weight, power, displacement and drivetrain. All five prices and all 20 displayed specification values match their pages. This seeded session does not demonstrate normal unlock paths or validate full visual parity and other specifications. The saved game files were not modified by this flag adjustment.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
