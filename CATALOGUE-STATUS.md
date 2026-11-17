@@ -187,3 +187,13 @@ the pending course viewer’s Jekyll permalink. A separate check resolved
 checks local source targets, including unpublished course-viewer work; it
 does not verify external links, every Jekyll rendering rule or live-site
 navigation.
+
+## Rival reward component check
+
+The three displayed win-history components on each of the 372 rival pages
+match the original US executable’s rival priority and type fields when
+calculated using the port’s [battle award formula](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/battle.cpp).
+All 1,116 values matched. These are components, not fixed total payouts:
+remaining SP, distance and the applicable multiplier also affect the award.
+The check does not independently verify the complete formula against every
+original-game battle.
