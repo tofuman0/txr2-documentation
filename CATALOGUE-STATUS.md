@@ -189,6 +189,10 @@ records. The export executable was previously built; this is a repeatability
 check of the port calculation, not an independent comparison against original
 gameplay, combined parts, or every possible tuning setting.
 
+## Original engine tuning table comparison
+
+The port's 21 normal-car engine tuning rows were compared directly with the supported US executable at `0x8C0C4708`. All 189 signed values matched, including the stored power percentages, RPM changes, mass and displacement fields. The car pages derive engine upgrade figures using these source-backed rows and the port's tuning calculation. This comparison verifies the recovered table values, not every calculation, combined setup or original-game parts-store interaction. Class T uses the port's separate traffic-specific behaviour.
+
 ## Rival specification export check
 
 A fresh run of the existing native rival-specification exporter reproduced all
