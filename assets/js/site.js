@@ -204,6 +204,16 @@ function initPartFilters() {
         const detailIndex = headers.findIndex((header) =>
             ["Additional attributes", "Other attributes"].includes(header.textContent.trim()));
         if (detailIndex >= 0 && rows.every((row) => row.cells[detailIndex])) {
+            const conditionIndex = headers.findIndex((header) => header.textContent.trim() === "Shop condition");
+            const conditions = conditionIndex < 0 ? [] : rows
+                .map((row) => row.cells[conditionIndex])
+                .filter((cell) => cell && cell.children.length === 0 && /persistent unlock bit \d+/i.test(cell.textContent))
+                .map((cell) => ({
+                    cell,
+                    original: cell.textContent,
+                    plain: cell.textContent.replace(/persistent unlock bit \d+/i, (match) =>
+                        match[0] === "P" ? "A persistent unlock" : "a persistent unlock")
+                }));
             const detailButton = document.createElement("button");
             detailButton.type = "button";
             detailButton.className = "rival-technical-toggle";
@@ -222,8 +232,11 @@ function initPartFilters() {
                 for (const row of rows) {
                     row.cells[detailIndex].hidden = !expanded;
                 }
+                for (const condition of conditions) {
+                    condition.cell.textContent = expanded ? condition.original : condition.plain;
+                }
                 detailButton.setAttribute("aria-pressed", String(expanded));
-                detailButton.textContent = expanded ? "Hide extra attributes" : "Show extra attributes";
+                detailButton.textContent = expanded ? "Hide technical details" : "Show technical details";
             }
             detailButton.addEventListener("click", () => {
                 expanded = !expanded;
