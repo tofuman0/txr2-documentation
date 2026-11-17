@@ -197,3 +197,11 @@ All 1,116 values matched. These are components, not fixed total payouts:
 remaining SP, distance and the applicable multiplier also affect the award.
 The check does not independently verify the complete formula against every
 original-game battle.
+
+## Catalogue table structure
+
+A Markdown source check found consistent row column counts in the 409 car,
+2,976 rival and 43 team tables. The check accounts for Liquid expressions
+and escaped separators. It detects missing cells and malformed table rows;
+it does not establish that the values are correct or that every table renders
+well on every screen size.
