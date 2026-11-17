@@ -133,3 +133,15 @@ The rival images and 138 car images measure 1,280 × 800 pixels; the two
 remaining car images measure 1,024 × 768 pixels. All 512 files decoded
 successfully. This is a file-integrity check, not a comparison with the
 original game or proof of a correct model, paint or camera angle.
+
+## Standard-car part price check
+
+The 10,164 part-price rows across the 132 standard-car pages match the
+port’s [shop price tables](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp)
+at commit `a66040a6`, using each original car record’s class, engine type,
+gear count, tyre sizes and wheel diameter. This includes the listed engine,
+exhaust, drivetrain, body, aero, accessories, tyre and wheel variants. The
+comparison verifies the quoted prices and listed variants against those
+tables; it does not verify stock unlocks, compatibility, part effects or a
+purchase in the original game. Class T quotes have a separate port-specific
+pricing check.
