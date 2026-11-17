@@ -88,7 +88,10 @@ and Class T port-only upgrades are separate.
 ## Rival tuning export check
 
 All 18 recorded tuning values on each of the 372 rival pages were compared
-with the existing local rival-settings export: 6,696 values matched. This
-checks that the published tables reproduce that export, which was also used
-to generate them. It is not an independent verification of the original
+both with the existing local rival-settings export and directly with the
+[port’s recovered rival parameter records](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/include/txr2/race_session_data.hpp#L587)
+at commit `a66040a6`: all 6,696 values matched. The direct check reads the
+settings at parameter offsets `0x15`–`0x26`, treating the first 17 as signed
+and boost as unsigned. The port data is itself recovered from the supported
+US release; this comparison does not independently verify the original game
 records, whether a setting is available to players, or its gameplay effect.
