@@ -107,6 +107,10 @@ All 13 factory specification fields on all 140 car pages were independently comp
 
 The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relative_url }}), [A80RZM]({{ "/cars/008.html" | relative_url }}) and [R34RV]({{ "/cars/034.html" | relative_url }}) show the same weight, maximum horsepower, displacement and drivetrain as their catalogue pages: 2,094 lb / 114 HP / 1.6 litres / FR; 3,329 lb / 280 HP / 3.0 litres / FR; and 3,439 lb / 280 HP / 2.6 litres / 4WD, respectively. This independent visual comparison covers four displayed fields on three cars only; it does not verify the other specifications or part effects.
 
+## Original rival-rule record comparison
+
+All 372 port rival-rule records were compared directly with the supported US executable's `0xA0`-byte rival rows at `0x8C0DD020`. The 5,952 checked fields matched, including rank, priority, team, type, category, eligibility bytes and prerequisite ID. These source-backed records inform the appearance descriptions. Matching them does not verify every shared encounter gate, natural appearance, challenge response or progression path.
+
 ## Rival tuning export check
 
 All 18 recorded tuning values on each of the 372 rival pages were compared
