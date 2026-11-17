@@ -169,6 +169,10 @@ tables; it does not verify stock unlocks, compatibility, part effects or a
 purchase in the original game. Class T quotes have a separate port-specific
 pricing check.
 
+## Class T part quote comparison
+
+All 400 listed Class T part quotes across cars 132–139 were checked against the current port's pricing tables and per-car source records. Every quote matched, including the delivery lorry's use of the tanker's tyre sizes and its unavailable wheel quotes. The calculation uses port-specific rules and has not been verified through every in-game shop purchase.
+
 ## Direct standard-car part quote comparison
 
 All 10,164 part quotes on the 132 standard-car pages were independently recalculated from the supported US executable's price records and the original car records, using the port's recovered shop selection and arithmetic. This includes 8,052 non-tyre/wheel quotes and 2,112 tyre and wheel quotes. All matched. Nineteen source price tables were also compared with the port's recovered constants. This validates the published quotes under those rules, not whether a part is unlocked or a purchase succeeds in original gameplay.
