@@ -8,14 +8,11 @@
   "records": 140,
   "normal_records": 132,
   "additional_traffic_records": 8,
-  "missing_image_ids": [
-    136,
-    138
-  ],
+  "missing_image_ids": [],
   "notes": [
     "Car ID is zero-based CARMODEL record index; type code is from the record.",
     "Additional traffic records do not imply player availability.",
-    "Images 136 and 138 need corrected camera framing.",
-    "Capture batch previously generated; per-vehicle original comparisons remain outstanding."
+    "Capture batch previously generated; per-vehicle original comparisons remain outstanding.",
+    "Models 136 and 138 use labeled native model-viewer screenshots; standard capture framing still needs correction. Model 138 is shown from the rear."
   ]
 }
