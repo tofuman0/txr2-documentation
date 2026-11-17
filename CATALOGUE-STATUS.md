@@ -205,3 +205,12 @@ A Markdown source check found consistent row column counts in the 409 car,
 and escaped separators. It detects missing cells and malformed table rows;
 it does not establish that the values are correct or that every table renders
 well on every screen size.
+
+## Car-to-rival unlock lists
+
+The rival links in the Quest dealer-availability sections of all 132
+standard-car pages match the car IDs in the original US rival records.
+All 372 rival references are present under their recorded car, with no extra
+entries. The first-win availability rule is based on the port’s recovered
+Quest result logic; individual rival encounter conditions and the separate
+dealer-roster exclusion for car 094 still apply.
