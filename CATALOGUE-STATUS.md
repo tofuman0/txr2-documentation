@@ -169,3 +169,12 @@ stock configuration and uses the port’s tuning calculation and original car
 records. The export executable was previously built; this is a repeatability
 check of the port calculation, not an independent comparison against original
 gameplay, combined parts, or every possible tuning setting.
+
+## Rival specification export check
+
+A fresh run of the existing native rival-specification exporter reproduced all
+13 values on each of the 372 rival pages, for 4,836 matching values after
+removing display padding. The exporter uses recovered rival parameters and
+original car records with the port’s owned-car specification calculation.
+Its executable was previously built; this verifies reproduction of the port
+calculation, not independent original-game displays or race-only modifiers.
