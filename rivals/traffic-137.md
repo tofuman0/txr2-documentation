@@ -24,7 +24,7 @@ help: View the port’s traffic challenge and unlock.
 | Driver name | The Nameless One |
 | Availability | Quest Keep Garage playthrough |
 | Vehicle requirement | Drive a Class T car. |
-| Challenge | Flash the headlights when an eligible traffic vehicle is in range. |
+| Challenge | Flash the headlights when an eligible traffic vehicle is in range. Both vehicles must be travelling at roughly 65 km/h (40 mph) or faster. If the flash does not register, move closer and adjust your speed; the initial check also considers their gap, speed difference and road section. |
 | Unlock | Win the battle to add this vehicle to the Class T dealer for 20,000 CP. |
 | Traffic opponent grip | 2.00× configured base coefficients under the traffic actor condition. |
 | Win reward | 100 CP base plus remaining-SP and distance components. |
