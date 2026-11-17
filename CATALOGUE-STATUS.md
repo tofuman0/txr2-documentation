@@ -33,5 +33,8 @@ The 43 published team pages were compared with the port project's
 [source-backed US rival roster](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-regular-rivals-by-name.md)
 at commit `a66040a6`. All 298 regular rival IDs appear under the same teams,
 and each team has the same leader. The check also verified each roster link,
-rival-to-team link and in-game number (source ID plus one). It did not verify
-appearance requirements, rival names, screenshots or logo fidelity.
+rival-to-team link and in-game number (source ID plus one). The rival page
+headings also match all 298 names in that roster, and team-table names match
+the linked rival pages. This is a comparison with the project’s recovered roster,
+not a fresh inspection of the original executable. It did not verify appearance
+requirements, screenshots or logo fidelity.
