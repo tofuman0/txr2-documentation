@@ -7,11 +7,13 @@ help: Explore shared game mechanics and research.
 
 # Game Details
 
-This page will document mechanics that affect the game as a whole, separate from rival-specific values and port additions.
+This page explains mechanics shared across the game. Individual rival pages list the values that apply to each rival.
 
 ## Shared multipliers
 
-The original actor-condition update applies a 2× multiplier to configured grip coefficients for rival actors and other automatic-control states. Battle reward and AI target-speed multipliers are separate mechanics. See the conditions below.
+Rivals receive an automatic-control adjustment to the grip values used by the physics. The game doubles the configured front and rear grip coefficients for those actors; that does not mean their cornering speed or final tyre force simply doubles.
+
+When an automatic rival is following another car, its target speed can also change according to their position and the rival’s priority. This is separate from engine power and from the multiplier used for CP rewards. The exact conditions and values are below.
 
 ## Automatic-control grip multiplier
 
