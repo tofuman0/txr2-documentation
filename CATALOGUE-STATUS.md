@@ -169,6 +169,10 @@ tables; it does not verify stock unlocks, compatibility, part effects or a
 purchase in the original game. Class T quotes have a separate port-specific
 pricing check.
 
+## Direct standard-car part quote comparison
+
+All 10,164 part quotes on the 132 standard-car pages were independently recalculated from the supported US executable's price records and the original car records, using the port's recovered shop selection and arithmetic. This includes 8,052 non-tyre/wheel quotes and 2,112 tyre and wheel quotes. All matched. Nineteen source price tables were also compared with the port's recovered constants. This validates the published quotes under those rules, not whether a part is unlocked or a purchase succeeds in original gameplay.
+
 ## Original tyre and wheel price tables
 
 The port's tyre factors, tyre-size scales, wheel factors and wheel-diameter scales were compared directly with the supported US executable. All 78 entries match the original values at `0x8C0C4C00`, `0x8C0FB390`, `0x8C0C506C` and `0x8C0FB404`, respectively. A separate direct calculation used those original tables, each original car record's tyre sizes and wheel diameter, and the port's recovered shop indexing to compare 2,112 tyre and wheel quotes across all 132 standard-car pages; every quote matched. This verifies the quoted values under the recovered indexing, not a purchase in the original game. The delivery lorry's tyre-size substitution is a port-specific patch.
