@@ -3974,7 +3974,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [512]({{ "/roads.html#road-512" | relative_url }}) |
+| Primary next road | [Near 13-gochi (Road 512)]({{ "/roads.html#road-512" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [380]({{ "/roads.html#road-380" | relative_url }}) |
 | Source flags | `0x00100000` |
@@ -3984,7 +3984,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [513]({{ "/roads.html#road-513" | relative_url }}) |
+| Primary next road | [Near 13-gochi (Road 513)]({{ "/roads.html#road-513" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [381]({{ "/roads.html#road-381" | relative_url }}) |
 | Source flags | `0x00100000` |
@@ -4016,7 +4016,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 4 |
 | Primary next road | [393]({{ "/roads.html#road-393" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [512]({{ "/roads.html#road-512" | relative_url }}) |
+| Previous road | [Near 13-gochi (Road 512)]({{ "/roads.html#road-512" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 389
@@ -4026,7 +4026,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 4 |
 | Primary next road | [394]({{ "/roads.html#road-394" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [513]({{ "/roads.html#road-513" | relative_url }}) |
+| Previous road | [Near 13-gochi (Road 513)]({{ "/roads.html#road-513" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 390
@@ -5315,7 +5315,11 @@ The game uses this segment for the following starting points: 13-gochi, directio
 
 **Rival pool starting positions:** [pool 4, slot 0]({{ "/rival-appearance-pools.html#pool-4" | relative_url }}) (sample 100).
 
-## Road 512
+<span id="road-512"></span>
+
+## Near 13-gochi (Road 512)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the 13-gochi starting point]({{ "/roads.html#road-511" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5325,7 +5329,11 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Previous road | [384]({{ "/roads.html#road-384" | relative_url }}) |
 | Source flags | `0x00100000` |
 
-## Road 513
+<span id="road-513"></span>
+
+## Near 13-gochi (Road 513)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the 13-gochi starting point]({{ "/roads.html#road-511" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
