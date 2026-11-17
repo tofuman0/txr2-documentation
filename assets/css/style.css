@@ -57,3 +57,31 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     stroke: white;
     stroke-width: 1;
 }
+
+.car-filters:not([hidden]) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 18px 0;
+}
+
+.car-filters button {
+    min-width: 44px;
+    border: 1px solid #777;
+    border-radius: 7px;
+    padding: 6px 10px;
+    background: #3c3c3e;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+}
+
+.car-filters button[aria-pressed="true"] {
+    background: #a61f20;
+}
+
+.car-filters button:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}

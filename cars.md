@@ -11,6 +11,16 @@ This list covers the 140 car records in the supported US release, identified by 
 
 [How vehicle images were captured]({{ "/vehicle-image-sources.html" | relative_url }})
 
+<div class="car-filters" id="car-filters" role="group" aria-label="Filter cars by class" hidden>
+  <span>Filter by class</span>
+  <button type="button" data-car-class="all" aria-pressed="true">All</button>
+  <button type="button" data-car-class="A" aria-pressed="false">A</button>
+  <button type="button" data-car-class="B" aria-pressed="false">B</button>
+  <button type="button" data-car-class="C" aria-pressed="false">C</button>
+  <button type="button" data-car-class="T" aria-pressed="false">T</button>
+  <span id="car-filter-count" aria-live="polite"></span>
+</div>
+
 | TYPE code | Car ID | Dealer class | Dealer price | Record group |
 | --- | --- | --- | ---: | --- |
 | [AE86L3]({{ "/cars/000.html" | relative_url }}) | 000 | C | 6,000 CP | Normal model |
