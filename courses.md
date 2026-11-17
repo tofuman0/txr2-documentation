@@ -48,22 +48,22 @@ Each course has two direction choices. The numbers below are source road IDs and
 
 ## Time Attack starting positions
 
-Time Attack has a separate route list and a separate starting-position table. The World 1 entries below are **raw start requests**: the session setup subtracts 14 samples and normalizes the position through the road network before placement. Consequently, a raw road and the final placed road can differ. Time Attack reads the non-Quest course tier, not the Quest tier directly.
+Time Attack has a separate route list and a separate starting-position table. The World 1 entries below are **raw start requests**: the session setup subtracts 14 samples and normalizes the position through the road network before placement. Consequently, a raw road and the final placed road can differ. Time Attack reads the non-Quest course tier, not the Quest tier directly. Route names below use the recovered Time Attack replay labels.
 
-| Route ID | Direction | First non-Quest tier | Raw World 1 start |
-| ---: | ---: | ---: | --- |
-| 0 | 0 | 0 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
-| 1 | 0 | 0 | [495]({{ "/roads.html#road-495" | relative_url }}), sample 47 |
-| 2 | 0 | 2 | [262]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
-| 3 | 0 | 2 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
-| 4 | 0 | 2 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
-| 0 | 1 | 0 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
-| 1 | 1 | 0 | [239]({{ "/roads.html#road-239" | relative_url }}), sample 58 |
-| 2 | 1 | 2 | [511]({{ "/roads.html#road-511" | relative_url }}), sample 70 |
-| 3 | 1 | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 |
-| 4 | 1 | 2 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
+| Route ID | Direction | Replay label | First non-Quest tier | Raw World 1 start |
+| ---: | ---: | --- | ---: | --- |
+| 0 | 0 | C1 Inner | 0 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
+| 1 | 0 | Fukagawa R | 0 | [495]({{ "/roads.html#road-495" | relative_url }}), sample 47 |
+| 2 | 0 | Wangan Up | 2 | [262]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
+| 3 | 0 | Haneda Up | 2 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
+| 4 | 0 | Tokyo Ex. R | 2 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
+| 0 | 1 | C1 Outer | 0 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
+| 1 | 1 | Fukagawa L | 0 | [239]({{ "/roads.html#road-239" | relative_url }}), sample 58 |
+| 2 | 1 | Wangan Down | 2 | [511]({{ "/roads.html#road-511" | relative_url }}), sample 70 |
+| 3 | 1 | Haneda Down | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 |
+| 4 | 1 | Tokyo Ex. L | 2 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
 
-The three additional Time Attack route IDs 16, 17 and 18 are present at non-Quest tier 0. Their session profiles use **World 0**, not the World 1 map above, and each requests World 0 road 1, sample 0 before its profile-specific setup. The source route-list slot 3 is skipped and is not an additional selectable route.
+The three additional Time Attack route IDs 16, 17 and 18 are labelled Oval 0-400, Oval 0-1000 and Oval ALL respectively and are present at non-Quest tier 0. Their session profiles use **World 0**, not the World 1 map above, and each requests World 0 road 1, sample 0 before its profile-specific setup. The source route-list slot 3 is skipped and is not an additional selectable route.
 
 ## Source and limits
 
