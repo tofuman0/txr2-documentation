@@ -5,3 +5,9 @@
 
 /* Use the project caption font across the complete documentation preview. */
 body, .content, .content table, .content th, .content td, .image-placeholder span, footer { font-family: TXR2, Arial, sans-serif; }
+
+/* Keep wide parts tables usable on smaller screens. */
+.content table {
+    display: block;
+    overflow-x: auto;
+}
