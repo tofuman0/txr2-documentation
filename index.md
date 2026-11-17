@@ -17,6 +17,7 @@ Welcome to a growing reference for the original Dreamcast game and its native po
 - [Secrets]({{ '/secrets.html' | relative_url }}) — cheats, hidden features and unused content.
 - [Complete guide]({{ '/completion.html' | relative_url }}) — progression, requirements and open questions.
 - [The port]({{ '/port.html' | relative_url }}) — information about the native project.
+- [Game details]({{ '/game-details.html' | relative_url }}) — shared mechanics and research.
 
 ## Research status
 
