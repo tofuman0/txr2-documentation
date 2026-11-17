@@ -137,7 +137,11 @@ An isolated US-game reference session enabled the 132 standard-car availability 
 
 ## Additional seeded dealer comparisons
 
-The same isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for 100TVM (013), 100MVM (015), JZZ30 (075), S161V (097), R34GT (035) and C34 (096). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The session does not establish their natural unlock paths, remaining specifications or exact port visual parity. A separate S141V frame showed the car suspended above the ground and was not used; its rendering needs another reference.
+The same isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for 100TVM (013), 100MVM (015), JZZ30 (075), S161V (097), R34GT (035) and C34 (096). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The session does not establish their natural unlock paths, remaining specifications or exact port visual parity. An earlier S141V frame showed the car suspended above the ground and was not used; a later seeded dealer view shows the same general GTO-shaped body as the port capture, although it does not establish every visual detail.
+
+## Further seeded dealer comparisons
+
+The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for S141V (108), C34M (095), Z32VS (036), R32RN (030), R32RV2 (029) and R33RV (032). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The S141V reference also confirms the original dealer displays the same general GTO-shaped body seen in the port; this does not establish every visual detail or the appearance of the other shared-resource records. The seeded session does not demonstrate natural unlock paths.
 
 ## Team-member selection descriptions
 

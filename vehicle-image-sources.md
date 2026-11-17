@@ -15,7 +15,7 @@ The standard capture selects the car by its zero-based catalogue ID. For normal 
 
 ### Shared model resources
 
-In the supported US data, catalogue IDs 106–108 and 117–120 have different TYPE codes and specifications, but their corresponding body and wheel resources are identical. The original garage's documented model-selection path forwards the selected catalogue ID to the resource lookup. The port therefore displays the same body for these records; the garage rendering has not yet been compared with an original-game view of each record. Car 123 shares their texture resources but has different body and wheel geometry. See the port's [visual resource recovery](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-visual-resources-recovery.md) for the lookup and garage path.
+In the supported US data, catalogue IDs 106–108 and 117–120 have different TYPE codes and specifications, but their corresponding body and wheel resources are identical. The original garage's documented model-selection path forwards the selected catalogue ID to the resource lookup. The port therefore displays the same body for these records; the original dealer view of S141V (108) shows the same general GTO-shaped body. The other shared-resource records have not yet each been compared with an original-game view. Car 123 shares their texture resources but has different body and wheel geometry. See the port's [visual resource recovery](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-visual-resources-recovery.md) for the lookup and garage path.
 
 ## Rival images
 
