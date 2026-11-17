@@ -9,6 +9,10 @@ help: Explore shared game mechanics and research.
 
 This page explains mechanics shared across the game. Individual rival pages list the values that apply to each rival.
 
+## Parts and drive torque
+
+Some parts tables show a change to the **drive-torque coefficient**. The port's recovered engine calculation multiplies this value into the torque sent through the drivetrain, alongside the selected gear ratio and engine response. It is a coefficient change from the single-part stock baseline, not an increase in engine horsepower or a percentage increase in wheel torque. The field is labelled with its original `0x308` offset for readers following the [engine calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_engine.cpp#L436) and [parts calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_tuning.cpp#L245).
+
 ## Shared multipliers
 
 Rivals receive an automatic-control adjustment to the grip values used by the physics. The game doubles the configured front and rear grip coefficients for those actors; that does not mean their cornering speed or final tyre force simply doubles.
