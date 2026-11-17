@@ -36,8 +36,11 @@ and each team has the same leader. The check also verified each roster link,
 rival-to-team link and in-game number (source ID plus one). The rival page
 headings also match all 298 names in that roster, and team-table names match
 the linked rival pages. This is a comparison with the project’s recovered roster,
-not a fresh inspection of the original executable. It did not verify appearance
-requirements, screenshots or logo fidelity.
+not a fresh inspection of the original executable. A subsequent offline
+comparison checked all 43 rosters directly against the supported US executable:
+the 298 team assignments, name-field leader markers and rival link targets
+matched. These checks did not verify appearance requirements, screenshots or
+logo fidelity.
 
 ## Complete rival name and index check
 
