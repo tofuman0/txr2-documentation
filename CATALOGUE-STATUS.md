@@ -111,6 +111,10 @@ The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relat
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
 
+## Boss progression team-group check
+
+All 43 teams in the boss-progression guide were compared with the original rival records and the recovered pool-to-boss group mapping. Every team appeared once in the correct group and in the expected early or advanced roster. This checks the guide's grouping, not an end-to-end Quest playthrough or every boss-selection path.
+
 ## Original rival-rule record comparison
 
 All 372 port rival-rule records were compared directly with the supported US executable's `0xA0`-byte rival rows at `0x8C0DD020`. The 5,952 checked fields matched, including rank, priority, team, type, category, eligibility bytes and prerequisite ID. These source-backed records inform the appearance descriptions. Matching them does not verify every shared encounter gate, natural appearance, challenge response or progression path.
