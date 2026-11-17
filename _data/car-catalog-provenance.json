@@ -14,7 +14,8 @@
     "Car ID is zero-based CARMODEL record index; type code is from the record.",
     "Additional traffic records do not imply player availability.",
     "Capture batch previously generated; per-vehicle original comparisons remain outstanding.",
-    "Models 136 and 138 use labeled native model-viewer screenshots; standard capture framing still needs correction. Model 138 is shown from the rear."
+    "Models 136 and 138 use labeled native model-viewer screenshots; standard capture framing still needs correction. Model 138 is shown from the rear.",
+    "Model 136 tire/wheel calculated effects are documented without a shop quote because its original size IDs fall outside the port\u2019s ordinary price tables; actual fitment remains unverified."
   ],
   "part_effect_source": "Port RaceCarTuning::Configure and PhysicalCoefficients; original CarInfo, one fitted variant against all-Normal neutral baseline; front/rear grip are initial actor coefficients and aerodynamic values are source coefficient deltas, not fixed force percentages",
   "part_peak_power_source": "Port RaceCarTuning::Configure, signed peak HP field 0x34; stock and single-part neutral configurations",
