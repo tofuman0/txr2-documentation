@@ -119,7 +119,7 @@ The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relat
 
 ## S15R original dealer comparison
 
-An original US game capture from the Quest dealer shows S15R (car 025) at 23,900 CP, 2,756 lb, 250 HP, 2.0 litres and FR; these five displayed values match its catalogue page. The capture is linked on that page. This does not verify its remaining specifications, parts, or visual parity with the port.
+An original US game capture from the Quest dealer shows S15R (car 025) at 23,900 CP, 2,756 lb, 250 HP, 2.0 litres and FR; these five displayed values match its catalogue page. This does not verify its remaining specifications, parts, or visual parity with the port.
 
 ## Original Class A dealer comparisons
 
@@ -159,14 +159,14 @@ The isolated US-game session with standard-car availability enabled in emulator 
 
 ## Original Quest dealer capture gaps
 
-There are 98 original dealer images linked from their matching car pages. The remaining eligible records are listed by car ID below. TR (094) is excluded from this dealer and the eight Class T vehicles are port-only purchases.
+The local verification archive contains 98 original dealer images. The remaining eligible records are listed by car ID below. TR (094) is excluded from this dealer and the eight Class T vehicles are port-only purchases.
 
 - Class B (6) 054, 106, 112, 121, 129, 130
 - Class C (27) 000, 003, 011, 017, 019, 022, 024, 026, 040, 070, 072, 073, 092, 093, 101, 102, 103, 104, 110, 111, 113, 114, 117, 118, 119, 120, 126
 
 ## Class A original-reference coverage
 
-All 53 cars offered by the original Quest dealer in the isolated session with standard-car availability enabled in memory now have an original-game reference on their car pages. Their prices and four headline displayed specification values were checked against the screenshots. The remaining Class A catalogue record, TR (094), is excluded by the recovered Quest dealer rule and has not been captured through that dealer; this is not a claim about every other game mode. These screenshots do not verify natural unlock paths, every specification or exact visual parity with the port.
+All 53 cars offered by the original Quest dealer in the isolated session with standard-car availability enabled in memory have an original-game reference in the local verification archive. Their prices and four headline displayed specification values were checked against the screenshots. The remaining Class A catalogue record, TR (094), is excluded by the recovered Quest dealer rule and has not been captured through that dealer; this is not a claim about every other game mode. These screenshots do not verify natural unlock paths, every specification or exact visual parity with the port.
 
 ## Expanded Class B dealer comparisons
 
