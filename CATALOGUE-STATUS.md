@@ -58,3 +58,12 @@ The IDs, links and codes match in source-ID order, including the eight traffic
 records. The check does not establish prices, part effects or visual fidelity.
 The source record layout is described in the port’s
 [car specification recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md).
+
+## Standard-car dealer prices and classes
+
+All 132 standard-car dealer classes and prices in the list and individual
+pages match the local original car records. The comparison used the field
+interpretation in the port's [CarCatalog reader](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/car_catalog.cpp#L73):
+class byte at `0x06`, and signed price at `0x310` multiplied by ten. This
+check does not verify when each car becomes available. Class T uses the port's
+separate prices and is covered by the check above.
