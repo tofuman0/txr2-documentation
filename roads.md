@@ -726,7 +726,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 15 |
-| Primary next road | [188]({{ "/roads.html#road-188" | relative_url }}) |
+| Primary next road | [Kandabashi start area (Road 188)]({{ "/roads.html#road-188" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [186]({{ "/roads.html#road-186" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -770,7 +770,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 21 |
 | Primary next road | [190]({{ "/roads.html#road-190" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [188]({{ "/roads.html#road-188" | relative_url }}) |
+| Previous road | [Kandabashi start area (Road 188)]({{ "/roads.html#road-188" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 76
@@ -848,7 +848,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 13 |
-| Primary next road | [194]({{ "/roads.html#road-194" | relative_url }}) |
+| Primary next road | [Kasumigaseki start area (Road 194)]({{ "/roads.html#road-194" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [192]({{ "/roads.html#road-192" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -880,7 +880,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [196]({{ "/roads.html#road-196" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [194]({{ "/roads.html#road-194" | relative_url }}) |
+| Previous road | [Kasumigaseki start area (Road 194)]({{ "/roads.html#road-194" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 87
@@ -890,7 +890,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [4]({{ "/roads.html#road-4" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [194]({{ "/roads.html#road-194" | relative_url }}) |
+| Previous road | [Kasumigaseki start area (Road 194)]({{ "/roads.html#road-194" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 88
@@ -1170,7 +1170,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 24 |
 | Primary next road | [237]({{ "/roads.html#road-237" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [235]({{ "/roads.html#road-235" | relative_url }}) |
+| Previous road | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 116
@@ -1180,7 +1180,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 24 |
 | Primary next road | [509]({{ "/roads.html#road-509" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [235]({{ "/roads.html#road-235" | relative_url }}) |
+| Previous road | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}) |
 | Source flags | `0x00100001` |
 
 ## Road 117
@@ -1258,7 +1258,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 39 |
-| Primary next road | [239]({{ "/roads.html#road-239" | relative_url }}) |
+| Primary next road | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [119]({{ "/roads.html#road-119" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1268,7 +1268,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 39 |
-| Primary next road | [239]({{ "/roads.html#road-239" | relative_url }}) |
+| Primary next road | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [120]({{ "/roads.html#road-120" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1300,7 +1300,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 6 |
 | Primary next road | [132]({{ "/roads.html#road-132" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [239]({{ "/roads.html#road-239" | relative_url }}) |
+| Previous road | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 129
@@ -1310,7 +1310,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 6 |
 | Primary next road | [133]({{ "/roads.html#road-133" | relative_url }}) |
 | Secondary next road | [134]({{ "/roads.html#road-134" | relative_url }}) |
-| Previous road | [239]({{ "/roads.html#road-239" | relative_url }}) |
+| Previous road | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 130
@@ -1388,7 +1388,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 20 |
-| Primary next road | [244]({{ "/roads.html#road-244" | relative_url }}) |
+| Primary next road | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [242]({{ "/roads.html#road-242" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1408,7 +1408,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 20 |
-| Primary next road | [244]({{ "/roads.html#road-244" | relative_url }}) |
+| Primary next road | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [54]({{ "/roads.html#road-54" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1430,7 +1430,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 11 |
 | Primary next road | [246]({{ "/roads.html#road-246" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [244]({{ "/roads.html#road-244" | relative_url }}) |
+| Previous road | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 142
@@ -1440,7 +1440,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 11 |
 | Primary next road | [25]({{ "/roads.html#road-25" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [244]({{ "/roads.html#road-244" | relative_url }}) |
+| Previous road | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 143
@@ -1893,7 +1893,11 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Previous road | [68]({{ "/roads.html#road-68" | relative_url }}) |
 | Source flags | `0x00010001` |
 
-## Road 188
+<span id="road-188"></span>
+
+## Kandabashi start area (Road 188)
+
+The game’s Kandabashi course starts on this segment in direction 0 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -1957,7 +1961,11 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Previous road | [81]({{ "/roads.html#road-81" | relative_url }}) |
 | Source flags | `0x00010001` |
 
-## Road 194
+<span id="road-194"></span>
+
+## Kasumigaseki start area (Road 194)
+
+The game’s Kasumigaseki course starts on this segment in direction 0 at sample 87. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -2121,7 +2129,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Previous road | [540]({{ "/roads.html#road-540" | relative_url }}) |
 | Source flags | `0x00090001` |
 
-## Road 209
+<span id="road-209"></span>
+
+## Ginza start area (Road 209)
+
+The game’s Ginza course starts on this segment in direction 0 at sample 148. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -2152,7 +2164,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 6 |
 | Primary next road | [213]({{ "/roads.html#road-213" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [209]({{ "/roads.html#road-209" | relative_url }}) |
+| Previous road | [Ginza start area (Road 209)]({{ "/roads.html#road-209" | relative_url }}) |
 | Source flags | `0x00090001` |
 
 ## Road 212
@@ -2389,7 +2401,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Previous road | [542]({{ "/roads.html#road-542" | relative_url }}) |
 | Source flags | `0x00040081` |
 
-## Road 235
+<span id="road-235"></span>
+
+## Daiba start area (Road 235)
+
+The game’s Daiba course starts on this segment in direction 1 at sample 208. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -2435,7 +2451,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Previous road | [117]({{ "/roads.html#road-117" | relative_url }}) |
 | Source flags | `0x00040001` |
 
-## Road 239
+<span id="road-239"></span>
+
+## Ariake start area (Road 239)
+
+The game’s Ariake course starts on this segment in direction 1 at sample 58. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -2489,7 +2509,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Previous road | [133]({{ "/roads.html#road-133" | relative_url }}) |
 | Source flags | `0x00040001` |
 
-## Road 244
+<span id="road-244"></span>
+
+## Fukuzumi start area (Road 244)
+
+The game’s Fukuzumi course starts on this segment in direction 0 at sample 318. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -2976,7 +3000,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 10 |
 | Primary next road | [446]({{ "/roads.html#road-446" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [443]({{ "/roads.html#road-443" | relative_url }}) |
+| Previous road | [Ginza start area (Road 443)]({{ "/roads.html#road-443" | relative_url }}) |
 | Source flags | `0x00060000` |
 
 ## Road 290
@@ -3206,7 +3230,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [458]({{ "/roads.html#road-458" | relative_url }}) |
+| Primary next road | [Kasumigaseki start area (Road 458)]({{ "/roads.html#road-458" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [43]({{ "/roads.html#road-43" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3226,7 +3250,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [458]({{ "/roads.html#road-458" | relative_url }}) |
+| Primary next road | [Kasumigaseki start area (Road 458)]({{ "/roads.html#road-458" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [456]({{ "/roads.html#road-456" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3248,7 +3272,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 6 |
 | Primary next road | [14]({{ "/roads.html#road-14" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [458]({{ "/roads.html#road-458" | relative_url }}) |
+| Previous road | [Kasumigaseki start area (Road 458)]({{ "/roads.html#road-458" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 317
@@ -3258,7 +3282,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 6 |
 | Primary next road | [460]({{ "/roads.html#road-460" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [458]({{ "/roads.html#road-458" | relative_url }}) |
+| Previous road | [Kasumigaseki start area (Road 458)]({{ "/roads.html#road-458" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 318
@@ -3366,7 +3390,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 14 |
-| Primary next road | [466]({{ "/roads.html#road-466" | relative_url }}) |
+| Primary next road | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [47]({{ "/roads.html#road-47" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3386,7 +3410,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 14 |
-| Primary next road | [466]({{ "/roads.html#road-466" | relative_url }}) |
+| Primary next road | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [464]({{ "/roads.html#road-464" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3606,7 +3630,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 9 |
-| Primary next road | [491]({{ "/roads.html#road-491" | relative_url }}) |
+| Primary next road | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [34]({{ "/roads.html#road-34" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3626,7 +3650,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 9 |
-| Primary next road | [491]({{ "/roads.html#road-491" | relative_url }}) |
+| Primary next road | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [489]({{ "/roads.html#road-489" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3648,7 +3672,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 23 |
 | Primary next road | [20]({{ "/roads.html#road-20" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [491]({{ "/roads.html#road-491" | relative_url }}) |
+| Previous road | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 357
@@ -3658,7 +3682,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 23 |
 | Primary next road | [493]({{ "/roads.html#road-493" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [491]({{ "/roads.html#road-491" | relative_url }}) |
+| Previous road | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 358
@@ -3736,7 +3760,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [495]({{ "/roads.html#road-495" | relative_url }}) |
+| Primary next road | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [360]({{ "/roads.html#road-360" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3746,7 +3770,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [495]({{ "/roads.html#road-495" | relative_url }}) |
+| Primary next road | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [361]({{ "/roads.html#road-361" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3778,7 +3802,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 31 |
 | Primary next road | [592]({{ "/roads.html#road-592" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [495]({{ "/roads.html#road-495" | relative_url }}) |
+| Previous road | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 370
@@ -3788,7 +3812,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Samples | 31 |
 | Primary next road | [593]({{ "/roads.html#road-593" | relative_url }}) |
 | Secondary next road | [594]({{ "/roads.html#road-594" | relative_url }}) |
-| Previous road | [495]({{ "/roads.html#road-495" | relative_url }}) |
+| Previous road | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 371
@@ -3816,7 +3840,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 26 |
-| Primary next road | [500]({{ "/roads.html#road-500" | relative_url }}) |
+| Primary next road | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [275]({{ "/roads.html#road-275" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3836,7 +3860,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 26 |
-| Primary next road | [500]({{ "/roads.html#road-500" | relative_url }}) |
+| Primary next road | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [498]({{ "/roads.html#road-498" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -4498,7 +4522,7 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [443]({{ "/roads.html#road-443" | relative_url }}) |
+| Primary next road | [Ginza start area (Road 443)]({{ "/roads.html#road-443" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [439]({{ "/roads.html#road-439" | relative_url }}) |
 | Source flags | `0x00060000` |
@@ -4513,7 +4537,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 | Previous road | [440]({{ "/roads.html#road-440" | relative_url }}) |
 | Source flags | `0x00060000` |
 
-## Road 443
+<span id="road-443"></span>
+
+## Ginza start area (Road 443)
+
+The game’s Ginza course starts on this segment in direction 1 at sample 65. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -4675,7 +4703,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Previous road | [311]({{ "/roads.html#road-311" | relative_url }}) |
 | Source flags | `0x00020000` |
 
-## Road 458
+<span id="road-458"></span>
+
+## Kasumigaseki start area (Road 458)
+
+The game’s Kasumigaseki course starts on this segment in direction 1 at sample 85. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -4761,7 +4793,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Previous road | [327]({{ "/roads.html#road-327" | relative_url }}) |
 | Source flags | `0x00020000` |
 
-## Road 466
+<span id="road-466"></span>
+
+## Kandabashi start area (Road 466)
+
+The game’s Kandabashi course starts on this segment in direction 1 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -5013,7 +5049,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Previous road | [351]({{ "/roads.html#road-351" | relative_url }}) |
 | Source flags | `0x00080000` |
 
-## Road 491
+<span id="road-491"></span>
+
+## Fukuzumi start area (Road 491)
+
+The game’s Fukuzumi course starts on this segment in direction 1 at sample 18. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -5057,7 +5097,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Previous road | [359]({{ "/roads.html#road-359" | relative_url }}) |
 | Source flags | `0x00080000` |
 
-## Road 495
+<span id="road-495"></span>
+
+## Ariake start area (Road 495)
+
+The game’s Ariake course starts on this segment in direction 0 at sample 47. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -5111,7 +5155,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Previous road | [593]({{ "/roads.html#road-593" | relative_url }}) |
 | Source flags | `0x00080800` |
 
-## Road 500
+<span id="road-500"></span>
+
+## Daiba start area (Road 500)
+
+The game’s Daiba course starts on this segment in direction 0 at sample 100. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -5806,7 +5854,7 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 6 |
-| Primary next road | [209]({{ "/roads.html#road-209" | relative_url }}) |
+| Primary next road | [Ginza start area (Road 209)]({{ "/roads.html#road-209" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [207]({{ "/roads.html#road-207" | relative_url }}) |
 | Source flags | `0x00090001` |
@@ -5866,7 +5914,7 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Source detail | Value |
 | --- | --- |
 | Samples | 31 |
-| Primary next road | [235]({{ "/roads.html#road-235" | relative_url }}) |
+| Primary next road | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [231]({{ "/roads.html#road-231" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -5988,7 +6036,7 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Samples | 8 |
 | Primary next road | [468]({{ "/roads.html#road-468" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [466]({{ "/roads.html#road-466" | relative_url }}) |
+| Previous road | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 **Rival pool starting positions:** [pool 1, slot 0]({{ "/rival-appearance-pools.html#pool-1" | relative_url }}) (sample 0).
@@ -6000,7 +6048,7 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Samples | 8 |
 | Primary next road | [472]({{ "/roads.html#road-472" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [466]({{ "/roads.html#road-466" | relative_url }}) |
+| Previous road | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}) |
 | Source flags | `0x02020000` |
 
 ## Road 586
@@ -6120,7 +6168,7 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 | Samples | 31 |
 | Primary next road | [502]({{ "/roads.html#road-502" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [500]({{ "/roads.html#road-500" | relative_url }}) |
+| Previous road | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 598

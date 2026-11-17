@@ -35,7 +35,7 @@ The observation and its limits are recorded in the [original-session recovery no
 | ---: | ---: | ---: |
 | 0 | [71]({{ "/roads.html#road-71" | relative_url }}) | 9 |
 | 1 | [190]({{ "/roads.html#road-190" | relative_url }}) | 110 |
-| 2 | [194]({{ "/roads.html#road-194" | relative_url }}) | 117 |
+| 2 | [Kasumigaseki start area (Road 194)]({{ "/roads.html#road-194" | relative_url }}) | 117 |
 | 3 | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) | 148 |
 | 4 | [200]({{ "/roads.html#road-200" | relative_url }}) | 10 |
 | 5 | [213]({{ "/roads.html#road-213" | relative_url }}) | 2 |
@@ -45,7 +45,7 @@ The observation and its limits are recorded in the [original-session recovery no
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
 | 0 | [584]({{ "/roads.html#road-584" | relative_url }}) | 0 |
-| 1 | [443]({{ "/roads.html#road-443" | relative_url }}) | 95 |
+| 1 | [Ginza start area (Road 443)]({{ "/roads.html#road-443" | relative_url }}) | 95 |
 | 2 | [298]({{ "/roads.html#road-298" | relative_url }}) | 5 |
 | 3 | [455]({{ "/roads.html#road-455" | relative_url }}) | 70 |
 | 4 | [460]({{ "/roads.html#road-460" | relative_url }}) | 1 |
@@ -56,22 +56,22 @@ The observation and its limits are recorded in the [original-session recovery no
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
 | 0 | [236]({{ "/roads.html#road-236" | relative_url }}) | 10 |
-| 1 | [235]({{ "/roads.html#road-235" | relative_url }}) | 238 |
-| 2 | [239]({{ "/roads.html#road-239" | relative_url }}) | 88 |
+| 1 | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}) | 238 |
+| 2 | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) | 88 |
 | 3 | [439]({{ "/roads.html#road-439" | relative_url }}) | 30 |
-| 4 | [244]({{ "/roads.html#road-244" | relative_url }}) | 180 |
-| 5 | [244]({{ "/roads.html#road-244" | relative_url }}) | 348 |
+| 4 | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) | 180 |
+| 5 | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}) | 348 |
 
 ## Pool 3
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [491]({{ "/roads.html#road-491" | relative_url }}) | 48 |
-| 1 | [491]({{ "/roads.html#road-491" | relative_url }}) | 310 |
+| 0 | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) | 48 |
+| 1 | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) | 310 |
 | 2 | [221]({{ "/roads.html#road-221" | relative_url }}) | 30 |
-| 3 | [495]({{ "/roads.html#road-495" | relative_url }}) | 77 |
+| 3 | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) | 77 |
 | 4 | [210]({{ "/roads.html#road-210" | relative_url }}) | 5 |
-| 5 | [500]({{ "/roads.html#road-500" | relative_url }}) | 130 |
+| 5 | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}) | 130 |
 
 ## Pool 4
 
