@@ -113,7 +113,7 @@ All 372 port rival-rule records were compared directly with the supported US exe
 
 ## Wanderer condition comparison
 
-Across the 48 Wanderer records, 32 documented day, garage-count, CP and prerequisite conditions were checked against the corresponding original row values; all matched. The eight car-family requirements and their eligible-car lists were also checked against the original rival and car records. These checks cover the listed row-level conditions, not every shared appearance or challenge-response gate.
+Across the 48 Wanderer records, 32 documented day, garage-count, CP and prerequisite conditions were checked against the corresponding original row values; all matched. Eleven total-distance and car-odometer conditions also match the source rows and recovered threshold rules; the three total-distance thresholds were checked directly against the original executable. The eight car-family requirements and their eligible-car lists were also checked against the original rival and car records. These checks cover the listed row-level conditions, not every shared appearance or challenge-response gate.
 
 ## Rival tuning export check
 
