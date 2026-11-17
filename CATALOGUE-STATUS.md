@@ -38,3 +38,14 @@ headings also match all 298 names in that roster, and team-table names match
 the linked rival pages. This is a comparison with the project’s recovered roster,
 not a fresh inspection of the original executable. It did not verify appearance
 requirements, screenshots or logo fidelity.
+
+## Complete rival name and index check
+
+All 372 individual page headings were compared with the original-row names
+in the project's [recovered US rival inventory](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-inventory.md)
+at commit `a66040a6`. The check removed the inventory's leader marker and
+normalised its slash-separated name fields into the site’s displayed names;
+all 372 matched. The rival index also lists those 372 pages in source-ID order,
+with matching names, links and in-game numbers. This is a comparison with an
+existing recovery document, not a fresh executable inspection, and does not
+verify encounter conditions or vehicle appearances.
