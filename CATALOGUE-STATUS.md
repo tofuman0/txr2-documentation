@@ -137,15 +137,13 @@ the rival’s rendered appearance or paint against the original game.
 ## Image file integrity
 
 All 140 car PNGs and 372 rival PNGs were opened and verified with Pillow.
-The rival images and 138 car images measure 1,280 × 800 pixels. The
-delivery-lorry replacement measures 640 × 480 and the roadworks-lorry image
-measures 1,024 × 768 pixels. All 512 files decoded
+The rival images and 130 car images measure 1,280 × 800 pixels. Nine browser-garage captures measure 640 × 480; the roadworks-lorry image measures 1,024 × 768 pixels. All 512 files decoded
 successfully. This is a file-integrity check, not a comparison with the
 original game or proof of a correct model, paint or camera angle.
 
 ## Car capture framing review
 
-All 140 catalogue images were reviewed as contact sheets. Each contains a vehicle, but the captures for cars 106–108, 117–120 and 123 show unusually large gaps between the body and wheels. Their pages flag the apparent wheel-placement problem. This review does not establish its cause or compare the models against the original game.
+All 140 catalogue images were reviewed as contact sheets. The original graphics-test captures for cars 106–108, 117–120 and 123 showed unusually large gaps between the body and wheels. They have been replaced with browser-garage captures in which the wheels sit in the arches. A gap between the car and its shadow remains visible in some garage views. These checks do not establish the cause of the graphics-test issue or confirm original-game visual fidelity.
 
 ## Rival capture framing review
 
