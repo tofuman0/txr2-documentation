@@ -178,3 +178,12 @@ removing display padding. The exporter uses recovered rival parameters and
 original car records with the port’s owned-car specification calculation.
 Its executable was previously built; this verifies reproduction of the port
 calculation, not independent original-game displays or race-only modifiers.
+
+## Local navigation check
+
+A local check found targets for 7,601 root-relative Liquid links, including
+the pending course viewer’s Jekyll permalink. A separate check resolved
+2,128 links with anchors against explicit IDs and Markdown headings. This
+checks local source targets, including unpublished course-viewer work; it
+does not verify external links, every Jekyll rendering rule or live-site
+navigation.
