@@ -15,6 +15,20 @@ Road IDs and offsets below are the game’s internal positions, not geographic a
 
 For special-rival progression, the source groups pools 0–1 as category 9, pools 2–3 as category 10, pool 4 as category 11, pools 5–6 as category 12 and pools 7–8 as category 13.
 
+## Example from an original-game session
+
+In one observed US-release session, the player selected Kasumigaseki from a save with no recorded rival defeats, on day 0, with 9,200 CP and a Class C car. The game prepared the following candidates before placing road actors. This is one observed pool, not a guaranteed starting roster: the shuffle, conditions and actor placement can produce different encounters. The observation does not prove that every listed rival appeared or could be challenged.
+
+| Pool | Candidates in the observed slot order |
+| ---: | --- |
+| [0](#pool-0) | [Rolling Boy No. 4]({{ "/rivals/003.html" | relative_url }}), [Rolling Boy No. 5]({{ "/rivals/004.html" | relative_url }}), [Kamikazi Ken]({{ "/rivals/324.html" | relative_url }}), [Rolling Boy No. 6]({{ "/rivals/005.html" | relative_url }}), [Rolling Boy No. 2]({{ "/rivals/001.html" | relative_url }}), [Rolling Boy No. 3]({{ "/rivals/002.html" | relative_url }}) |
+| [1](#pool-1) | [Mad Mary]({{ "/rivals/046.html" | relative_url }}), [Raging Demon]({{ "/rivals/332.html" | relative_url }}), [Low Joe]({{ "/rivals/047.html" | relative_url }}), [Blue Flash]({{ "/rivals/044.html" | relative_url }}), [Professor Getts]({{ "/rivals/045.html" | relative_url }}), [Tiger Tread]({{ "/rivals/051.html" | relative_url }}) |
+| [2](#pool-2) | [Rhythm Freak]({{ "/rivals/085.html" | relative_url }}), [Pink Groove]({{ "/rivals/092.html" | relative_url }}), [Gamblin' Fool]({{ "/rivals/337.html" | relative_url }}), [Radar Racer]({{ "/rivals/086.html" | relative_url }}), [Aero Angel]({{ "/rivals/087.html" | relative_url }}), [Tornedo]({{ "/rivals/084.html" | relative_url }}) |
+| [3](#pool-3) | [Hot Head]({{ "/rivals/125.html" | relative_url }}), [Osaka Kid]({{ "/rivals/128.html" | relative_url }}), [Rev Freak]({{ "/rivals/127.html" | relative_url }}), [Tokyo Tami]({{ "/rivals/133.html" | relative_url }}), [Catch Me Kate]({{ "/rivals/343.html" | relative_url }}), [Lead Foot]({{ "/rivals/126.html" | relative_url }}) |
+| [4](#pool-4) | [Game Guy]({{ "/rivals/169.html" | relative_url }}), [Drift Queen]({{ "/rivals/170.html" | relative_url }}), [Pop Freak]({{ "/rivals/348.html" | relative_url }}) |
+
+The observation and its limits are recorded in the [original-session recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md).
+
 ## Pool 0
 
 | Slot | Road ID | Source offset |
