@@ -13,6 +13,27 @@ Some parts become available when a defeated rival meets a priority threshold. Th
 
 The game uses either current-period or retained defeat records depending on Quest state. Some parts also have separate persistent unlock conditions. These priority values come from the recovered US rival records; they are internal progression values, not a rating of driving skill.
 
+## Other saved unlocks
+
+Some parts list a “persistent unlock bit” as another way to change shop stock. These are saved game flags. The recovered shop code establishes their effects below; the actions that set each flag have not all been traced, so the table does not assign them to particular rivals. Car compatibility and CP costs still apply. Counts include the Normal part.
+
+| Saved unlock bit | Shop stock set to |
+| ---: | --- |
+| 0 | Engine: Normal and Types 1–6 |
+| 1 | Muffler & air cleaner: Normal and Types 1–7 |
+| 2 | Transmission: Normal and Types 1–4 |
+| 3 | Brakes: Normal and Types 1–4 |
+| 4 | Front and rear tires: Normal and Types 1–4 |
+| 5 | No parts-stock change in this rule |
+| 6 | Suspension: Normal and Types 1–5 |
+| 7 | Front bumper: Normal and Types 1–5 |
+| 8 | Side skirt: Normal and Types 1–5 |
+| 9 | Rear bumper: Normal and Types 1–5 |
+| 10 | Rear spoiler: Normal and Types 1–5 |
+| 11 | Wheels: Normal and Types 1–8 |
+
+The stock calculation applies these saved-flag settings after checking defeated-rival priority. The [port's shop recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-parts-store-recovery.md#stock) document the source and tests.
+
 ## Priority 15
 
 | Rival ID | Rival |
