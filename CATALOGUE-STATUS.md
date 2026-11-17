@@ -143,6 +143,10 @@ The same isolated US-game session with standard-car availability enabled in emul
 
 The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for S141V (108), C34M (095), Z32VS (036), R32RN (030), R32RV2 (029) and R33RV (032). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The S141V reference also confirms the original dealer displays the same general GTO-shaped body seen in the port; this does not establish every visual detail or the appearance of the other shared-resource records. The seeded session does not demonstrate natural unlock paths.
 
+## More seeded dealer comparisons
+
+An isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for R33RVM (033), S30ZX (125), AP1HT (124), NA1 (046), CE9A (048) and CN9A (049). All six displayed prices and 24 headline weight, power, displacement and drivetrain values match their pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
