@@ -171,7 +171,7 @@ pricing check.
 
 ## Original tyre and wheel price tables
 
-The port's tyre factors, tyre-size scales, wheel factors and wheel-diameter scales were compared directly with the supported US executable. All 78 entries match the original values at `0x8C0C4C00`, `0x8C0FB390`, `0x8C0C506C` and `0x8C0FB404`, respectively. This verifies the recovered source tables; the shop's indexing and purchase behaviour are separate. The delivery lorry's tyre-size substitution is a port-specific patch.
+The port's tyre factors, tyre-size scales, wheel factors and wheel-diameter scales were compared directly with the supported US executable. All 78 entries match the original values at `0x8C0C4C00`, `0x8C0FB390`, `0x8C0C506C` and `0x8C0FB404`, respectively. A separate direct calculation used those original tables, each original car record's tyre sizes and wheel diameter, and the port's recovered shop indexing to compare 2,112 tyre and wheel quotes across all 132 standard-car pages; every quote matched. This verifies the quoted values under the recovered indexing, not a purchase in the original game. The delivery lorry's tyre-size substitution is a port-specific patch.
 
 ## Part shop-condition check
 
