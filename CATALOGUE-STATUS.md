@@ -139,6 +139,10 @@ measures 1,024 × 768 pixels. All 512 files decoded
 successfully. This is a file-integrity check, not a comparison with the
 original game or proof of a correct model, paint or camera angle.
 
+## Rival capture framing review
+
+All 372 published rival images were reviewed as contact sheets. Each shows a vehicle in frame, with no blank capture apparent at thumbnail size. Some dark-coloured cars are difficult to distinguish from the night scene. This is a framing check only: thumbnail review cannot confirm the rival's identity, small visual details, or fidelity to the original game.
+
 ## Standard-car part price check
 
 The 10,164 part-price rows across the 132 standard-car pages match the
