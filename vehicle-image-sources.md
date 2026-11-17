@@ -20,3 +20,5 @@ The rival capture selects the zero-based rival record and its associated car. Th
 The source paths are `GraphicsTestScene::PrepareCar`, `RaceSessionCatalog::ReplayRival`, and the native model viewer. The image IDs match the car or rival source IDs used by the linked pages; the in-game rival number is one higher than the rival source ID.
 
 The car links on all 372 rival pages have been compared with the `m_Car` values in the port’s [recovered SessionRivals table](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/include/txr2/race_session_data.hpp#L587). Each page also links to the capture bearing its rival ID. These checks establish the recorded car and file mapping; they do not verify the appearance or visual fidelity of each capture.
+
+All 372 published rival PNG files were also checked byte for byte against the corresponding files in the native capture batch. This verifies that the published files came from that batch; it does not independently verify the captured car’s original-game appearance.
