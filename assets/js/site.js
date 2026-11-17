@@ -148,3 +148,56 @@
         update();
     }
 })();
+
+(() => {
+    const toggle = document.getElementById("sound-toggle");
+    const audio = document.getElementById("menu-sound");
+    if (!toggle || !audio) {
+        return;
+    }
+    let enabled = false;
+    try {
+        enabled = localStorage.getItem("txr2-menu-sound") === "on";
+    } catch (_) {
+        // Sound remains available for the current page without storage.
+    }
+    function update() {
+        toggle.setAttribute("aria-pressed", String(enabled));
+        toggle.setAttribute("aria-label", enabled ? "Mute menu sounds" : "Enable menu sounds");
+    }
+    function play() {
+        if (!enabled) {
+            return;
+        }
+        audio.currentTime = 0;
+        const playing = audio.play();
+        if (playing) {
+            playing.catch(() => {});
+        }
+    }
+    toggle.addEventListener("click", () => {
+        enabled = !enabled;
+        try {
+            localStorage.setItem("txr2-menu-sound", enabled ? "on" : "off");
+        } catch (_) {
+            // The current selection still works on this page.
+        }
+        update();
+        play();
+    });
+    document.addEventListener("click", (event) => {
+        const target = event.target.closest(".menu a.row, .car-filters button, .rival-technical-toggle");
+        if (!target || !enabled || event.defaultPrevented) {
+            return;
+        }
+        play();
+        if (target.matches(".menu a.row") && event.button === 0 &&
+            !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
+            (!target.target || target.target === "_self")) {
+            event.preventDefault();
+            setTimeout(() => { window.location.href = target.href; }, 250);
+        }
+    });
+    update();
+    toggle.hidden = false;
+})();

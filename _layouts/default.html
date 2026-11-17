@@ -9,7 +9,13 @@
 </head>
 <body>
 <div class="screen">
-  <header class="screen-header"><h1>Documentation</h1></header>
+  <header class="screen-header">
+    <h1>Documentation</h1>
+    <button id="sound-toggle" class="sound-toggle" type="button" aria-label="Enable menu sounds" aria-pressed="false" hidden>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9H3z"/><path class="sound-on-icon" d="M15 8c2 2 2 6 0 8M18 5c4 4 4 10 0 14"/><path class="sound-off-icon" d="M15 9l6 6m0-6l-6 6"/></svg>
+    </button>
+    <audio id="menu-sound" preload="none" src="{{ '/assets/audio/menu-confirm.ogg' | relative_url }}"></audio>
+  </header>
   <nav class="menu" aria-label="Documentation sections">
     <div class="menu-title">Contents</div>
     <a class="row {% if page.section == 'overview' %}selected{% endif %}" href="{{ '/' | relative_url }}" {% if page.section == 'overview' %}aria-current="page"{% endif %}>Overview</a>
