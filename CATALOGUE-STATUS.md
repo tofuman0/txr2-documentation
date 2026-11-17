@@ -155,3 +155,13 @@ bits, car compatibility flags and Class T final-stage override in
 The displayed conditions match those rules. The exact ways all persistent
 unlock bits are set remain to be traced, and this check does not independently
 verify every original-game purchase path.
+
+## Calculated part effects check
+
+A fresh run of the existing native tuning export reproduced the displayed
+weight, initial front/rear grip and front/rear aerodynamic coefficient
+changes in all 10,564 part rows. Each comparison fits one part to a neutral
+stock configuration and uses the port’s tuning calculation and original car
+records. The export executable was previously built; this is a repeatability
+check of the port calculation, not an independent comparison against original
+gameplay, combined parts, or every possible tuning setting.
