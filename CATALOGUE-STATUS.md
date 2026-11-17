@@ -145,3 +145,13 @@ comparison verifies the quoted prices and listed variants against those
 tables; it does not verify stock unlocks, compatibility, part effects or a
 purchase in the original game. Class T quotes have a separate port-specific
 pricing check.
+
+## Part shop-condition check
+
+All 10,564 part rows across the 140 car pages were checked against the
+current port’s starting counts, rival-priority thresholds, persistent unlock
+bits, car compatibility flags and Class T final-stage override in
+[QuestPartsStock](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp).
+The displayed conditions match those rules. The exact ways all persistent
+unlock bits are set remain to be traced, and this check does not independently
+verify every original-game purchase path.
