@@ -143,6 +143,10 @@ measures 1,024 × 768 pixels. All 512 files decoded
 successfully. This is a file-integrity check, not a comparison with the
 original game or proof of a correct model, paint or camera angle.
 
+## Car capture framing review
+
+All 140 catalogue images were reviewed as contact sheets. Each contains a vehicle, but the captures for cars 106–108, 117–120 and 123 show unusually large gaps between the body and wheels. Their pages flag the apparent wheel-placement problem. This review does not establish its cause or compare the models against the original game.
+
 ## Rival capture framing review
 
 All 372 published rival images were reviewed as contact sheets. Each shows a vehicle in frame, with no blank capture apparent at thumbnail size. Some dark-coloured cars are difficult to distinguish from the night scene. This is a framing check only: thumbnail review cannot confirm the rival's identity, small visual details, or fidelity to the original game.
