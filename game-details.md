@@ -17,11 +17,18 @@ When an automatic rival is following another car, its target speed can also chan
 
 ## Automatic-control grip multiplier
 
-The original actor-condition update sets both front and rear current grip coefficients to **2.00× their configured base values** when actor flags contain any of `0xE0` or `0x04`. A normal rival actor receives the rival category flag `0x20`, so this rule applies to rivals. Traffic actors use `0x40`; the player can also receive the adjustment temporarily while under automatic control, such as during a rolling start. It is a control-state rule rather than an upgrade unique to a particular rival.
+Rivals and traffic use **twice their configured front and rear grip coefficients** while the game controls them automatically. The same adjustment can temporarily apply to the player’s car during automatic control, such as a rolling start. It is a shared rule, rather than a part fitted to a particular rival.
 
-The update also doubles the two corresponding brake-input coefficients and the separate configured field at source offset `0x310`. It writes twice the base values each update; it does not repeatedly double the previous frame’s values. The manual path can apply wear before the automatic override, so the comparison is to the configured base, not necessarily to a worn manual value. These are coefficients used by the physics calculation, not a claim that cornering speed or final tyre force always doubles.
+The game also adjusts related braking coefficients. These values feed into the physics calculation; they do not mean that a car’s cornering speed or final tyre force is always doubled. The game recalculates the adjustment from the configured values, so it does not keep doubling them every frame.
 
-This follows the source-recovered actor update around `01D0AA` and condition calculation `021A40`. The project’s original-data contact test checks configured grip and the automatic/manual transition.
+<details class="technical-details" markdown="1">
+<summary>Show technical details</summary>
+
+The source-recovered actor condition update sets all four current grip and brake-input coefficients to **2.00× their configured base values** when actor flags contain any of `0xE0` or `0x04`. A normal rival has category flag `0x20`, and traffic uses `0x40`. It also doubles the configured field at source offset `0x310`. The manual path can apply wear before the automatic override, so the comparison is to the configured base, not necessarily to a worn manual value.
+
+This follows the actor update around `01D0AA` and condition calculation `021A40`; the project's original-data contact test checks configured grip and the automatic/manual transition.
+
+</details>
 
 ## Battle CP rewards
 
