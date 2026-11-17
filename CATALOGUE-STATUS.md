@@ -222,3 +222,11 @@ their locally retained source images after a vertical flip and an 8×
 nearest-neighbour enlargement. All matched. This checks those comparison
 images and the image currently displayed for team 00; it does not prove that
 the separate AI-upscaled sheet preserves the original designs.
+
+## Published catalogue availability
+
+A live HTTP check requested all 140 car pages, 372 rival pages, 43 team pages
+and 512 car/rival PNGs. The images and 554 pages returned the expected
+content types and successful responses. Car 025 initially returned HTTP 503
+and returned HTTP 200 on a separate retry. This verifies availability during
+this check, not visual rendering, image identity or ongoing availability.
