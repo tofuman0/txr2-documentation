@@ -101,3 +101,14 @@ stores vehicle parameters at row offset `0x54`; see the project’s
 [rival record notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md).
 This verifies the stored values under the port’s field mapping, not whether a
 setting is available to players or its gameplay effect.
+
+## Rival fitted-parts record check
+
+All 18 fitted-part entries on each of the 372 rival pages were compared
+offline with the supported US T40211N V1.002 executable identified above.
+All 6,696 entries match the original stored type indices, using the port’s
+[recovered parts-slot mapping](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp#L397)
+and its 76-byte parameter block beginning at owned-car offset `0x14`.
+This verifies the recorded indices and their mapping into the pages; it does
+not independently verify the appearance of every part in game or establish that
+the same part is purchasable by the player.
