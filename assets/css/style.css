@@ -85,3 +85,37 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     outline: 2px solid #fff;
     outline-offset: 2px;
 }
+
+/* Give articles and tables room on large screens without widening the menu. */
+.screen {
+    max-width: 1520px;
+    padding-inline: clamp(16px, 4vw, 60px);
+}
+
+.content {
+    max-width: 1320px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.content td:first-child {
+    width: auto;
+}
+
+.course-map {
+    width: min(100%, 1000px);
+}
+
+@media (max-width: 500px) {
+    .screen {
+        padding-inline: 12px;
+    }
+
+    .content {
+        padding-inline: 12px;
+    }
+
+    .content table {
+        max-width: calc(100% + 16px);
+    }
+}
