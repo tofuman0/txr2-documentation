@@ -16,5 +16,6 @@
     "Capture batch previously generated; per-vehicle original comparisons remain outstanding.",
     "Models 136 and 138 use labeled native model-viewer screenshots; standard capture framing still needs correction. Model 138 is shown from the rear."
   ],
-  "part_effect_source": "Port RaceCarTuning::Configure and PhysicalCoefficients; original CarInfo, one fitted variant against all-Normal neutral baseline; front/rear grip are initial actor coefficients and aerodynamic values are source coefficient deltas, not fixed force percentages"
+  "part_effect_source": "Port RaceCarTuning::Configure and PhysicalCoefficients; original CarInfo, one fitted variant against all-Normal neutral baseline; front/rear grip are initial actor coefficients and aerodynamic values are source coefficient deltas, not fixed force percentages",
+  "part_peak_power_source": "Port RaceCarTuning::Configure, signed peak HP field 0x34; stock and single-part neutral configurations"
 }
