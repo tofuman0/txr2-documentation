@@ -17,6 +17,10 @@ images are native-port captures, with the exceptions described in
 [vehicle image sources](vehicle-image-sources.md); they are not evidence that
 the original game renders each car identically.
 
+## Live car page check
+
+On 17 November 2026, a headless Edge check opened all 140 published car pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary car image, displayed a parts-filter selector with multiple options, and had no page-level horizontal overflow. This does not check every filter option, table value, image identity or visual appearance.
+
 ## Class T dealer price check
 
 The dealer prices on car pages 132–139 were compared with the port's
