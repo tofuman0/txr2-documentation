@@ -11,7 +11,7 @@ Unless identified as an original-game reference, the car and rival images are sc
 
 ## Car images
 
-The standard capture selects the car by its zero-based catalogue ID. For normal cars it uses the first factory paint and an unmodified stock configuration. Traffic models use the port’s traffic-geometry capture path. Images for the delivery lorry (136) and roadworks lorry (138) instead use labelled native model-viewer captures because the standard capture camera clips into those models. Their backgrounds, lighting and angles therefore differ from the other catalogue images.
+The standard capture selects the car by its zero-based catalogue ID. For normal cars it uses the first factory paint and an unmodified stock configuration. Traffic models use the port’s traffic-geometry capture path. Images for the delivery lorry (136) and roadworks lorry (138) instead use labelled native model-viewer captures because the standard capture camera clips into those models. Their backgrounds, lighting and angles therefore differ from the other catalogue images. All 138 standard car images were checked byte for byte against their native capture batch, and both lorry images were matched to their selected model-viewer captures. This verifies the file provenance, not original-game visual fidelity.
 
 ## Rival images
 
