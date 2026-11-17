@@ -7,6 +7,8 @@ help: Select a car to view its factory specifications.
 
 # Cars
 
+<p><a class="garage-launch" href='{{ "/garage.html" | relative_url }}'>Garage</a></p>
+
 This list covers the 140 car records in the supported US release, identified by the original TYPE codes. The original game did not offer the last eight traffic vehicles for purchase. The native port makes them playable in the new Class T after their traffic challenges are won.
 
 [How vehicle images were captured]({{ "/vehicle-image-sources.html" | relative_url }})

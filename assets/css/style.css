@@ -197,3 +197,18 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
 .sound-toggle[aria-pressed="false"] .sound-on-icon,
 .sound-toggle[aria-pressed="true"] .sound-off-icon { display: none; }
 .sound-toggle:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+.content .garage-launch {
+  display: inline-block;
+  padding: .65rem 1rem;
+  border: 1px solid #aaa;
+  border-radius: .4rem;
+  background: #34343a;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content .garage-launch:hover,
+.content .garage-launch:focus-visible {
+  background: #9a2028;
+}
