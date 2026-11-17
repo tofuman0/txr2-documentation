@@ -147,7 +147,7 @@ This list covers the 140 car records in the supported US release, identified by 
 | [WHR69]({{ "/cars/133.html" | relative_url }}) | 133 | T (port) | 15,000 CP (port) | Additional traffic model |
 | [EE98V]({{ "/cars/134.html" | relative_url }}) | 134 | T (port) | 12,000 CP (port) | Additional traffic model |
 | [NKR58E]({{ "/cars/135.html" | relative_url }}) | 135 | T (port) | 30,000 CP (port) | Additional traffic model |
-| [FV]({{ "/cars/136.html" | relative_url }}) | 136 | T (port) | 40,000 CP (port) | Additional traffic model |
+| [FV]({{ "/cars/136.html" | relative_url }}) | 136 | T (port) | 100,000 CP (port) | Additional traffic model |
 | [EE98VS]({{ "/cars/137.html" | relative_url }}) | 137 | T (port) | 20,000 CP (port) | Additional traffic model |
-| [NKR58S]({{ "/cars/138.html" | relative_url }}) | 138 | T (port) | 100,000 CP (port) | Additional traffic model |
+| [NKR58S]({{ "/cars/138.html" | relative_url }}) | 138 | T (port) | 40,000 CP (port) | Additional traffic model |
 | [NKR58R]({{ "/cars/139.html" | relative_url }}) | 139 | T (port) | 80,000 CP (port) | Additional traffic model |

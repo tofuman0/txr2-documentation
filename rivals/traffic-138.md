@@ -25,7 +25,7 @@ help: View the port’s traffic challenge and unlock.
 | Availability | Quest Keep Garage playthrough |
 | Vehicle requirement | Drive a Class T car. |
 | Challenge | Flash the headlights when an eligible traffic vehicle is in range. |
-| Unlock | Win the battle to add this vehicle to the Class T dealer for 100,000 CP. |
+| Unlock | Win the battle to add this vehicle to the Class T dealer for 40,000 CP. |
 | Win reward | 100 CP base plus remaining-SP and distance components. |
 | Loss or draw | No CP is deducted and no new model is unlocked. |
 
