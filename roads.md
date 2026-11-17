@@ -9,7 +9,7 @@ help: Browse the source road records.
 
 # Road ID index
 
-These are the 690 World 1 road records in the supported US release. Each ID identifies an internal road segment; neighbouring records are source links, not a guarantee that a connection is open or traversable in a given Quest tier. Sample counts are points along the source road record, not metres. Geographic labels and full route mapping are still being checked.
+These are the 690 World 1 road records in the supported US release. Each ID identifies an internal road segment; neighbouring records are source links, not a guarantee that a connection is open or traversable in a given Quest tier. Sample counts are points along the source road record, not metres. The [starting-area name reference]({{ "/course-start-names.html" | relative_url }}) explains the labels verified so far. Geographic labels and full route mapping are still being checked.
 
 ## Road 0
 
@@ -1510,7 +1510,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 15 |
 | Primary next road | [259]({{ "/roads.html#road-259" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [257]({{ "/roads.html#road-257" | relative_url }}) |
+| Previous road | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 150
@@ -1520,7 +1520,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 15 |
 | Primary next road | [27]({{ "/roads.html#road-27" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [257]({{ "/roads.html#road-257" | relative_url }}) |
+| Previous road | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 151
@@ -1558,7 +1558,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 19 |
-| Primary next road | [261]({{ "/roads.html#road-261" | relative_url }}) |
+| Primary next road | [Daikoku futo start area (Road 261)]({{ "/roads.html#road-261" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [259]({{ "/roads.html#road-259" | relative_url }}) |
 | Source flags | `0x00800001` |
@@ -1590,7 +1590,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 9 |
 | Primary next road | [162]({{ "/roads.html#road-162" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [261]({{ "/roads.html#road-261" | relative_url }}) |
+| Previous road | [Daikoku futo start area (Road 261)]({{ "/roads.html#road-261" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 158
@@ -1638,7 +1638,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [263]({{ "/roads.html#road-263" | relative_url }}) |
+| Primary next road | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [157]({{ "/roads.html#road-157" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1648,7 +1648,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [263]({{ "/roads.html#road-263" | relative_url }}) |
+| Primary next road | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [158]({{ "/roads.html#road-158" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1680,7 +1680,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [170]({{ "/roads.html#road-170" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [266]({{ "/roads.html#road-266" | relative_url }}) |
+| Previous road | [Oi minami start area (Road 266)]({{ "/roads.html#road-266" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 167
@@ -1690,7 +1690,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [171]({{ "/roads.html#road-171" | relative_url }}) |
 | Secondary next road | [172]({{ "/roads.html#road-172" | relative_url }}) |
-| Previous road | [266]({{ "/roads.html#road-266" | relative_url }}) |
+| Previous road | [Oi minami start area (Road 266)]({{ "/roads.html#road-266" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 168
@@ -1738,7 +1738,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [269]({{ "/roads.html#road-269" | relative_url }}) |
+| Primary next road | [13-gochi start area (Road 269)]({{ "/roads.html#road-269" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [167]({{ "/roads.html#road-167" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1770,7 +1770,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [179]({{ "/roads.html#road-179" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [269]({{ "/roads.html#road-269" | relative_url }}) |
+| Previous road | [13-gochi start area (Road 269)]({{ "/roads.html#road-269" | relative_url }}) |
 | Source flags | `0x00080001` |
 
 ## Road 176
@@ -1780,7 +1780,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [180]({{ "/roads.html#road-180" | relative_url }}) |
 | Secondary next road | [181]({{ "/roads.html#road-181" | relative_url }}) |
-| Previous road | [269]({{ "/roads.html#road-269" | relative_url }}) |
+| Previous road | [13-gochi start area (Road 269)]({{ "/roads.html#road-269" | relative_url }}) |
 | Source flags | `0x00080001` |
 
 ## Road 177
@@ -2627,7 +2627,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [577]({{ "/roads.html#road-577" | relative_url }}) |
 | Source flags | `0x00040801` |
 
-## Road 255
+<span id="road-255"></span>
+
+## Suzugamori start area (Road 255)
+
+The game uses this segment for the following starting points: Suzugamori, direction 0, sample 675. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -2651,7 +2655,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [575]({{ "/roads.html#road-575" | relative_url }}) |
 | Source flags | `0x00800161` |
 
-## Road 257
+<span id="road-257"></span>
+
+## Shioiri / Daishi / Haneda start areas (Road 257)
+
+The game uses this segment for the following starting points: Shioiri, direction 0, sample 964; Daishi, direction 0, sample 400; Haneda, direction 0, sample 142. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -2697,7 +2705,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [151]({{ "/roads.html#road-151" | relative_url }}) |
 | Source flags | `0x00800001` |
 
-## Road 261
+<span id="road-261"></span>
+
+## Daikoku futo start area (Road 261)
+
+The game uses this segment for the following starting points: Daikoku futo, direction 1, sample 1. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -2721,7 +2733,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [156]({{ "/roads.html#road-156" | relative_url }}) |
 | Source flags | `0x00A00001` |
 
-## Road 263
+<span id="road-263"></span>
+
+## Haneda Airport / Higashiogijima start areas (Road 263)
+
+The game uses this segment for the following starting points: Haneda Airport, direction 1, sample 1571; Higashiogijima, direction 1, sample 826. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -2755,7 +2771,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [165]({{ "/roads.html#road-165" | relative_url }}) |
 | Source flags | `0x00200001` |
 
-## Road 266
+<span id="road-266"></span>
+
+## Oi minami start area (Road 266)
+
+The game uses this segment for the following starting points: Oi minami, direction 1, sample 159. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -2787,7 +2807,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Previous road | [555]({{ "/roads.html#road-555" | relative_url }}) |
 | Source flags | `0x00200001` |
 
-## Road 269
+<span id="road-269"></span>
+
+## 13-gochi start area (Road 269)
+
+The game uses this segment for the following starting points: 13-gochi, direction 1, sample 294. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -3930,7 +3954,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [511]({{ "/roads.html#road-511" | relative_url }}) |
+| Primary next road | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [377]({{ "/roads.html#road-377" | relative_url }}) |
 | Source flags | `0x00100000` |
@@ -3940,7 +3964,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [511]({{ "/roads.html#road-511" | relative_url }}) |
+| Primary next road | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [378]({{ "/roads.html#road-378" | relative_url }}) |
 | Source flags | `0x00100000` |
@@ -3972,7 +3996,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 4 |
 | Primary next road | [390]({{ "/roads.html#road-390" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [511]({{ "/roads.html#road-511" | relative_url }}) |
+| Previous road | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}) |
 | Source flags | `0x00100000` |
 
 ## Road 387
@@ -3982,7 +4006,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 4 |
 | Primary next road | [391]({{ "/roads.html#road-391" | relative_url }}) |
 | Secondary next road | [392]({{ "/roads.html#road-392" | relative_url }}) |
-| Previous road | [511]({{ "/roads.html#road-511" | relative_url }}) |
+| Previous road | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}) |
 | Source flags | `0x00100000` |
 
 ## Road 388
@@ -4030,7 +4054,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [514]({{ "/roads.html#road-514" | relative_url }}) |
+| Primary next road | [Oi minami start area (Road 514)]({{ "/roads.html#road-514" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [387]({{ "/roads.html#road-387" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4062,7 +4086,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 8 |
 | Primary next road | [399]({{ "/roads.html#road-399" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [514]({{ "/roads.html#road-514" | relative_url }}) |
+| Previous road | [Oi minami start area (Road 514)]({{ "/roads.html#road-514" | relative_url }}) |
 | Source flags | `0x00800000` |
 
 ## Road 396
@@ -4072,7 +4096,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 8 |
 | Primary next road | [400]({{ "/roads.html#road-400" | relative_url }}) |
 | Secondary next road | [401]({{ "/roads.html#road-401" | relative_url }}) |
-| Previous road | [514]({{ "/roads.html#road-514" | relative_url }}) |
+| Previous road | [Oi minami start area (Road 514)]({{ "/roads.html#road-514" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 397
@@ -4120,7 +4144,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 19 |
-| Primary next road | [517]({{ "/roads.html#road-517" | relative_url }}) |
+| Primary next road | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [396]({{ "/roads.html#road-396" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4152,7 +4176,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 4 |
 | Primary next road | [408]({{ "/roads.html#road-408" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [517]({{ "/roads.html#road-517" | relative_url }}) |
+| Previous road | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 405
@@ -4162,7 +4186,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 4 |
 | Primary next road | [409]({{ "/roads.html#road-409" | relative_url }}) |
 | Secondary next road | [410]({{ "/roads.html#road-410" | relative_url }}) |
-| Previous road | [517]({{ "/roads.html#road-517" | relative_url }}) |
+| Previous road | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 406
@@ -4240,7 +4264,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 33 |
-| Primary next road | [522]({{ "/roads.html#road-522" | relative_url }}) |
+| Primary next road | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [520]({{ "/roads.html#road-520" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4260,7 +4284,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 33 |
-| Primary next road | [522]({{ "/roads.html#road-522" | relative_url }}) |
+| Primary next road | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [63]({{ "/roads.html#road-63" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4280,9 +4304,9 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [524]({{ "/roads.html#road-524" | relative_url }}) |
+| Primary next road | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [522]({{ "/roads.html#road-522" | relative_url }}) |
+| Previous road | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}) |
 | Source flags | `0x01000000` |
 
 ## Road 418
@@ -4300,7 +4324,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [524]({{ "/roads.html#road-524" | relative_url }}) |
+| Primary next road | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [65]({{ "/roads.html#road-65" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4322,7 +4346,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 7 |
 | Primary next road | [526]({{ "/roads.html#road-526" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [524]({{ "/roads.html#road-524" | relative_url }}) |
+| Previous road | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) |
 | Source flags | `0x01000000` |
 
 ## Road 422
@@ -4332,7 +4356,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 7 |
 | Primary next road | [527]({{ "/roads.html#road-527" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [524]({{ "/roads.html#road-524" | relative_url }}) |
+| Previous road | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) |
 | Source flags | `0x01000000` |
 
 ## Road 423
@@ -4370,7 +4394,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [529]({{ "/roads.html#road-529" | relative_url }}) |
+| Primary next road | [Suzugamori start area (Road 529)]({{ "/roads.html#road-529" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [527]({{ "/roads.html#road-527" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4412,7 +4436,7 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 | Samples | 11 |
 | Primary next road | [531]({{ "/roads.html#road-531" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [529]({{ "/roads.html#road-529" | relative_url }}) |
+| Previous road | [Suzugamori start area (Road 529)]({{ "/roads.html#road-529" | relative_url }}) |
 | Source flags | `0x00100000` |
 
 ## Road 431
@@ -5273,7 +5297,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [118]({{ "/roads.html#road-118" | relative_url }}) |
 | Source flags | `0x00100120` |
 
-## Road 511
+<span id="road-511"></span>
+
+## 13-gochi start area (Road 511)
+
+The game uses this segment for the following starting points: 13-gochi, direction 0, sample 70. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5307,7 +5335,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [385]({{ "/roads.html#road-385" | relative_url }}) |
 | Source flags | `0x00100000` |
 
-## Road 514
+<span id="road-514"></span>
+
+## Oi minami start area (Road 514)
+
+The game uses this segment for the following starting points: Oi minami, direction 0, sample 205. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5341,7 +5373,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [394]({{ "/roads.html#road-394" | relative_url }}) |
 | Source flags | `0x00400040` |
 
-## Road 517
+<span id="road-517"></span>
+
+## Haneda Airport / Higashiogijima start areas (Road 517)
+
+The game uses this segment for the following starting points: Haneda Airport, direction 0, sample 468; Higashiogijima, direction 0, sample 1373. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5395,7 +5431,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [409]({{ "/roads.html#road-409" | relative_url }}) |
 | Source flags | `0x01000000` |
 
-## Road 522
+<span id="road-522"></span>
+
+## Daikoku futo start area (Road 522)
+
+The game uses this segment for the following starting points: Daikoku futo, direction 0, sample 60. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5419,7 +5459,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [414]({{ "/roads.html#road-414" | relative_url }}) |
 | Source flags | `0x01000000` |
 
-## Road 524
+<span id="road-524"></span>
+
+## Shioiri / Daishi / Haneda start areas (Road 524)
+
+The game uses this segment for the following starting points: Shioiri, direction 1, sample 194; Daishi, direction 1, sample 817; Haneda, direction 1, sample 1000. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5473,7 +5517,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Previous road | [423]({{ "/roads.html#road-423" | relative_url }}) |
 | Source flags | `0x01000000` |
 
-## Road 529
+<span id="road-529"></span>
+
+## Suzugamori start area (Road 529)
+
+The game uses this segment for the following starting points: Suzugamori, direction 1, sample 240. These are game starting-area names; the internal road ID does not establish a street name for every point on the segment. [How the names were mapped]({{ "/course-start-names.html" | relative_url }}).
 
 | Source detail | Value |
 | --- | --- |
@@ -5624,7 +5672,7 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Source detail | Value |
 | --- | --- |
 | Samples | 12 |
-| Primary next road | [257]({{ "/roads.html#road-257" | relative_url }}) |
+| Primary next road | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [535]({{ "/roads.html#road-535" | relative_url }}) |
 | Source flags | `0x00800001` |
@@ -5644,9 +5692,9 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Source detail | Value |
 | --- | --- |
 | Samples | 12 |
-| Primary next road | [257]({{ "/roads.html#road-257" | relative_url }}) |
+| Primary next road | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [255]({{ "/roads.html#road-255" | relative_url }}) |
+| Previous road | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 546
@@ -5686,7 +5734,7 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Samples | 8 |
 | Primary next road | [553]({{ "/roads.html#road-553" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [263]({{ "/roads.html#road-263" | relative_url }}) |
+| Previous road | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 550
@@ -5714,7 +5762,7 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [266]({{ "/roads.html#road-266" | relative_url }}) |
+| Primary next road | [Oi minami start area (Road 266)]({{ "/roads.html#road-266" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [547]({{ "/roads.html#road-547" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -5724,7 +5772,7 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [266]({{ "/roads.html#road-266" | relative_url }}) |
+| Primary next road | [Oi minami start area (Road 266)]({{ "/roads.html#road-266" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [548]({{ "/roads.html#road-548" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -5934,7 +5982,7 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 | Source detail | Value |
 | --- | --- |
 | Samples | 31 |
-| Primary next road | [255]({{ "/roads.html#road-255" | relative_url }}) |
+| Primary next road | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [233]({{ "/roads.html#road-233" | relative_url }}) |
 | Source flags | `0x00800001` |

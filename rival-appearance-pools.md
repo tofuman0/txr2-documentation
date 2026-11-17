@@ -77,7 +77,7 @@ The observation and its limits are recorded in the [original-session recovery no
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [511]({{ "/roads.html#road-511" | relative_url }}) | 100 |
+| 0 | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}) | 100 |
 | 1 | [279]({{ "/roads.html#road-279" | relative_url }}) | 5 |
 | 2 | [531]({{ "/roads.html#road-531" | relative_url }}) | 190 |
 
@@ -85,44 +85,44 @@ The observation and its limits are recorded in the [original-session recovery no
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [261]({{ "/roads.html#road-261" | relative_url }}) | 31 |
-| 1 | [263]({{ "/roads.html#road-263" | relative_url }}) | 400 |
-| 2 | [263]({{ "/roads.html#road-263" | relative_url }}) | 856 |
-| 3 | [263]({{ "/roads.html#road-263" | relative_url }}) | 1300 |
-| 4 | [263]({{ "/roads.html#road-263" | relative_url }}) | 1601 |
-| 5 | [269]({{ "/roads.html#road-269" | relative_url }}) | 7 |
+| 0 | [Daikoku futo start area (Road 261)]({{ "/roads.html#road-261" | relative_url }}) | 31 |
+| 1 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) | 400 |
+| 2 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) | 856 |
+| 3 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) | 1300 |
+| 4 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}) | 1601 |
+| 5 | [13-gochi start area (Road 269)]({{ "/roads.html#road-269" | relative_url }}) | 7 |
 
 ## Pool 6
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [514]({{ "/roads.html#road-514" | relative_url }}) | 235 |
-| 1 | [517]({{ "/roads.html#road-517" | relative_url }}) | 250 |
-| 2 | [517]({{ "/roads.html#road-517" | relative_url }}) | 498 |
-| 3 | [517]({{ "/roads.html#road-517" | relative_url }}) | 950 |
-| 4 | [517]({{ "/roads.html#road-517" | relative_url }}) | 1403 |
-| 5 | [522]({{ "/roads.html#road-522" | relative_url }}) | 90 |
+| 0 | [Oi minami start area (Road 514)]({{ "/roads.html#road-514" | relative_url }}) | 235 |
+| 1 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) | 250 |
+| 2 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) | 498 |
+| 3 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) | 950 |
+| 4 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}) | 1403 |
+| 5 | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}) | 90 |
 
 ## Pool 7
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [255]({{ "/roads.html#road-255" | relative_url }}) | 705 |
-| 1 | [257]({{ "/roads.html#road-257" | relative_url }}) | 172 |
-| 2 | [257]({{ "/roads.html#road-257" | relative_url }}) | 430 |
+| 0 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) | 705 |
+| 1 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 172 |
+| 2 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 430 |
 | 3 | [258]({{ "/roads.html#road-258" | relative_url }}) | 700 |
-| 4 | [257]({{ "/roads.html#road-257" | relative_url }}) | 994 |
-| 5 | [255]({{ "/roads.html#road-255" | relative_url }}) | 300 |
+| 4 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 994 |
+| 5 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) | 300 |
 
 ## Pool 8
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [522]({{ "/roads.html#road-522" | relative_url }}) | 170 |
-| 1 | [524]({{ "/roads.html#road-524" | relative_url }}) | 224 |
-| 2 | [524]({{ "/roads.html#road-524" | relative_url }}) | 550 |
-| 3 | [524]({{ "/roads.html#road-524" | relative_url }}) | 847 |
-| 4 | [524]({{ "/roads.html#road-524" | relative_url }}) | 1030 |
-| 5 | [529]({{ "/roads.html#road-529" | relative_url }}) | 270 |
+| 0 | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}) | 170 |
+| 1 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) | 224 |
+| 2 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) | 550 |
+| 3 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) | 847 |
+| 4 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}) | 1030 |
+| 5 | [Suzugamori start area (Road 529)]({{ "/roads.html#road-529" | relative_url }}) | 270 |
 
 The table follows `QuestRivalDefinition::m_Starts` in the port’s US T40211N V1.002 recovery. The pool selector and population code determine which eligible records use these positions.

@@ -36,15 +36,15 @@ Each starting area has two direction choices. The named areas come from the game
 | <span id="course-4">Fukuzumi (4)</span> | 0 | [Fukuzumi start area (Road 244)]({{ "/roads.html#road-244" | relative_url }}), sample 318 | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}), sample 18 |
 | <span id="course-5">Ariake (5)</span> | 0 | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}), sample 47 | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}), sample 58 |
 | <span id="course-6">Daiba (6)</span> | 0 | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}), sample 100 | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}), sample 208 |
-| <span id="course-7">7</span> | 1 | [511]({{ "/roads.html#road-511" | relative_url }}), sample 70 | [269]({{ "/roads.html#road-269" | relative_url }}), sample 294 |
-| <span id="course-8">8</span> | 2 | [514]({{ "/roads.html#road-514" | relative_url }}), sample 205 | [266]({{ "/roads.html#road-266" | relative_url }}), sample 159 |
-| <span id="course-9">9</span> | 2 | [517]({{ "/roads.html#road-517" | relative_url }}), sample 468 | [263]({{ "/roads.html#road-263" | relative_url }}), sample 1571 |
-| <span id="course-10">10</span> | 2 | [517]({{ "/roads.html#road-517" | relative_url }}), sample 1373 | [263]({{ "/roads.html#road-263" | relative_url }}), sample 826 |
-| <span id="course-11">11</span> | 2 | [522]({{ "/roads.html#road-522" | relative_url }}), sample 60 | [261]({{ "/roads.html#road-261" | relative_url }}), sample 1 |
-| <span id="course-12">12</span> | 2 | [257]({{ "/roads.html#road-257" | relative_url }}), sample 964 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
-| <span id="course-13">13</span> | 2 | [257]({{ "/roads.html#road-257" | relative_url }}), sample 400 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 817 |
-| <span id="course-14">14</span> | 2 | [257]({{ "/roads.html#road-257" | relative_url }}), sample 142 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 1000 |
-| <span id="course-15">15</span> | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 | [529]({{ "/roads.html#road-529" | relative_url }}), sample 240 |
+| <span id="course-7">13-gochi (7)</span> | 1 | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}), sample 70 | [13-gochi start area (Road 269)]({{ "/roads.html#road-269" | relative_url }}), sample 294 |
+| <span id="course-8">Oi minami (8)</span> | 2 | [Oi minami start area (Road 514)]({{ "/roads.html#road-514" | relative_url }}), sample 205 | [Oi minami start area (Road 266)]({{ "/roads.html#road-266" | relative_url }}), sample 159 |
+| <span id="course-9">Haneda Airport (9)</span> | 2 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}), sample 468 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}), sample 1571 |
+| <span id="course-10">Higashiogijima (10)</span> | 2 | [Haneda Airport / Higashiogijima start areas (Road 517)]({{ "/roads.html#road-517" | relative_url }}), sample 1373 | [Haneda Airport / Higashiogijima start areas (Road 263)]({{ "/roads.html#road-263" | relative_url }}), sample 826 |
+| <span id="course-11">Daikoku futo (11)</span> | 2 | [Daikoku futo start area (Road 522)]({{ "/roads.html#road-522" | relative_url }}), sample 60 | [Daikoku futo start area (Road 261)]({{ "/roads.html#road-261" | relative_url }}), sample 1 |
+| <span id="course-12">Shioiri (12)</span> | 2 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}), sample 964 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
+| <span id="course-13">Daishi (13)</span> | 2 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}), sample 400 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}), sample 817 |
+| <span id="course-14">Haneda (14)</span> | 2 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}), sample 142 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}), sample 1000 |
+| <span id="course-15">Suzugamori (15)</span> | 2 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}), sample 675 | [Suzugamori start area (Road 529)]({{ "/roads.html#road-529" | relative_url }}), sample 240 |
 
 ## Time Attack starting positions
 
@@ -55,12 +55,12 @@ Time Attack has a separate route list and a separate starting-position table. Th
 | 0 | 0 | C1 Inner | 0 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
 | 1 | 0 | Fukagawa R | 0 | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}), sample 47 |
 | 2 | 0 | Wangan Up | 2 | [262]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
-| 3 | 0 | Haneda Up | 2 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
+| 3 | 0 | Haneda Up | 2 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
 | 4 | 0 | Tokyo Ex. R | 2 | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
 | 0 | 1 | C1 Outer | 0 | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
 | 1 | 1 | Fukagawa L | 0 | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}), sample 58 |
-| 2 | 1 | Wangan Down | 2 | [511]({{ "/roads.html#road-511" | relative_url }}), sample 70 |
-| 3 | 1 | Haneda Down | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 |
+| 2 | 1 | Wangan Down | 2 | [13-gochi start area (Road 511)]({{ "/roads.html#road-511" | relative_url }}), sample 70 |
+| 3 | 1 | Haneda Down | 2 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}), sample 675 |
 | 4 | 1 | Tokyo Ex. L | 2 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
 
 The three additional Time Attack route IDs 16, 17 and 18 are labelled Oval 0-400, Oval 0-1000 and Oval ALL respectively and are present at non-Quest tier 0. Their session profiles use **World 0**, not the World 1 map above, and each requests World 0 road 1, sample 0 before its profile-specific setup. The source route-list slot 3 is skipped and is not an additional selectable route.
