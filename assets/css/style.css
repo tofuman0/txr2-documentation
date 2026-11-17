@@ -18,6 +18,15 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     height: auto;
 }
 
+/* Frame car and rival captures while keeping their original proportions. */
+.content img[src*="/assets/cars/"],
+.content img[src*="/assets/rivals/"] {
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background: #000;
+}
+
 .content img[src*="/team-logos/"] {
     max-width: min(100%, 64px);
 }
