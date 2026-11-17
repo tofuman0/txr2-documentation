@@ -23,6 +23,27 @@ These rules are based on the port's source-recovered `090420` result calculation
 
 ## Rival speed and rubber-banding
 
-Source analysis of the supported US release identifies an automatic-driving relative-distance adjustment that considers the followed actor and rival-category coefficients. Further work is needed to explain the complete behaviour and establish which conditions and effects should be described as rubber-banding. A relative-distance adjustment alone does not establish a universal catch-up multiplier.
+The original automatic driver can adjust a non-player rival’s **target speed** while using its following curve. The adjustment uses the followed actor’s signed relation to the rival, multiplied by 0.3125, and the low four bits of the rival’s source priority. It requires a valid relation and does not run for the player or when the actor follows itself. The two comparisons are strict: at either boundary, this distance adjustment leaves the target unchanged.
 
-These findings are based on the project's source-qualified recovery of the original automatic-driving speed routines. Values and a complete player-facing explanation will be added after their conditions are verified.
+| Source category | Scaled signed distance below | Target factor | Scaled signed distance above | Target factor |
+| ---: | ---: | ---: | ---: | ---: |
+| 0 | -20 | 1.20× | 20 | 0.90× |
+| 1 | -20 | 1.20× | 25 | 0.90× |
+| 2 | -20 | 1.20× | 30 | 0.90× |
+| 3 | -20 | 1.20× | 35 | 0.90× |
+| 4 | -20 | 1.20× | 40 | 0.90× |
+| 5 | -20 | 1.20× | 45 | 0.90× |
+| 6 | -20 | 1.25× | 50 | 0.90× |
+| 7 | -20 | 1.25× | 55 | 0.90× |
+| 8 | -20 | 1.25× | 60 | 0.90× |
+| 9 | -20 | 1.25× | 65 | 0.90× |
+| 10 | -20 | 1.25× | 70 | 0.90× |
+| 11 | -20 | 1.30× | 75 | 0.90× |
+| 12 | -20 | 1.30× | 80 | 0.90× |
+| 13 | -20 | 1.30× | 85 | 0.90× |
+| 14 | -20 | 1.35× | 90 | 0.90× |
+| 15 | -20 | 1.35× | 95 | 0.90× |
+
+The selected rival’s source flag 0x02 can apply an additional 0.90× target-speed factor when the runtime actor’s flag 0x04 is also set. This is applied in the following-curve branch and can combine with the distance factor. Individual rival pages show their category-specific values and whether their source flag enables the additional condition. These values change an AI speed target, not engine horsepower, and do not describe every AI speed rule.
+
+The implementation follows the source-recovered `085EA0` relation adjustment and `084E38` flag-gated factor for US T40211N V1.002. The project has source-comparison and boundary tests; full gameplay effects depend on the active driving state.
