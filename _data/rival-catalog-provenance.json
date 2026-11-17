@@ -7,265 +7,308 @@
   "vehicle_binding_sha256": "4fbde4059b8227eaeeb36313ae9d09e1bb22ca8347204c6892ae70899a905b27",
   "specifications": "Port CarSpecsCatalog::GetOwned using recorded 76-byte rival parameters; original comparison outstanding",
   "screenshots": "Native --capture-rival, recorded appearance parameters; per-rival original visual comparison outstanding",
-  "team_logos": "User-authorized source sticker 64x64; vertical flip and nearest-neighbour 8x; no redrawing",
+  "team_logos": "Team 00 displays its original-based enlarged logo; teams 01–42 display crops of the user-supplied AI-upscaled sheet, with original-based enlargements available for comparison. The upscaled sheet may differ from the originals. The per-team logo paths below identify the original-based comparison images.",
   "team_logo_mappings": [
     {
       "team_id": 0,
       "sticker_id": 0,
       "logo": "assets/team-logos/team-00.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "original-based enlargement"
     },
     {
       "team_id": 1,
       "sticker_id": 1,
       "logo": "assets/team-logos/team-01.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 2,
       "sticker_id": 2,
       "logo": "assets/team-logos/team-02.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 3,
       "sticker_id": 3,
       "logo": "assets/team-logos/team-03.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 4,
       "sticker_id": 4,
       "logo": "assets/team-logos/team-04.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 5,
       "sticker_id": 5,
       "logo": "assets/team-logos/team-05.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 6,
       "sticker_id": 6,
       "logo": "assets/team-logos/team-06.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 7,
       "sticker_id": 7,
       "logo": "assets/team-logos/team-07.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 8,
       "sticker_id": 8,
       "logo": "assets/team-logos/team-08.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 9,
       "sticker_id": 9,
       "logo": "assets/team-logos/team-09.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 10,
       "sticker_id": 10,
       "logo": "assets/team-logos/team-10.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 11,
       "sticker_id": 11,
       "logo": "assets/team-logos/team-11.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 12,
       "sticker_id": 12,
       "logo": "assets/team-logos/team-12.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 13,
       "sticker_id": 13,
       "logo": "assets/team-logos/team-13.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 14,
       "sticker_id": 14,
       "logo": "assets/team-logos/team-14.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 15,
       "sticker_id": 15,
       "logo": "assets/team-logos/team-15.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 16,
       "sticker_id": 16,
       "logo": "assets/team-logos/team-16.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 17,
       "sticker_id": 17,
       "logo": "assets/team-logos/team-17.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 18,
       "sticker_id": 18,
       "logo": "assets/team-logos/team-18.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 19,
       "sticker_id": 19,
       "logo": "assets/team-logos/team-19.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 20,
       "sticker_id": 20,
       "logo": "assets/team-logos/team-20.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 21,
       "sticker_id": 21,
       "logo": "assets/team-logos/team-21.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 22,
       "sticker_id": 22,
       "logo": "assets/team-logos/team-22.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 23,
       "sticker_id": 23,
       "logo": "assets/team-logos/team-23.png",
-      "members": 9
+      "members": 9,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 24,
       "sticker_id": 24,
       "logo": "assets/team-logos/team-24.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 25,
       "sticker_id": 25,
       "logo": "assets/team-logos/team-25.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 26,
       "sticker_id": 26,
       "logo": "assets/team-logos/team-26.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 27,
       "sticker_id": 27,
       "logo": "assets/team-logos/team-27.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 28,
       "sticker_id": 28,
       "logo": "assets/team-logos/team-28.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 29,
       "sticker_id": 29,
       "logo": "assets/team-logos/team-29.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 30,
       "sticker_id": 30,
       "logo": "assets/team-logos/team-30.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 31,
       "sticker_id": 31,
       "logo": "assets/team-logos/team-31.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 32,
       "sticker_id": 32,
       "logo": "assets/team-logos/team-32.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 33,
       "sticker_id": 33,
       "logo": "assets/team-logos/team-33.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 34,
       "sticker_id": 34,
       "logo": "assets/team-logos/team-34.png",
-      "members": 6
+      "members": 6,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 35,
       "sticker_id": 35,
       "logo": "assets/team-logos/team-35.png",
-      "members": 8
+      "members": 8,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 36,
       "sticker_id": 36,
       "logo": "assets/team-logos/team-36.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 37,
       "sticker_id": 37,
       "logo": "assets/team-logos/team-37.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 38,
       "sticker_id": 38,
       "logo": "assets/team-logos/team-38.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 39,
       "sticker_id": 39,
       "logo": "assets/team-logos/team-39.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 40,
       "sticker_id": 40,
       "logo": "assets/team-logos/team-40.png",
-      "members": 9
+      "members": 9,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 41,
       "sticker_id": 41,
       "logo": "assets/team-logos/team-41.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     },
     {
       "team_id": 42,
       "sticker_id": 42,
       "logo": "assets/team-logos/team-42.png",
-      "members": 7
+      "members": 7,
+      "displayed_logo": "supplied AI-upscaled sheet crop"
     }
   ],
   "limitations": [
