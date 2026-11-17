@@ -143,6 +143,42 @@ function initPartFilters() {
             count.textContent = `${visible} parts shown`;
         }
         controls.append(label, select, count);
+        const detailIndex = headers.findIndex((header) =>
+            ["Additional attributes", "Other attributes"].includes(header.textContent.trim()));
+        if (detailIndex >= 0 && rows.every((row) => row.cells[detailIndex])) {
+            const detailButton = document.createElement("button");
+            detailButton.type = "button";
+            detailButton.className = "rival-technical-toggle";
+            if (!table.id) {
+                table.id = `parts-table-${[...content.querySelectorAll(".part-filter")].length + 1}`;
+            }
+            detailButton.setAttribute("aria-controls", table.id);
+            let expanded = false;
+            try {
+                expanded = localStorage.getItem("txr2-technical-details") === "on";
+            } catch (_) {
+                // Details remain available without browser storage.
+            }
+            function updateDetails() {
+                headers[detailIndex].hidden = !expanded;
+                for (const row of rows) {
+                    row.cells[detailIndex].hidden = !expanded;
+                }
+                detailButton.setAttribute("aria-pressed", String(expanded));
+                detailButton.textContent = expanded ? "Hide extra attributes" : "Show extra attributes";
+            }
+            detailButton.addEventListener("click", () => {
+                expanded = !expanded;
+                try {
+                    localStorage.setItem("txr2-technical-details", expanded ? "on" : "off");
+                } catch (_) {
+                    // The selection still applies to this page.
+                }
+                updateDetails();
+            });
+            controls.appendChild(detailButton);
+            updateDetails();
+        }
         table.before(controls);
         select.addEventListener("change", update);
         update();
