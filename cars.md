@@ -9,11 +9,9 @@ help: Select a car to view its factory specifications.
 
 ## Garage
 
-The garage viewer runs locally with data from your own copy of the game. If the local preview is running on this device, you can open it in a new tab.
+Choose a car, explore its parts and colours, and capture it in the garage.
 
-<a class="garage-launch" href="http://127.0.0.1:8765/garage.html" target="_blank" rel="noopener noreferrer">Open local garage</a>
-
-[Set up the local garage viewer](https://github.com/tofuman0/TXR2-Port/blob/codex/browser-garage/tools/browser_garage/README.md)
+<a class="garage-launch" href='{{ "/garage-viewer/garage.html" | relative_url }}' target="_blank" rel="noopener noreferrer">Open garage</a>
 
 This list covers the 140 car records in the supported US release, identified by the original TYPE codes. The original game did not offer the last eight traffic vehicles for purchase. The native port makes them playable in the new Class T after their traffic challenges are won.
 
