@@ -111,6 +111,10 @@ The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relat
 
 All 372 port rival-rule records were compared directly with the supported US executable's `0xA0`-byte rival rows at `0x8C0DD020`. The 5,952 checked fields matched, including rank, priority, team, type, category, eligibility bytes and prerequisite ID. These source-backed records inform the appearance descriptions. Matching them does not verify every shared encounter gate, natural appearance, challenge response or progression path.
 
+## Wanderer condition comparison
+
+Across the 48 Wanderer records, 32 documented day, garage-count, CP and prerequisite conditions were checked against the corresponding original row values; all matched. The eight car-family requirements and their eligible-car lists were also checked against the original rival and car records. These checks cover the listed row-level conditions, not every shared appearance or challenge-response gate.
+
 ## Rival tuning export check
 
 All 18 recorded tuning values on each of the 372 rival pages were compared
