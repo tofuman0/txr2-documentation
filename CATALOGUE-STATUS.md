@@ -101,7 +101,7 @@ and Class T port-only upgrades are separate.
 
 ## Direct factory-record comparison
 
-All 140 car pages were independently compared with the supplied US CARMODEL resource 0x2000 using the [recovered factory display field offsets and conversions](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md). Length, width, height, wheelbase, front and rear track, weight and factory power including its RPM all matched: 1,120 values in total. The comparison decodes the original records directly rather than reading the existing specification export. It uses the port's recovered interpretation of the original display logic, and does not establish the remaining factory fields, part effects or original-game rendering.
+All 13 factory specification fields on all 140 car pages were independently compared with the supplied US CARMODEL resource 0x2000 using the [recovered factory display field offsets and conversions](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md). All 1,820 values matched: the six dimensions, weight, engine type, displacement, drivetrain, final drive, factory power and torque. Engine and drivetrain labels were read directly from the supported original executable, including the documented car-125 drivetrain override. The comparison decodes the original records directly rather than reading the existing specification export. It uses the port's recovered interpretation of the original display logic, and does not establish part effects or original-game rendering.
 
 ## Original-game displayed specification sample
 
