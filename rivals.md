@@ -9,6 +9,8 @@ help: Select a rival by original record ID.
 
 The supported US release contains 372 rival records. This list is in zero-based source ID order. The in-game number shown beside each entry is one higher. Requirements, rewards and images are still being verified.
 
+[How vehicle images were captured]({{ "/vehicle-image-sources.html" | relative_url }})
+
 [View source appearance pools and starting positions]({{ "/rival-appearance-pools.html" | relative_url }})
 
 ## Teams

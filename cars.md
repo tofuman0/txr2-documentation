@@ -9,6 +9,8 @@ help: Select a car to view its factory specifications.
 
 This list covers the 140 car records in the supported US release, identified by the original TYPE codes. The original game did not offer the last eight traffic vehicles for purchase. The native port makes them playable in the new Class T after their traffic challenges are won.
 
+[How vehicle images were captured]({{ "/vehicle-image-sources.html" | relative_url }})
+
 | TYPE code | Car ID | Dealer class | Dealer price | Record group |
 | --- | --- | --- | ---: | --- |
 | [AE86L3]({{ "/cars/000.html" | relative_url }}) | 000 | C | 6,000 CP | Normal model |
