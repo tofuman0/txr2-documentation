@@ -112,3 +112,10 @@ and its 76-byte parameter block beginning at owned-car offset `0x14`.
 This verifies the recorded indices and their mapping into the pages; it does
 not independently verify the appearance of every part in game or establish that
 the same part is purchasable by the player.
+
+## Rival car binding check
+
+All 372 rival-page car links match the car IDs stored at row offset `0x04`
+in the supported US T40211N V1.002 executable identified above. This verifies
+the source record’s vehicle binding and the page link; it does not verify
+the rival’s rendered appearance or paint against the original game.
