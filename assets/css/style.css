@@ -159,3 +159,10 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     outline: 2px solid #fff;
     outline-offset: 3px;
 }
+
+/* Display each logo from the supplied sheet without stretching the artwork. */
+.team-logo-sheet {
+    display: block;
+    width: min(100%, 64px);
+    height: auto;
+}

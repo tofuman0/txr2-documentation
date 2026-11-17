@@ -8,7 +8,7 @@ that files exist; they do not establish that every value or image is accurate.
 | Original car records | 140 pages, 140 images | Compare all values and images against the supported original release. IDs 132–139 are traffic vehicles; their Class T purchase and upgrade features are port additions. |
 | Original rival records | 372 pages, 372 images | Compare each reconstructed car appearance and configuration with the original game. |
 | Port traffic challenges | 8 pages | Verify each challenge and unlock against current port behaviour. |
-| Teams | 43 pages, 43 existing logos | The requested user-supplied upscaled sheet has not yet replaced the current logos. Its Rolling Guy lettering needs correction, and individual logos need checking against their originals. |
+| Teams | 43 pages, 43 existing logos | Team pages 01–42 display the supplied AI-upscaled sheet. Team 00 retains its previous logo while the sheet’s Rolling Guy lettering is corrected. The upscaled versions may differ from the originals and still need individual comparison. |
 
 A catalogue link check found no missing local targets among relative links to
 car, rival, team and image files in these pages. It does not check anchors,
