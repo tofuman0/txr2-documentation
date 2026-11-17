@@ -7,7 +7,7 @@ help: Select a car to view its factory specifications.
 
 # Cars
 
-This list covers the 140 car records in the supported US release, identified by the original TYPE codes. The last eight records describe additional traffic models; player availability has not been established.
+This list covers the 140 car records in the supported US release, identified by the original TYPE codes. The original game did not offer the last eight traffic vehicles for purchase. The native port makes them playable in the new Class T after their traffic challenges are won.
 
 | TYPE code | Car ID | Dealer class | Dealer price | Record group |
 | --- | --- | --- | ---: | --- |
@@ -143,11 +143,11 @@ This list covers the 140 car records in the supported US release, identified by 
 | [D32AGS]({{ "/cars/129.html" | relative_url }}) | 129 | B | 25,000 CP | Normal model |
 | [ECGT]({{ "/cars/130.html" | relative_url }}) | 130 | B | 26,000 CP | Normal model |
 | [BB6]({{ "/cars/131.html" | relative_url }}) | 131 | B | 26,000 CP | Normal model |
-| [YXS10]({{ "/cars/132.html" | relative_url }}) | 132 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [WHR69]({{ "/cars/133.html" | relative_url }}) | 133 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [EE98V]({{ "/cars/134.html" | relative_url }}) | 134 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [NKR58E]({{ "/cars/135.html" | relative_url }}) | 135 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [FV]({{ "/cars/136.html" | relative_url }}) | 136 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [EE98VS]({{ "/cars/137.html" | relative_url }}) | 137 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [NKR58S]({{ "/cars/138.html" | relative_url }}) | 138 | T (port) | 1,000 CP (port) | Additional traffic model |
-| [NKR58R]({{ "/cars/139.html" | relative_url }}) | 139 | T (port) | 1,000 CP (port) | Additional traffic model |
+| [YXS10]({{ "/cars/132.html" | relative_url }}) | 132 | T (port) | 10,000 CP (port) | Additional traffic model |
+| [WHR69]({{ "/cars/133.html" | relative_url }}) | 133 | T (port) | 15,000 CP (port) | Additional traffic model |
+| [EE98V]({{ "/cars/134.html" | relative_url }}) | 134 | T (port) | 12,000 CP (port) | Additional traffic model |
+| [NKR58E]({{ "/cars/135.html" | relative_url }}) | 135 | T (port) | 30,000 CP (port) | Additional traffic model |
+| [FV]({{ "/cars/136.html" | relative_url }}) | 136 | T (port) | 40,000 CP (port) | Additional traffic model |
+| [EE98VS]({{ "/cars/137.html" | relative_url }}) | 137 | T (port) | 20,000 CP (port) | Additional traffic model |
+| [NKR58S]({{ "/cars/138.html" | relative_url }}) | 138 | T (port) | 100,000 CP (port) | Additional traffic model |
+| [NKR58R]({{ "/cars/139.html" | relative_url }}) | 139 | T (port) | 80,000 CP (port) | Additional traffic model |

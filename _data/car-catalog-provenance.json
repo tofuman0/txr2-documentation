@@ -4,7 +4,7 @@
   "specification_source": "CarSpecsCatalog::GetFactory, source-derived 04C436 formatting",
   "capture_source": "native capture-car batch, first factory paint",
   "parts_price_source": "US 05F5E0 and 060308, transcribed in QuestPartsSession; original class, gear and tire/wheel dimensions from CarInfo",
-  "dealer_price_source": "US CarInfo signed halfword at 0x310 times ten; original class index at 0x06; Class T is a port addition",
+  "dealer_price_source": "Original normal-car prices: CarInfo signed halfword at 0x310 times ten. Port traffic prices: CarCatalog::GetDealerPrice overrides. Class T and challenge unlocking are port additions.",
   "parts_price_scope": "Normal cars 000-131; prices are quotes, not a guarantee that the part is unlocked or compatible",
   "records": 140,
   "normal_records": 132,
@@ -12,10 +12,9 @@
   "missing_image_ids": [],
   "notes": [
     "Car ID is zero-based CARMODEL record index; type code is from the record.",
-    "Additional traffic records do not imply player availability.",
     "Capture batch previously generated; per-vehicle original comparisons remain outstanding.",
     "Models 136 and 138 use labeled native model-viewer screenshots; standard capture framing still needs correction. Model 138 is shown from the rear.",
-    "Model 136 tire/wheel calculated effects are documented without a shop quote because its original size IDs fall outside the port\u2019s ordinary price tables; actual fitment remains unverified."
+    "The port makes all eight traffic models playable in Class T after their respective challenges. Model 136 uses model 139 tire sizes for shop prices; its 19-inch wheel diameter is outside the ordinary wheel-price table."
   ],
   "part_effect_source": "Port RaceCarTuning::Configure and PhysicalCoefficients; original CarInfo, one fitted variant against all-Normal neutral baseline; front/rear grip are initial actor coefficients and aerodynamic values are source coefficient deltas, not fixed force percentages",
   "part_peak_power_source": "Port RaceCarTuning::Configure, signed peak HP field 0x34; stock and single-part neutral configurations",

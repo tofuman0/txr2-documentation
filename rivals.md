@@ -433,3 +433,18 @@ The supported US release contains 372 rival records. This list is in zero-based 
 | 369 | 370 | [Faithful Fred]({{ "/rivals/369.html" | relative_url }}) | WANDERER |
 | 370 | 371 | [Rainy Day]({{ "/rivals/370.html" | relative_url }}) | WANDERER |
 | 371 | 372 | [Sneaky South]({{ "/rivals/371.html" | relative_url }}) | WANDERER |
+
+## Class T traffic challenges
+
+The native port adds eight traffic challenges and a Class T dealer. These are port additions; the original game did not sell traffic vehicles. The model IDs below identify traffic vehicles, not entries in the original rival roster.
+
+| Model ID | Traffic challenge | Car | Dealer price |
+| ---: | --- | --- | ---: |
+| 132 | [The Nameless One — Taxi]({{ "/rivals/traffic-132.html" | relative_url }}) | [YXS10]({{ "/cars/132.html" | relative_url }}) | 10,000 CP |
+| 133 | [The Nameless One — Van]({{ "/rivals/traffic-133.html" | relative_url }}) | [WHR69]({{ "/cars/133.html" | relative_url }}) | 15,000 CP |
+| 134 | [The Nameless One — Estate car]({{ "/rivals/traffic-134.html" | relative_url }}) | [EE98V]({{ "/cars/134.html" | relative_url }}) | 12,000 CP |
+| 135 | [The Nameless One — Car transporter]({{ "/rivals/traffic-135.html" | relative_url }}) | [NKR58E]({{ "/cars/135.html" | relative_url }}) | 30,000 CP |
+| 136 | [The Nameless One — Delivery lorry]({{ "/rivals/traffic-136.html" | relative_url }}) | [FV]({{ "/cars/136.html" | relative_url }}) | 40,000 CP |
+| 137 | [The Nameless One — Highway patrol car]({{ "/rivals/traffic-137.html" | relative_url }}) | [EE98VS]({{ "/cars/137.html" | relative_url }}) | 20,000 CP |
+| 138 | [The Nameless One — Roadworks lorry]({{ "/rivals/traffic-138.html" | relative_url }}) | [NKR58S]({{ "/cars/138.html" | relative_url }}) | 100,000 CP |
+| 139 | [The Nameless One — Tanker]({{ "/rivals/traffic-139.html" | relative_url }}) | [NKR58R]({{ "/cars/139.html" | relative_url }}) | 80,000 CP |
