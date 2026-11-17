@@ -75,3 +75,12 @@ Team pages 01, 07, 13, 24 and 42 were loaded from GitHub Pages in Edge at
 supplied sheet at 64 × 62 CSS pixels; the five mobile captures were visually
 checked for the intended artwork and cropping. This sample does not establish
 that the AI-upscaled designs match the original game artwork.
+
+## Factory specification export check
+
+All 13 displayed factory specification labels and values on each of the 140
+car pages match the existing local `CarSpecsCatalog::GetFactory` export for the
+supported US car records. This checks 1,820 table values against the same
+source-derived export used to produce the pages; it is not an independent
+comparison with the original game's displayed screens. Modified-car values
+and Class T port-only upgrades are separate.
