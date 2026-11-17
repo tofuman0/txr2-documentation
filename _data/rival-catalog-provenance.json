@@ -272,5 +272,6 @@
     "Rival requirements, rewards and multipliers are incomplete.",
     "Team 29 source label crosses the record boundary; its 19-byte name is confirmed against the team logo and the in-game display applies a width limit.",
     "Details shown are native reconstruction, not independently checked original gameplay."
-  ]
+  ],
+  "configured_ratio_source": "Port RaceCarTuning::Configure and PhysicalCoefficients using the source SessionRivals part/settings record; compared against the same car with neutral all-Normal parameters. Ratios describe calculated configured values, not independently proven rival-only boosts."
 }
