@@ -748,7 +748,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 15 |
-| Primary next road | [189]({{ "/roads.html#road-189" | relative_url }}) |
+| Primary next road | [Near Kandabashi (Road 189)]({{ "/roads.html#road-189" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [187]({{ "/roads.html#road-187" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -780,7 +780,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 21 |
 | Primary next road | [191]({{ "/roads.html#road-191" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [189]({{ "/roads.html#road-189" | relative_url }}) |
+| Previous road | [Near Kandabashi (Road 189)]({{ "/roads.html#road-189" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 77
@@ -858,7 +858,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 13 |
-| Primary next road | [195]({{ "/roads.html#road-195" | relative_url }}) |
+| Primary next road | [Near Kasumigaseki (Road 195)]({{ "/roads.html#road-195" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [193]({{ "/roads.html#road-193" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -868,7 +868,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 13 |
-| Primary next road | [195]({{ "/roads.html#road-195" | relative_url }}) |
+| Primary next road | [Near Kasumigaseki (Road 195)]({{ "/roads.html#road-195" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [36]({{ "/roads.html#road-36" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -900,7 +900,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [197]({{ "/roads.html#road-197" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [195]({{ "/roads.html#road-195" | relative_url }}) |
+| Previous road | [Near Kasumigaseki (Road 195)]({{ "/roads.html#road-195" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 89
@@ -910,7 +910,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [5]({{ "/roads.html#road-5" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [195]({{ "/roads.html#road-195" | relative_url }}) |
+| Previous road | [Near Kasumigaseki (Road 195)]({{ "/roads.html#road-195" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 90
@@ -1008,7 +1008,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [203]({{ "/roads.html#road-203" | relative_url }}) |
+| Primary next road | [Near Shibakouen (Road 203)]({{ "/roads.html#road-203" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [201]({{ "/roads.html#road-201" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -1028,7 +1028,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [203]({{ "/roads.html#road-203" | relative_url }}) |
+| Primary next road | [Near Shibakouen (Road 203)]({{ "/roads.html#road-203" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [40]({{ "/roads.html#road-40" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -1190,7 +1190,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 24 |
 | Primary next road | [238]({{ "/roads.html#road-238" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [236]({{ "/roads.html#road-236" | relative_url }}) |
+| Previous road | [Near Daiba (Road 236)]({{ "/roads.html#road-236" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 118
@@ -1200,7 +1200,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 24 |
 | Primary next road | [510]({{ "/roads.html#road-510" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [236]({{ "/roads.html#road-236" | relative_url }}) |
+| Previous road | [Near Daiba (Road 236)]({{ "/roads.html#road-236" | relative_url }}) |
 | Source flags | `0x00100001` |
 
 ## Road 119
@@ -1278,7 +1278,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 39 |
-| Primary next road | [240]({{ "/roads.html#road-240" | relative_url }}) |
+| Primary next road | [Near Ariake (Road 240)]({{ "/roads.html#road-240" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [122]({{ "/roads.html#road-122" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1288,7 +1288,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 39 |
-| Primary next road | [241]({{ "/roads.html#road-241" | relative_url }}) |
+| Primary next road | [Near Ariake (Road 241)]({{ "/roads.html#road-241" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [123]({{ "/roads.html#road-123" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1320,7 +1320,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 6 |
 | Primary next road | [135]({{ "/roads.html#road-135" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [240]({{ "/roads.html#road-240" | relative_url }}) |
+| Previous road | [Near Ariake (Road 240)]({{ "/roads.html#road-240" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 131
@@ -1330,7 +1330,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 6 |
 | Primary next road | [136]({{ "/roads.html#road-136" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [241]({{ "/roads.html#road-241" | relative_url }}) |
+| Previous road | [Near Ariake (Road 241)]({{ "/roads.html#road-241" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 132
@@ -1398,7 +1398,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 20 |
-| Primary next road | [245]({{ "/roads.html#road-245" | relative_url }}) |
+| Primary next road | [Near Fukuzumi (Road 245)]({{ "/roads.html#road-245" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [243]({{ "/roads.html#road-243" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1418,7 +1418,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 20 |
-| Primary next road | [245]({{ "/roads.html#road-245" | relative_url }}) |
+| Primary next road | [Near Fukuzumi (Road 245)]({{ "/roads.html#road-245" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [55]({{ "/roads.html#road-55" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -1450,7 +1450,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 11 |
 | Primary next road | [247]({{ "/roads.html#road-247" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [245]({{ "/roads.html#road-245" | relative_url }}) |
+| Previous road | [Near Fukuzumi (Road 245)]({{ "/roads.html#road-245" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 144
@@ -1460,7 +1460,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 11 |
 | Primary next road | [26]({{ "/roads.html#road-26" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [245]({{ "/roads.html#road-245" | relative_url }}) |
+| Previous road | [Near Fukuzumi (Road 245)]({{ "/roads.html#road-245" | relative_url }}) |
 | Source flags | `0x00040001` |
 
 ## Road 145
@@ -1530,7 +1530,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 15 |
 | Primary next road | [260]({{ "/roads.html#road-260" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [258]({{ "/roads.html#road-258" | relative_url }}) |
+| Previous road | [Near Shioiri / Daishi / Haneda (Road 258)]({{ "/roads.html#road-258" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 152
@@ -1540,7 +1540,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 15 |
 | Primary next road | [28]({{ "/roads.html#road-28" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [258]({{ "/roads.html#road-258" | relative_url }}) |
+| Previous road | [Near Shioiri / Daishi / Haneda (Road 258)]({{ "/roads.html#road-258" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 153
@@ -1578,7 +1578,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 19 |
-| Primary next road | [262]({{ "/roads.html#road-262" | relative_url }}) |
+| Primary next road | [Near Daikoku futo (Road 262)]({{ "/roads.html#road-262" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [260]({{ "/roads.html#road-260" | relative_url }}) |
 | Source flags | `0x00800001` |
@@ -1600,7 +1600,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 9 |
 | Primary next road | [163]({{ "/roads.html#road-163" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [262]({{ "/roads.html#road-262" | relative_url }}) |
+| Previous road | [Near Daikoku futo (Road 262)]({{ "/roads.html#road-262" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 159
@@ -1658,7 +1658,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [264]({{ "/roads.html#road-264" | relative_url }}) |
+| Primary next road | [Near Haneda Airport / Higashiogijima (Road 264)]({{ "/roads.html#road-264" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [160]({{ "/roads.html#road-160" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1668,7 +1668,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [265]({{ "/roads.html#road-265" | relative_url }}) |
+| Primary next road | [Near Haneda Airport / Higashiogijima (Road 265)]({{ "/roads.html#road-265" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [161]({{ "/roads.html#road-161" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1700,7 +1700,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [173]({{ "/roads.html#road-173" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [267]({{ "/roads.html#road-267" | relative_url }}) |
+| Previous road | [Near Oi minami (Road 267)]({{ "/roads.html#road-267" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 169
@@ -1710,7 +1710,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [174]({{ "/roads.html#road-174" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [268]({{ "/roads.html#road-268" | relative_url }}) |
+| Previous road | [Near Oi minami (Road 268)]({{ "/roads.html#road-268" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 170
@@ -1748,7 +1748,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [270]({{ "/roads.html#road-270" | relative_url }}) |
+| Primary next road | [Near 13-gochi (Road 270)]({{ "/roads.html#road-270" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [168]({{ "/roads.html#road-168" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1758,7 +1758,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [271]({{ "/roads.html#road-271" | relative_url }}) |
+| Primary next road | [Near 13-gochi (Road 271)]({{ "/roads.html#road-271" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [169]({{ "/roads.html#road-169" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -1790,7 +1790,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [182]({{ "/roads.html#road-182" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [270]({{ "/roads.html#road-270" | relative_url }}) |
+| Previous road | [Near 13-gochi (Road 270)]({{ "/roads.html#road-270" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 178
@@ -1800,7 +1800,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 4 |
 | Primary next road | [183]({{ "/roads.html#road-183" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [271]({{ "/roads.html#road-271" | relative_url }}) |
+| Previous road | [Near 13-gochi (Road 271)]({{ "/roads.html#road-271" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 179
@@ -1909,7 +1909,11 @@ The game’s Kandabashi course starts on this segment in direction 0 at sample 0
 
 **Ordinary starting points:** [course 1, direction 0]({{ "/courses.html#course-1" | relative_url }}) (sample 0).
 
-## Road 189
+<span id="road-189"></span>
+
+## Near Kandabashi (Road 189)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kandabashi starting point or points]({{ "/roads.html#road-188" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -1979,7 +1983,11 @@ The game’s Kasumigaseki course starts on this segment in direction 0 at sample
 
 **Rival pool starting positions:** [pool 0, slot 2]({{ "/rival-appearance-pools.html#pool-0" | relative_url }}) (sample 117).
 
-## Road 195
+<span id="road-195"></span>
+
+## Near Kasumigaseki (Road 195)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kasumigaseki starting point or points]({{ "/roads.html#road-194" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2069,7 +2077,11 @@ The game’s Shibakouen course starts on this segment in direction 0 at sample 1
 
 **Rival pool starting positions:** [pool 0, slot 3]({{ "/rival-appearance-pools.html#pool-0" | relative_url }}) (sample 148).
 
-## Road 203
+<span id="road-203"></span>
+
+## Near Shibakouen (Road 203)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shibakouen starting point or points]({{ "/roads.html#road-202" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2145,7 +2157,11 @@ The game’s Ginza course starts on this segment in direction 0 at sample 148. G
 
 **Ordinary starting points:** [course 2, direction 0]({{ "/courses.html#course-2" | relative_url }}) (sample 148).
 
-## Road 210
+<span id="road-210"></span>
+
+## Near Ginza (Road 210)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ginza starting point or points]({{ "/roads.html#road-209" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2174,7 +2190,7 @@ The game’s Ginza course starts on this segment in direction 0 at sample 148. G
 | Samples | 6 |
 | Primary next road | [214]({{ "/roads.html#road-214" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [210]({{ "/roads.html#road-210" | relative_url }}) |
+| Previous road | [Near Ginza (Road 210)]({{ "/roads.html#road-210" | relative_url }}) |
 | Source flags | `0x00090001` |
 
 ## Road 213
@@ -2419,7 +2435,11 @@ The game’s Daiba course starts on this segment in direction 1 at sample 208. D
 
 **Rival pool starting positions:** [pool 2, slot 1]({{ "/rival-appearance-pools.html#pool-2" | relative_url }}) (sample 238).
 
-## Road 236
+<span id="road-236"></span>
+
+## Near Daiba (Road 236)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daiba starting point or points]({{ "/roads.html#road-235" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2469,7 +2489,11 @@ The game’s Ariake course starts on this segment in direction 1 at sample 58. A
 
 **Rival pool starting positions:** [pool 2, slot 2]({{ "/rival-appearance-pools.html#pool-2" | relative_url }}) (sample 88).
 
-## Road 240
+<span id="road-240"></span>
+
+## Near Ariake (Road 240)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ariake starting point or points]({{ "/roads.html#road-239" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2479,7 +2503,11 @@ The game’s Ariake course starts on this segment in direction 1 at sample 58. A
 | Previous road | [126]({{ "/roads.html#road-126" | relative_url }}) |
 | Source flags | `0x00040001` |
 
-## Road 241
+<span id="road-241"></span>
+
+## Near Ariake (Road 241)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ariake starting point or points]({{ "/roads.html#road-239" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2527,7 +2555,11 @@ The game’s Fukuzumi course starts on this segment in direction 0 at sample 318
 
 **Rival pool starting positions:** [pool 2, slot 4]({{ "/rival-appearance-pools.html#pool-2" | relative_url }}) (sample 180), [pool 2, slot 5]({{ "/rival-appearance-pools.html#pool-2" | relative_url }}) (sample 348).
 
-## Road 245
+<span id="road-245"></span>
+
+## Near Fukuzumi (Road 245)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Fukuzumi starting point or points]({{ "/roads.html#road-244" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2645,7 +2677,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 
 **Rival pool starting positions:** [pool 7, slot 0]({{ "/rival-appearance-pools.html#pool-7" | relative_url }}) (sample 705), [pool 7, slot 5]({{ "/rival-appearance-pools.html#pool-7" | relative_url }}) (sample 300).
 
-## Road 256
+<span id="road-256"></span>
+
+## Near Suzugamori (Road 256)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Suzugamori starting point or points]({{ "/roads.html#road-255" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2673,7 +2709,11 @@ The game uses this segment for the following starting points: Shioiri, direction
 
 **Rival pool starting positions:** [pool 7, slot 1]({{ "/rival-appearance-pools.html#pool-7" | relative_url }}) (sample 172), [pool 7, slot 2]({{ "/rival-appearance-pools.html#pool-7" | relative_url }}) (sample 430), [pool 7, slot 4]({{ "/rival-appearance-pools.html#pool-7" | relative_url }}) (sample 994).
 
-## Road 258
+<span id="road-258"></span>
+
+## Near Shioiri / Daishi / Haneda (Road 258)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shioiri / Daishi / Haneda starting point or points]({{ "/roads.html#road-257" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2723,7 +2763,11 @@ The game uses this segment for the following starting points: Daikoku futo, dire
 
 **Rival pool starting positions:** [pool 5, slot 0]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 31).
 
-## Road 262
+<span id="road-262"></span>
+
+## Near Daikoku futo (Road 262)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daikoku futo starting point or points]({{ "/roads.html#road-261" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2751,7 +2795,11 @@ The game uses this segment for the following starting points: Haneda Airport, di
 
 **Rival pool starting positions:** [pool 5, slot 1]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 400), [pool 5, slot 2]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 856), [pool 5, slot 3]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 1300), [pool 5, slot 4]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 1601).
 
-## Road 264
+<span id="road-264"></span>
+
+## Near Haneda Airport / Higashiogijima (Road 264)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Haneda Airport / Higashiogijima starting point or points]({{ "/roads.html#road-263" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2761,7 +2809,11 @@ The game uses this segment for the following starting points: Haneda Airport, di
 | Previous road | [164]({{ "/roads.html#road-164" | relative_url }}) |
 | Source flags | `0x00200001` |
 
-## Road 265
+<span id="road-265"></span>
+
+## Near Haneda Airport / Higashiogijima (Road 265)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Haneda Airport / Higashiogijima starting point or points]({{ "/roads.html#road-263" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2787,7 +2839,11 @@ The game uses this segment for the following starting points: Oi minami, directi
 
 **Ordinary starting points:** [course 8, direction 1]({{ "/courses.html#course-8" | relative_url }}) (sample 159).
 
-## Road 267
+<span id="road-267"></span>
+
+## Near Oi minami (Road 267)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Oi minami starting point or points]({{ "/roads.html#road-266" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2797,7 +2853,11 @@ The game uses this segment for the following starting points: Oi minami, directi
 | Previous road | [554]({{ "/roads.html#road-554" | relative_url }}) |
 | Source flags | `0x00200001` |
 
-## Road 268
+<span id="road-268"></span>
+
+## Near Oi minami (Road 268)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Oi minami starting point or points]({{ "/roads.html#road-266" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2825,7 +2885,11 @@ The game uses this segment for the following starting points: 13-gochi, directio
 
 **Rival pool starting positions:** [pool 5, slot 5]({{ "/rival-appearance-pools.html#pool-5" | relative_url }}) (sample 7).
 
-## Road 270
+<span id="road-270"></span>
+
+## Near 13-gochi (Road 270)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the 13-gochi starting point or points]({{ "/roads.html#road-269" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -2835,7 +2899,11 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Previous road | [173]({{ "/roads.html#road-173" | relative_url }}) |
 | Source flags | `0x00200001` |
 
-## Road 271
+<span id="road-271"></span>
+
+## Near 13-gochi (Road 271)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the 13-gochi starting point or points]({{ "/roads.html#road-269" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -3034,7 +3102,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 10 |
 | Primary next road | [447]({{ "/roads.html#road-447" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [444]({{ "/roads.html#road-444" | relative_url }}) |
+| Previous road | [Near Ginza (Road 444)]({{ "/roads.html#road-444" | relative_url }}) |
 | Source flags | `0x00060000` |
 
 ## Road 291
@@ -3072,7 +3140,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 11 |
-| Primary next road | [451]({{ "/roads.html#road-451" | relative_url }}) |
+| Primary next road | [Near Shibakouen (Road 451)]({{ "/roads.html#road-451" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [503]({{ "/roads.html#road-503" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3092,7 +3160,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 11 |
-| Primary next road | [451]({{ "/roads.html#road-451" | relative_url }}) |
+| Primary next road | [Near Shibakouen (Road 451)]({{ "/roads.html#road-451" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [449]({{ "/roads.html#road-449" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3126,7 +3194,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 10 |
 | Primary next road | [11]({{ "/roads.html#road-11" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [451]({{ "/roads.html#road-451" | relative_url }}) |
+| Previous road | [Near Shibakouen (Road 451)]({{ "/roads.html#road-451" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 300
@@ -3136,7 +3204,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 10 |
 | Primary next road | [453]({{ "/roads.html#road-453" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [451]({{ "/roads.html#road-451" | relative_url }}) |
+| Previous road | [Near Shibakouen (Road 451)]({{ "/roads.html#road-451" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 301
@@ -3424,7 +3492,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 14 |
-| Primary next road | [467]({{ "/roads.html#road-467" | relative_url }}) |
+| Primary next road | [Near Kandabashi (Road 467)]({{ "/roads.html#road-467" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [48]({{ "/roads.html#road-48" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3444,7 +3512,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 14 |
-| Primary next road | [467]({{ "/roads.html#road-467" | relative_url }}) |
+| Primary next road | [Near Kandabashi (Road 467)]({{ "/roads.html#road-467" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [465]({{ "/roads.html#road-465" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3664,7 +3732,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 9 |
-| Primary next road | [492]({{ "/roads.html#road-492" | relative_url }}) |
+| Primary next road | [Near Fukuzumi (Road 492)]({{ "/roads.html#road-492" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [35]({{ "/roads.html#road-35" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3684,7 +3752,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 9 |
-| Primary next road | [492]({{ "/roads.html#road-492" | relative_url }}) |
+| Primary next road | [Near Fukuzumi (Road 492)]({{ "/roads.html#road-492" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [490]({{ "/roads.html#road-490" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3716,7 +3784,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 23 |
 | Primary next road | [21]({{ "/roads.html#road-21" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [492]({{ "/roads.html#road-492" | relative_url }}) |
+| Previous road | [Near Fukuzumi (Road 492)]({{ "/roads.html#road-492" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 359
@@ -3726,7 +3794,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 23 |
 | Primary next road | [494]({{ "/roads.html#road-494" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [492]({{ "/roads.html#road-492" | relative_url }}) |
+| Previous road | [Near Fukuzumi (Road 492)]({{ "/roads.html#road-492" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 360
@@ -3804,7 +3872,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [496]({{ "/roads.html#road-496" | relative_url }}) |
+| Primary next road | [Near Ariake (Road 496)]({{ "/roads.html#road-496" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [362]({{ "/roads.html#road-362" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3814,7 +3882,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [497]({{ "/roads.html#road-497" | relative_url }}) |
+| Primary next road | [Near Ariake (Road 497)]({{ "/roads.html#road-497" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [363]({{ "/roads.html#road-363" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3846,7 +3914,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 31 |
 | Primary next road | [595]({{ "/roads.html#road-595" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [496]({{ "/roads.html#road-496" | relative_url }}) |
+| Previous road | [Near Ariake (Road 496)]({{ "/roads.html#road-496" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 372
@@ -3856,7 +3924,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 31 |
 | Primary next road | [596]({{ "/roads.html#road-596" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [497]({{ "/roads.html#road-497" | relative_url }}) |
+| Previous road | [Near Ariake (Road 497)]({{ "/roads.html#road-497" | relative_url }}) |
 | Source flags | `0x00080000` |
 
 ## Road 373
@@ -3874,7 +3942,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 26 |
-| Primary next road | [501]({{ "/roads.html#road-501" | relative_url }}) |
+| Primary next road | [Near Daiba (Road 501)]({{ "/roads.html#road-501" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [276]({{ "/roads.html#road-276" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -3894,7 +3962,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 26 |
-| Primary next road | [501]({{ "/roads.html#road-501" | relative_url }}) |
+| Primary next road | [Near Daiba (Road 501)]({{ "/roads.html#road-501" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [499]({{ "/roads.html#road-499" | relative_url }}) |
 | Source flags | `0x00080000` |
@@ -4064,7 +4132,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [515]({{ "/roads.html#road-515" | relative_url }}) |
+| Primary next road | [Near Oi minami (Road 515)]({{ "/roads.html#road-515" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [388]({{ "/roads.html#road-388" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4074,7 +4142,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [516]({{ "/roads.html#road-516" | relative_url }}) |
+| Primary next road | [Near Oi minami (Road 516)]({{ "/roads.html#road-516" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [389]({{ "/roads.html#road-389" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4106,7 +4174,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 8 |
 | Primary next road | [402]({{ "/roads.html#road-402" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [515]({{ "/roads.html#road-515" | relative_url }}) |
+| Previous road | [Near Oi minami (Road 515)]({{ "/roads.html#road-515" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 398
@@ -4116,7 +4184,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 8 |
 | Primary next road | [403]({{ "/roads.html#road-403" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [516]({{ "/roads.html#road-516" | relative_url }}) |
+| Previous road | [Near Oi minami (Road 516)]({{ "/roads.html#road-516" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 399
@@ -4154,7 +4222,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 19 |
-| Primary next road | [518]({{ "/roads.html#road-518" | relative_url }}) |
+| Primary next road | [Near Haneda Airport / Higashiogijima (Road 518)]({{ "/roads.html#road-518" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [397]({{ "/roads.html#road-397" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4164,7 +4232,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 19 |
-| Primary next road | [519]({{ "/roads.html#road-519" | relative_url }}) |
+| Primary next road | [Near Haneda Airport / Higashiogijima (Road 519)]({{ "/roads.html#road-519" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [398]({{ "/roads.html#road-398" | relative_url }}) |
 | Source flags | `0x00400000` |
@@ -4196,7 +4264,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 4 |
 | Primary next road | [411]({{ "/roads.html#road-411" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [518]({{ "/roads.html#road-518" | relative_url }}) |
+| Previous road | [Near Haneda Airport / Higashiogijima (Road 518)]({{ "/roads.html#road-518" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 407
@@ -4206,7 +4274,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 4 |
 | Primary next road | [412]({{ "/roads.html#road-412" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [519]({{ "/roads.html#road-519" | relative_url }}) |
+| Previous road | [Near Haneda Airport / Higashiogijima (Road 519)]({{ "/roads.html#road-519" | relative_url }}) |
 | Source flags | `0x00400000` |
 
 ## Road 408
@@ -4274,7 +4342,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 33 |
-| Primary next road | [523]({{ "/roads.html#road-523" | relative_url }}) |
+| Primary next road | [Near Daikoku futo (Road 523)]({{ "/roads.html#road-523" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [521]({{ "/roads.html#road-521" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4294,7 +4362,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 33 |
-| Primary next road | [523]({{ "/roads.html#road-523" | relative_url }}) |
+| Primary next road | [Near Daikoku futo (Road 523)]({{ "/roads.html#road-523" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [64]({{ "/roads.html#road-64" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4314,9 +4382,9 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [525]({{ "/roads.html#road-525" | relative_url }}) |
+| Primary next road | [Near Shioiri / Daishi / Haneda (Road 525)]({{ "/roads.html#road-525" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [523]({{ "/roads.html#road-523" | relative_url }}) |
+| Previous road | [Near Daikoku futo (Road 523)]({{ "/roads.html#road-523" | relative_url }}) |
 | Source flags | `0x01000000` |
 
 ## Road 419
@@ -4334,7 +4402,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 8 |
-| Primary next road | [525]({{ "/roads.html#road-525" | relative_url }}) |
+| Primary next road | [Near Shioiri / Daishi / Haneda (Road 525)]({{ "/roads.html#road-525" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [66]({{ "/roads.html#road-66" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4366,7 +4434,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 7 |
 | Primary next road | [528]({{ "/roads.html#road-528" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [525]({{ "/roads.html#road-525" | relative_url }}) |
+| Previous road | [Near Shioiri / Daishi / Haneda (Road 525)]({{ "/roads.html#road-525" | relative_url }}) |
 | Source flags | `0x01000000` |
 
 ## Road 424
@@ -4404,7 +4472,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 5 |
-| Primary next road | [530]({{ "/roads.html#road-530" | relative_url }}) |
+| Primary next road | [Near Suzugamori (Road 530)]({{ "/roads.html#road-530" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [528]({{ "/roads.html#road-528" | relative_url }}) |
 | Source flags | `0x01000000` |
@@ -4446,7 +4514,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Samples | 11 |
 | Primary next road | [532]({{ "/roads.html#road-532" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [530]({{ "/roads.html#road-530" | relative_url }}) |
+| Previous road | [Near Suzugamori (Road 530)]({{ "/roads.html#road-530" | relative_url }}) |
 | Source flags | `0x00100000` |
 
 ## Road 432
@@ -4556,7 +4624,7 @@ The game uses this segment for the following starting points: 13-gochi, directio
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [444]({{ "/roads.html#road-444" | relative_url }}) |
+| Primary next road | [Near Ginza (Road 444)]({{ "/roads.html#road-444" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [440]({{ "/roads.html#road-440" | relative_url }}) |
 | Source flags | `0x00060000` |
@@ -4579,7 +4647,11 @@ The game’s Ginza course starts on this segment in direction 1 at sample 65. Gi
 
 **Rival pool starting positions:** [pool 1, slot 1]({{ "/rival-appearance-pools.html#pool-1" | relative_url }}) (sample 95).
 
-## Road 444
+<span id="road-444"></span>
+
+## Near Ginza (Road 444)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ginza starting point or points]({{ "/roads.html#road-443" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -4655,7 +4727,11 @@ The game’s Shibakouen course starts on this segment in direction 1 at sample 1
 
 **Ordinary starting points:** [course 3, direction 1]({{ "/courses.html#course-3" | relative_url }}) (sample 100).
 
-## Road 451
+<span id="road-451"></span>
+
+## Near Shibakouen (Road 451)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shibakouen starting point or points]({{ "/roads.html#road-450" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -4833,7 +4909,11 @@ The game’s Kandabashi course starts on this segment in direction 1 at sample 0
 
 **Ordinary starting points:** [course 1, direction 1]({{ "/courses.html#course-1" | relative_url }}) (sample 0).
 
-## Road 467
+<span id="road-467"></span>
+
+## Near Kandabashi (Road 467)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kandabashi starting point or points]({{ "/roads.html#road-466" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5091,7 +5171,11 @@ The game’s Fukuzumi course starts on this segment in direction 1 at sample 18.
 
 **Rival pool starting positions:** [pool 3, slot 0]({{ "/rival-appearance-pools.html#pool-3" | relative_url }}) (sample 48), [pool 3, slot 1]({{ "/rival-appearance-pools.html#pool-3" | relative_url }}) (sample 310).
 
-## Road 492
+<span id="road-492"></span>
+
+## Near Fukuzumi (Road 492)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Fukuzumi starting point or points]({{ "/roads.html#road-491" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5139,7 +5223,11 @@ The game’s Ariake course starts on this segment in direction 0 at sample 47. A
 
 **Rival pool starting positions:** [pool 3, slot 3]({{ "/rival-appearance-pools.html#pool-3" | relative_url }}) (sample 77).
 
-## Road 496
+<span id="road-496"></span>
+
+## Near Ariake (Road 496)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ariake starting point or points]({{ "/roads.html#road-495" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5149,7 +5237,11 @@ The game’s Ariake course starts on this segment in direction 0 at sample 47. A
 | Previous road | [367]({{ "/roads.html#road-367" | relative_url }}) |
 | Source flags | `0x00080000` |
 
-## Road 497
+<span id="road-497"></span>
+
+## Near Ariake (Road 497)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ariake starting point or points]({{ "/roads.html#road-495" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5197,7 +5289,11 @@ The game’s Daiba course starts on this segment in direction 0 at sample 100. D
 
 **Rival pool starting positions:** [pool 3, slot 5]({{ "/rival-appearance-pools.html#pool-3" | relative_url }}) (sample 130).
 
-## Road 501
+<span id="road-501"></span>
+
+## Near Daiba (Road 501)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daiba starting point or points]({{ "/roads.html#road-500" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5361,7 +5457,11 @@ The game uses this segment for the following starting points: Oi minami, directi
 
 **Rival pool starting positions:** [pool 6, slot 0]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 235).
 
-## Road 515
+<span id="road-515"></span>
+
+## Near Oi minami (Road 515)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Oi minami starting point or points]({{ "/roads.html#road-514" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5371,7 +5471,11 @@ The game uses this segment for the following starting points: Oi minami, directi
 | Previous road | [393]({{ "/roads.html#road-393" | relative_url }}) |
 | Source flags | `0x00400040` |
 
-## Road 516
+<span id="road-516"></span>
+
+## Near Oi minami (Road 516)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Oi minami starting point or points]({{ "/roads.html#road-514" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5399,7 +5503,11 @@ The game uses this segment for the following starting points: Haneda Airport, di
 
 **Rival pool starting positions:** [pool 6, slot 1]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 250), [pool 6, slot 2]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 498), [pool 6, slot 3]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 950), [pool 6, slot 4]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 1403).
 
-## Road 518
+<span id="road-518"></span>
+
+## Near Haneda Airport / Higashiogijima (Road 518)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Haneda Airport / Higashiogijima starting point or points]({{ "/roads.html#road-517" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5409,7 +5517,11 @@ The game uses this segment for the following starting points: Haneda Airport, di
 | Previous road | [402]({{ "/roads.html#road-402" | relative_url }}) |
 | Source flags | `0x00400000` |
 
-## Road 519
+<span id="road-519"></span>
+
+## Near Haneda Airport / Higashiogijima (Road 519)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Haneda Airport / Higashiogijima starting point or points]({{ "/roads.html#road-517" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5457,7 +5569,11 @@ The game uses this segment for the following starting points: Daikoku futo, dire
 
 **Rival pool starting positions:** [pool 6, slot 5]({{ "/rival-appearance-pools.html#pool-6" | relative_url }}) (sample 90), [pool 8, slot 0]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 170).
 
-## Road 523
+<span id="road-523"></span>
+
+## Near Daikoku futo (Road 523)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daikoku futo starting point or points]({{ "/roads.html#road-522" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5485,7 +5601,11 @@ The game uses this segment for the following starting points: Shioiri, direction
 
 **Rival pool starting positions:** [pool 8, slot 1]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 224), [pool 8, slot 2]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 550), [pool 8, slot 3]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 847), [pool 8, slot 4]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 1030).
 
-## Road 525
+<span id="road-525"></span>
+
+## Near Shioiri / Daishi / Haneda (Road 525)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shioiri / Daishi / Haneda starting point or points]({{ "/roads.html#road-524" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5543,7 +5663,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 
 **Rival pool starting positions:** [pool 8, slot 5]({{ "/rival-appearance-pools.html#pool-8" | relative_url }}) (sample 270).
 
-## Road 530
+<span id="road-530"></span>
+
+## Near Suzugamori (Road 530)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Suzugamori starting point or points]({{ "/roads.html#road-529" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -5690,7 +5814,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 12 |
-| Primary next road | [258]({{ "/roads.html#road-258" | relative_url }}) |
+| Primary next road | [Near Shioiri / Daishi / Haneda (Road 258)]({{ "/roads.html#road-258" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [536]({{ "/roads.html#road-536" | relative_url }}) |
 | Source flags | `0x00800001` |
@@ -5710,9 +5834,9 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 12 |
-| Primary next road | [258]({{ "/roads.html#road-258" | relative_url }}) |
+| Primary next road | [Near Shioiri / Daishi / Haneda (Road 258)]({{ "/roads.html#road-258" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [256]({{ "/roads.html#road-256" | relative_url }}) |
+| Previous road | [Near Suzugamori (Road 256)]({{ "/roads.html#road-256" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 547
@@ -5752,7 +5876,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 8 |
 | Primary next road | [554]({{ "/roads.html#road-554" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [264]({{ "/roads.html#road-264" | relative_url }}) |
+| Previous road | [Near Haneda Airport / Higashiogijima (Road 264)]({{ "/roads.html#road-264" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 551
@@ -5762,7 +5886,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 8 |
 | Primary next road | [555]({{ "/roads.html#road-555" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [265]({{ "/roads.html#road-265" | relative_url }}) |
+| Previous road | [Near Haneda Airport / Higashiogijima (Road 265)]({{ "/roads.html#road-265" | relative_url }}) |
 | Source flags | `0x00200001` |
 
 ## Road 552
@@ -5790,7 +5914,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [267]({{ "/roads.html#road-267" | relative_url }}) |
+| Primary next road | [Near Oi minami (Road 267)]({{ "/roads.html#road-267" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [550]({{ "/roads.html#road-550" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -5800,7 +5924,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 4 |
-| Primary next road | [268]({{ "/roads.html#road-268" | relative_url }}) |
+| Primary next road | [Near Oi minami (Road 268)]({{ "/roads.html#road-268" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [551]({{ "/roads.html#road-551" | relative_url }}) |
 | Source flags | `0x00200001` |
@@ -5872,7 +5996,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 9 |
 | Primary next road | [205]({{ "/roads.html#road-205" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [203]({{ "/roads.html#road-203" | relative_url }}) |
+| Previous road | [Near Shibakouen (Road 203)]({{ "/roads.html#road-203" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 563
@@ -5882,7 +6006,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 9 |
 | Primary next road | [232]({{ "/roads.html#road-232" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [203]({{ "/roads.html#road-203" | relative_url }}) |
+| Previous road | [Near Shibakouen (Road 203)]({{ "/roads.html#road-203" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 564
@@ -5920,7 +6044,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 6 |
-| Primary next road | [210]({{ "/roads.html#road-210" | relative_url }}) |
+| Primary next road | [Near Ginza (Road 210)]({{ "/roads.html#road-210" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [208]({{ "/roads.html#road-208" | relative_url }}) |
 | Source flags | `0x00090001` |
@@ -5980,7 +6104,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 31 |
-| Primary next road | [236]({{ "/roads.html#road-236" | relative_url }}) |
+| Primary next road | [Near Daiba (Road 236)]({{ "/roads.html#road-236" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [232]({{ "/roads.html#road-232" | relative_url }}) |
 | Source flags | `0x00040001` |
@@ -6000,7 +6124,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Source detail | Value |
 | --- | --- |
 | Samples | 31 |
-| Primary next road | [256]({{ "/roads.html#road-256" | relative_url }}) |
+| Primary next road | [Near Suzugamori (Road 256)]({{ "/roads.html#road-256" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [234]({{ "/roads.html#road-234" | relative_url }}) |
 | Source flags | `0x00800001` |
@@ -6114,7 +6238,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 8 |
 | Primary next road | [469]({{ "/roads.html#road-469" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [467]({{ "/roads.html#road-467" | relative_url }}) |
+| Previous road | [Near Kandabashi (Road 467)]({{ "/roads.html#road-467" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 587
@@ -6124,7 +6248,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 8 |
 | Primary next road | [473]({{ "/roads.html#road-473" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [467]({{ "/roads.html#road-467" | relative_url }}) |
+| Previous road | [Near Kandabashi (Road 467)]({{ "/roads.html#road-467" | relative_url }}) |
 | Source flags | `0x02020000` |
 
 ## Road 588
@@ -6234,7 +6358,7 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Samples | 31 |
 | Primary next road | [503]({{ "/roads.html#road-503" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [501]({{ "/roads.html#road-501" | relative_url }}) |
+| Previous road | [Near Daiba (Road 501)]({{ "/roads.html#road-501" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 599
@@ -6487,7 +6611,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 624
+<span id="road-624"></span>
+
+## Near Kandabashi (Road 624)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kandabashi starting point or points]({{ "/roads.html#road-188" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6517,7 +6645,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 627
+<span id="road-627"></span>
+
+## Near Kasumigaseki (Road 627)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kasumigaseki starting point or points]({{ "/roads.html#road-194" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6557,7 +6689,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 631
+<span id="road-631"></span>
+
+## Near Shibakouen (Road 631)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shibakouen starting point or points]({{ "/roads.html#road-202" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6587,7 +6723,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 634
+<span id="road-634"></span>
+
+## Near Ginza (Road 634)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ginza starting point or points]({{ "/roads.html#road-209" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6657,7 +6797,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 641
+<span id="road-641"></span>
+
+## Near Daiba (Road 641)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daiba starting point or points]({{ "/roads.html#road-235" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6687,7 +6831,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 644
+<span id="road-644"></span>
+
+## Near Fukuzumi (Road 644)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Fukuzumi starting point or points]({{ "/roads.html#road-244" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6727,7 +6875,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 648
+<span id="road-648"></span>
+
+## Near Suzugamori (Road 648)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Suzugamori starting point or points]({{ "/roads.html#road-255" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6737,7 +6889,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 649
+<span id="road-649"></span>
+
+## Near Shioiri / Daishi / Haneda (Road 649)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shioiri / Daishi / Haneda starting point or points]({{ "/roads.html#road-257" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6757,7 +6913,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 651
+<span id="road-651"></span>
+
+## Near Daikoku futo (Road 651)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daikoku futo starting point or points]({{ "/roads.html#road-261" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6797,7 +6957,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 655
+<span id="road-655"></span>
+
+## Near Ginza (Road 655)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Ginza starting point or points]({{ "/roads.html#road-443" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6827,7 +6991,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 658
+<span id="road-658"></span>
+
+## Near Shibakouen (Road 658)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shibakouen starting point or points]({{ "/roads.html#road-450" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6907,7 +7075,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 666
+<span id="road-666"></span>
+
+## Near Kandabashi (Road 666)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Kandabashi starting point or points]({{ "/roads.html#road-466" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -6997,7 +7169,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 675
+<span id="road-675"></span>
+
+## Near Fukuzumi (Road 675)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Fukuzumi starting point or points]({{ "/roads.html#road-491" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -7027,7 +7203,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 678
+<span id="road-678"></span>
+
+## Near Daiba (Road 678)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daiba starting point or points]({{ "/roads.html#road-500" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -7077,7 +7257,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 683
+<span id="road-683"></span>
+
+## Near Daikoku futo (Road 683)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Daikoku futo starting point or points]({{ "/roads.html#road-522" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -7087,7 +7271,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 684
+<span id="road-684"></span>
+
+## Near Shioiri / Daishi / Haneda (Road 684)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Shioiri / Daishi / Haneda starting point or points]({{ "/roads.html#road-524" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |
@@ -7107,7 +7295,11 @@ The game uses this segment for the following starting points: Suzugamori, direct
 | Previous road | — |
 | Source flags | `0xFFFFFFFF` |
 
-## Road 686
+<span id="road-686"></span>
+
+## Near Suzugamori (Road 686)
+
+This approximate area label is inferred from the overhead road samples: this segment closely follows [the road containing the Suzugamori starting point or points]({{ "/roads.html#road-529" | relative_url }}). The two-dimensional comparison does not verify its elevation or an official road name.
 
 | Source detail | Value |
 | --- | --- |

@@ -55,7 +55,7 @@ The observation and its limits are recorded in the [original-session recovery no
 
 | Slot | Road ID | Source offset |
 | ---: | ---: | ---: |
-| 0 | [236]({{ "/roads.html#road-236" | relative_url }}) | 10 |
+| 0 | [Near Daiba (Road 236)]({{ "/roads.html#road-236" | relative_url }}) | 10 |
 | 1 | [Daiba start area (Road 235)]({{ "/roads.html#road-235" | relative_url }}) | 238 |
 | 2 | [Ariake start area (Road 239)]({{ "/roads.html#road-239" | relative_url }}) | 88 |
 | 3 | [439]({{ "/roads.html#road-439" | relative_url }}) | 30 |
@@ -70,7 +70,7 @@ The observation and its limits are recorded in the [original-session recovery no
 | 1 | [Fukuzumi start area (Road 491)]({{ "/roads.html#road-491" | relative_url }}) | 310 |
 | 2 | [221]({{ "/roads.html#road-221" | relative_url }}) | 30 |
 | 3 | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}) | 77 |
-| 4 | [210]({{ "/roads.html#road-210" | relative_url }}) | 5 |
+| 4 | [Near Ginza (Road 210)]({{ "/roads.html#road-210" | relative_url }}) | 5 |
 | 5 | [Daiba start area (Road 500)]({{ "/roads.html#road-500" | relative_url }}) | 130 |
 
 ## Pool 4
@@ -110,7 +110,7 @@ The observation and its limits are recorded in the [original-session recovery no
 | 0 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) | 705 |
 | 1 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 172 |
 | 2 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 430 |
-| 3 | [258]({{ "/roads.html#road-258" | relative_url }}) | 700 |
+| 3 | [Near Shioiri / Daishi / Haneda (Road 258)]({{ "/roads.html#road-258" | relative_url }}) | 700 |
 | 4 | [Shioiri / Daishi / Haneda start areas (Road 257)]({{ "/roads.html#road-257" | relative_url }}) | 994 |
 | 5 | [Suzugamori start area (Road 255)]({{ "/roads.html#road-255" | relative_url }}) | 300 |
 

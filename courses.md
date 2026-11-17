@@ -54,7 +54,7 @@ Time Attack has a separate route list and a separate starting-position table. Th
 | ---: | ---: | --- | ---: | --- |
 | 0 | 0 | C1 Inner | 0 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
 | 1 | 0 | Fukagawa R | 0 | [Ariake start area (Road 495)]({{ "/roads.html#road-495" | relative_url }}), sample 47 |
-| 2 | 0 | Wangan Up | 2 | [262]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
+| 2 | 0 | Wangan Up | 2 | [Near Daikoku futo (Road 262)]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
 | 3 | 0 | Haneda Up | 2 | [Shioiri / Daishi / Haneda start areas (Road 524)]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
 | 4 | 0 | Tokyo Ex. R | 2 | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
 | 0 | 1 | C1 Outer | 0 | [Kandabashi start area (Road 466)]({{ "/roads.html#road-466" | relative_url }}), sample 20 |

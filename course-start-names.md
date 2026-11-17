@@ -31,3 +31,12 @@ These names are the labels in the US game’s course selector. Each direction st
 | 15 | Suzugamori | [Road 255]({{ "/roads.html#road-255" | relative_url }}), sample 675 | [Road 529]({{ "/roads.html#road-529" | relative_url }}), sample 240 |
 
 The names were read from the game’s course-selection artwork and checked against its sprite-frame coordinates and original course-selection tables. The road and sample pairs come from the supported US T40211N V1.002 course table. The port documents the [course-selection presentation](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md) and [recovered starting-position table](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/include/txr2/race_session_data.hpp#L101). Further mapping is needed before assigning geographic names to the remaining road segments.
+
+## Approximate nearby segments
+
+Some other road records are labelled “Near” a starting area. Their overhead
+sample lines have the same number of points as a named starting segment, and
+each matching point is within 0.6 units on the site’s 693 × 1,280 map. This
+is a two-dimensional proximity comparison, not proof of elevation, an
+official street name or an open driving connection. Long segments can pass
+more than one starting area, so a label may list several names.
