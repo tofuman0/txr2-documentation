@@ -46,6 +46,25 @@ Each course has two direction choices. The numbers below are source road IDs and
 | <span id="course-14">14</span> | 2 | [257]({{ "/roads.html#road-257" | relative_url }}), sample 142 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 1000 |
 | <span id="course-15">15</span> | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 | [529]({{ "/roads.html#road-529" | relative_url }}), sample 240 |
 
+## Time Attack starting positions
+
+Time Attack has a separate route list and a separate starting-position table. The World 1 entries below are **raw start requests**: the session setup subtracts 14 samples and normalizes the position through the road network before placement. Consequently, a raw road and the final placed road can differ. Time Attack reads the non-Quest course tier, not the Quest tier directly.
+
+| Route ID | Direction | First non-Quest tier | Raw World 1 start |
+| ---: | ---: | ---: | --- |
+| 0 | 0 | 0 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
+| 1 | 0 | 0 | [495]({{ "/roads.html#road-495" | relative_url }}), sample 47 |
+| 2 | 0 | 2 | [262]({{ "/roads.html#road-262" | relative_url }}), sample 1 |
+| 3 | 0 | 2 | [524]({{ "/roads.html#road-524" | relative_url }}), sample 194 |
+| 4 | 0 | 2 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
+| 0 | 1 | 0 | [466]({{ "/roads.html#road-466" | relative_url }}), sample 20 |
+| 1 | 1 | 0 | [239]({{ "/roads.html#road-239" | relative_url }}), sample 58 |
+| 2 | 1 | 2 | [511]({{ "/roads.html#road-511" | relative_url }}), sample 70 |
+| 3 | 1 | 2 | [255]({{ "/roads.html#road-255" | relative_url }}), sample 675 |
+| 4 | 1 | 2 | [186]({{ "/roads.html#road-186" | relative_url }}), sample 30 |
+
+The three additional Time Attack route IDs 16, 17 and 18 are present at non-Quest tier 0. Their session profiles use **World 0**, not the World 1 map above, and each requests World 0 road 1, sample 0 before its profile-specific setup. The source route-list slot 3 is skipped and is not an additional selectable route.
+
 ## Source and limits
 
 The course list comes from `CourseCatalog`’s recovered US T40211N V1.002 ordinary selection rows. Quest starting positions use `CoursePairs4` and the profile-1 session setup. Quest tier promotion follows `QuestRivalProgress::Build`; individual challenge and progression paths still need full original-game and native-player verification. Geographic area names and natural progression are still being verified.
