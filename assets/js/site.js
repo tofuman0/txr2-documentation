@@ -1,4 +1,4 @@
-(() => {
+function initCarFilters() {
     const filters = document.getElementById("car-filters");
     if (!filters) {
         return;
@@ -36,9 +36,9 @@
     }
     selectClass("all");
     filters.hidden = false;
-})();
+}
 
-(() => {
+function initRivalDetails() {
     const heading = document.getElementById("performance-multipliers");
     if (!heading || !heading.closest("main.content")) {
         return;
@@ -87,9 +87,9 @@
         update();
     });
     update();
-})();
+}
 
-(() => {
+function initPartFilters() {
     const content = document.querySelector("main.content");
     if (!content) {
         return;
@@ -147,7 +147,15 @@
         select.addEventListener("change", update);
         update();
     }
-})();
+}
+
+function initPage() {
+    initCarFilters();
+    initRivalDetails();
+    initPartFilters();
+}
+
+initPage();
 
 (() => {
     const toggle = document.getElementById("sound-toggle");
@@ -185,28 +193,70 @@
             play().catch(() => {});
         }
     });
+    let navigation = 0;
+    let renderedPath = window.location.pathname + window.location.search;
+    async function loadPage(url, addHistory) {
+        const request = ++navigation;
+        try {
+            const response = await fetch(url, { credentials: "same-origin" });
+            if (!response.ok) {
+                throw new Error("Page request failed");
+            }
+            const page = new DOMParser().parseFromString(await response.text(), "text/html");
+            const selectors = ["nav.menu", ".help", "main.content", "footer"];
+            const replacements = selectors.map((selector) => page.querySelector(selector));
+            const current = selectors.map((selector) => document.querySelector(selector));
+            const scripts = [...page.querySelectorAll("script")];
+            const extraScripts = scripts.some((script) => !script.src ||
+                !new URL(script.src, url).pathname.endsWith("/assets/js/site.js"));
+            if (replacements.some((element) => !element) || current.some((element) => !element) ||
+                extraScripts) {
+                throw new Error("Page needs a full navigation");
+            }
+            if (request !== navigation) {
+                return;
+            }
+            for (let i = 0; i < current.length; i += 1) {
+                current[i].replaceWith(replacements[i]);
+            }
+            document.title = page.title;
+            const loadedUrl = new URL(url, window.location.href);
+            renderedPath = loadedUrl.pathname + loadedUrl.search;
+            if (addHistory) {
+                history.pushState(null, "", url);
+            }
+            initPage();
+            window.scrollTo(0, 0);
+            const main = document.querySelector("main.content");
+            main.setAttribute("tabindex", "-1");
+            main.focus({ preventScroll: true });
+        } catch (_) {
+            if (request === navigation) {
+                window.location.href = url;
+            }
+        }
+    }
     document.addEventListener("click", (event) => {
         const target = event.target.closest(".menu a.row, .car-filters button, .rival-technical-toggle");
-        if (!target || !enabled || event.defaultPrevented) {
+        if (!target || event.defaultPrevented) {
             return;
+        }
+        if (enabled) {
+            play().catch(() => {});
         }
         if (target.matches(".menu a.row") && event.button === 0 &&
             !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
             (!target.target || target.target === "_self")) {
-            event.preventDefault();
-            let navigated = false;
-            const navigate = () => {
-                if (navigated) {
-                    return;
-                }
-                navigated = true;
-                window.location.href = target.href;
-            };
-            audio.addEventListener("ended", navigate, { once: true });
-            setTimeout(navigate, 1500);
-            play().catch(navigate);
-        } else {
-            play().catch(() => {});
+            const url = new URL(target.href, window.location.href);
+            if (url.origin === window.location.origin && !url.hash && !target.hasAttribute("download")) {
+                event.preventDefault();
+                loadPage(url.href, true);
+            }
+        }
+    });
+    window.addEventListener("popstate", () => {
+        if (window.location.pathname + window.location.search !== renderedPath) {
+            loadPage(window.location.href, false);
         }
     });
     update();
