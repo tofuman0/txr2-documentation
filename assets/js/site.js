@@ -166,13 +166,11 @@
         toggle.setAttribute("aria-label", enabled ? "Mute menu sounds" : "Enable menu sounds");
     }
     function play() {
-        if (!enabled) {
-            return;
-        }
-        audio.currentTime = 0;
-        const playing = audio.play();
-        if (playing) {
-            playing.catch(() => {});
+        try {
+            audio.currentTime = 0;
+            return Promise.resolve(audio.play());
+        } catch (error) {
+            return Promise.reject(error);
         }
     }
     toggle.addEventListener("click", () => {
@@ -183,19 +181,32 @@
             // The current selection still works on this page.
         }
         update();
-        play();
+        if (enabled) {
+            play().catch(() => {});
+        }
     });
     document.addEventListener("click", (event) => {
         const target = event.target.closest(".menu a.row, .car-filters button, .rival-technical-toggle");
         if (!target || !enabled || event.defaultPrevented) {
             return;
         }
-        play();
         if (target.matches(".menu a.row") && event.button === 0 &&
             !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
             (!target.target || target.target === "_self")) {
             event.preventDefault();
-            setTimeout(() => { window.location.href = target.href; }, 250);
+            let navigated = false;
+            const navigate = () => {
+                if (navigated) {
+                    return;
+                }
+                navigated = true;
+                window.location.href = target.href;
+            };
+            audio.addEventListener("ended", navigate, { once: true });
+            setTimeout(navigate, 1500);
+            play().catch(navigate);
+        } else {
+            play().catch(() => {});
         }
     });
     update();
