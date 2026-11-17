@@ -19,11 +19,11 @@ the original game renders each car identically.
 
 ## Live car page check
 
-On 17 November 2026, a headless Edge check opened all 140 published car pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary car image, displayed a parts-filter selector with multiple options, and had no page-level horizontal overflow. A subsequent check exercised all 2,596 filter options across those pages: each category showed matching rows and All parts restored the full table. These checks do not verify table values, image identity or visual appearance.
+On 17 November 2026, a headless Edge check opened all 140 published car pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary car image, displayed a parts-filter selector with multiple options, and had no page-level horizontal overflow. A subsequent check exercised all 2,596 filter options across those pages: each category showed all and only matching rows, and All parts restored the full table. These checks do not verify table values, image identity or visual appearance.
 
 ## Live rival page check
 
-On 17 November 2026, a headless Edge check opened all 372 published rival pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary rival image, presented the performance-details control, and had no page-level horizontal overflow. This check does not establish the images' original-game accuracy, every displayed value, or the behaviour of every control.
+On 17 November 2026, a headless Edge check opened all 372 published rival pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary rival image, presented the performance-details control, and had no page-level horizontal overflow. A subsequent check opened and closed the performance-details control on every rival page, verifying its visibility and expanded state. These checks do not establish the images' original-game accuracy, every displayed value, or the behaviour of other controls.
 
 ## Class T dealer price check
 
