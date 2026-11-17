@@ -16,3 +16,13 @@ external links, rendering, or the accuracy of link labels. The car and rival
 images are native-port captures, with the exceptions described in
 [vehicle image sources](vehicle-image-sources.md); they are not evidence that
 the original game renders each car identically.
+
+## Class T dealer price check
+
+The dealer prices on car pages 132–139 were compared with the port's
+[`CarCatalog::GetDealerPrice`](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/car_catalog.cpp#L157)
+and its [price fixture](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/tests/quest_purchase_tests.cpp#L96).
+All eight page prices match the source and fixture at commit `a66040a6`:
+10,000, 15,000, 12,000, 30,000, 100,000, 20,000, 40,000 and 80,000 CP,
+respectively. This is a source comparison; the purchase test was not run as
+part of this documentation check. These dealer prices are port additions.
