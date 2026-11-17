@@ -163,6 +163,10 @@ All 53 cars offered by the original Quest dealer in the isolated session with st
 
 The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for GZ20TT (107), SW20G (005), ST202 (079), UZZ30 (074), A80SZ (007), A80SZM (009), S13K (016), S13KM (018), S13KK (020), PS133 (028) and S14KM (023). All 11 displayed prices and 44 headline weight, power, displacement and drivetrain values match their pages. The GZ20TT original dealer view shows the same general GTO-shaped body seen in the port, consistent with the shared visual-resource evidence; the angle does not establish every detail. Some frames are cropped, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
 
+## More expanded Class B dealer comparisons
+
+The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for R30 (116), R30M (115), R32GTM (031), A31C (109), Y33CV (038), Y33GTU (039), Y34CV (089), Y34GU (090), S30ZG (071), Z32ZX (037), RNN14 (123), DC2 (042) and DB8 (044). All 13 displayed prices and 52 headline weight, power, displacement and drivetrain values match their pages. Some frames are cropped or dark, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
