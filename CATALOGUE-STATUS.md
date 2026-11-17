@@ -133,8 +133,9 @@ the rival’s rendered appearance or paint against the original game.
 ## Image file integrity
 
 All 140 car PNGs and 372 rival PNGs were opened and verified with Pillow.
-The rival images and 138 car images measure 1,280 × 800 pixels; the two
-remaining car images measure 1,024 × 768 pixels. All 512 files decoded
+The rival images and 138 car images measure 1,280 × 800 pixels. The
+delivery-lorry replacement measures 640 × 480 and the roadworks-lorry image
+measures 1,024 × 768 pixels. All 512 files decoded
 successfully. This is a file-integrity check, not a comparison with the
 original game or proof of a correct model, paint or camera angle.
 
