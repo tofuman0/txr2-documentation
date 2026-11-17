@@ -11,7 +11,7 @@ help: View the source appearance pools and starting positions.
 
 Quest organizes eligible rivals into nine source pools. Each pool has up to six initial road-and-offset slots; the game selects eligible rivals and assigns them to slots as the pool is prepared. A pool number or starting slot does not guarantee a particular rival will appear there in a given outing. Pool activation, progress, eligibility, selection and later movement also matter.
 
-Road IDs and offsets below are the game’s internal positions, not geographic area names. They are included so the source locations can be traced to the course map.
+Road IDs and offsets below are the game’s internal positions. Where a road is associated with a named starting area, that name identifies a starting point on the same segment; the rival’s slot may be elsewhere along it. Other nearby labels are approximate. These associations do not guarantee where an individual rival appears.
 
 For special-rival progression, the source groups pools 0–1 as category 9, pools 2–3 as category 10, pool 4 as category 11, pools 5–6 as category 12 and pools 7–8 as category 13.
 
