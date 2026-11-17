@@ -1,5 +1,7 @@
 # Catalogue verification status
 
+The site uses native port captures. Historical original-game comparisons below describe local verification evidence. Emulator captures and their page embeds have been removed.
+
 Checked 17 November 2026 against the files in this repository. Counts establish
 that files exist; they do not establish that every value or image is accurate.
 
