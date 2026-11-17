@@ -18,5 +18,6 @@
   ],
   "part_effect_source": "Port RaceCarTuning::Configure and PhysicalCoefficients; original CarInfo, one fitted variant against all-Normal neutral baseline; front/rear grip are initial actor coefficients and aerodynamic values are source coefficient deltas, not fixed force percentages",
   "part_peak_power_source": "Port RaceCarTuning::Configure, signed peak HP field 0x34; stock and single-part neutral configurations",
-  "additional_part_effect_source": "Port RaceCarTuning::Configure, RaceContactDynamics and RaceVehiclePrelude: length, width, air resistance, spring, damping, brake, rolling-resistance and offset-labelled coefficient deltas; single-part neutral baseline"
+  "additional_part_effect_source": "Port RaceCarTuning::Configure, RaceContactDynamics and RaceVehiclePrelude: length, width, air resistance, spring, damping, brake, rolling-resistance and offset-labelled coefficient deltas; single-part neutral baseline",
+  "quest_availability_source": "QuestRivalProgress::ApplyBattleResult, QuestProgress::PatchQuestRestartRivals, QuestProgressData initial set and unlock rules, and CarCatalog::GetQuestRosters; mapping from source SessionRivals car IDs."
 }
