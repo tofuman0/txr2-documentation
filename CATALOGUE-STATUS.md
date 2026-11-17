@@ -155,6 +155,13 @@ The isolated US-game session with standard-car availability enabled in emulator 
 
 The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for GC8C5 (061), GC8S5 (060), GF8W5 (065), GC8S6 (062), GF8W6 (066), GC8K (057), BE5 (085), BH5B (086), E34 (091), 964C2 (069), 964T (068) and VGTS (122). All 12 displayed prices and 48 headline weight, power, displacement and drivetrain values match their pages. Some frames crop the car or use dark paint, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
 
+## Original Quest dealer capture gaps
+
+There are 98 original dealer images linked from their matching car pages. The remaining eligible records are listed by car ID below. TR (094) is excluded from this dealer and the eight Class T vehicles are port-only purchases.
+
+- Class B (6) 054, 106, 112, 121, 129, 130
+- Class C (27) 000, 003, 011, 017, 019, 022, 024, 026, 040, 070, 072, 073, 092, 093, 101, 102, 103, 104, 110, 111, 113, 114, 117, 118, 119, 120, 126
+
 ## Class A original-reference coverage
 
 All 53 cars offered by the original Quest dealer in the isolated session with standard-car availability enabled in memory now have an original-game reference on their car pages. Their prices and four headline displayed specification values were checked against the screenshots. The remaining Class A catalogue record, TR (094), is excluded by the recovered Quest dealer rule and has not been captured through that dealer; this is not a claim about every other game mode. These screenshots do not verify natural unlock paths, every specification or exact visual parity with the port.
