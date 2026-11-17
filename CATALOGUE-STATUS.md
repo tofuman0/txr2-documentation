@@ -93,5 +93,11 @@ both with the existing local rival-settings export and directly with the
 at commit `a66040a6`: all 6,696 values matched. The direct check reads the
 settings at parameter offsets `0x15`–`0x26`, treating the first 17 as signed
 and boost as unsigned. The port data is itself recovered from the supported
-US release; this comparison does not independently verify the original game
-records, whether a setting is available to players, or its gameplay effect.
+US release. A separate offline comparison also matched all 6,696 values
+against the supplied US T40211N V1.002 executable (SHA-256
+`e30d2f4372856c10f079f7e938989695196abb4a20a26af0fde299ff3940608f`).
+The executable table begins at `0x8C0DD020`, has `0xA0`-byte rows, and
+stores vehicle parameters at row offset `0x54`; see the project’s
+[rival record notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md).
+This verifies the stored values under the port’s field mapping, not whether a
+setting is available to players or its gameplay effect.
