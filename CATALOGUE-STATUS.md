@@ -67,3 +67,11 @@ interpretation in the port's [CarCatalog reader](https://github.com/tofuman0/TXR
 class byte at `0x06`, and signed price at `0x310` multiplied by ten. This
 check does not verify when each car becomes available. Class T uses the port's
 separate prices and is covered by the check above.
+
+## Published team-logo layout check
+
+Team pages 01, 07, 13, 24 and 42 were loaded from GitHub Pages in Edge at
+390 px and 1,280 px viewport widths. Each loaded its selected logo from the
+supplied sheet at 64 × 62 CSS pixels; the five mobile captures were visually
+checked for the intended artwork and cropping. This sample does not establish
+that the AI-upscaled designs match the original game artwork.
