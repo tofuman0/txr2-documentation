@@ -151,6 +151,10 @@ An isolated US-game session with standard-car availability enabled in emulator m
 
 The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for CP9A5 (050), CP9A6 (051), Z16A (082), Z15A (081), Z15AM (080), FD3RZ (056), JCESE (105), GC8C4 (059), GC8S4 (058) and GF8W4 (064). All ten displayed prices and 40 headline weight, power, displacement and drivetrain values match their pages. Rotary displacements are shown as 0.7 × 2 or 0.7 × 3 as in the game. Some frames crop the car or use dark paint, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
 
+## Final seeded Class A dealer comparisons
+
+The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for GC8C5 (061), GC8S5 (060), GF8W5 (065), GC8S6 (062), GF8W6 (066), GC8K (057), BE5 (085), BH5B (086), E34 (091), 964C2 (069), 964T (068) and VGTS (122). All 12 displayed prices and 48 headline weight, power, displacement and drivetrain values match their pages. Some frames crop the car or use dark paint, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
