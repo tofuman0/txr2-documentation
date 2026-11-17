@@ -140,6 +140,10 @@ stores vehicle parameters at row offset `0x54`; see the project’s
 This verifies the stored values under the port’s field mapping, not whether a
 setting is available to players or its gameplay effect.
 
+## Rival appearance parameter comparison
+
+The complete 76-byte vehicle-parameter block for each of the 372 recovered rival records was reconstructed from the port's typed values and compared byte for byte with the supported US executable identified above. All 28,272 bytes matched, including the parts and settings, both paint-colour sets and plate fields. The comparison follows the [port's parameter serialization](https://github.com/tofuman0/TXR2-Port/blob/8f74cb578ed3b476af21e8f276b77aa3682fa180/src/race_session_config.cpp#L29) and the original row offset `0x54`. This verifies the recovered input values; it does not establish that every field affects the captures as it does in the original game or that all 372 images have been visually matched against the original.
+
 ## Rival fitted-parts record check
 
 All 18 fitted-part entries on each of the 372 rival pages were compared
