@@ -998,7 +998,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [202]({{ "/roads.html#road-202" | relative_url }}) |
+| Primary next road | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [200]({{ "/roads.html#road-200" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -1018,7 +1018,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 10 |
-| Primary next road | [202]({{ "/roads.html#road-202" | relative_url }}) |
+| Primary next road | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [39]({{ "/roads.html#road-39" | relative_url }}) |
 | Source flags | `0x00010001` |
@@ -2043,7 +2043,11 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Previous road | [96]({{ "/roads.html#road-96" | relative_url }}) |
 | Source flags | `0x00010001` |
 
-## Road 202
+<span id="road-202"></span>
+
+## Shibakouen start area (Road 202)
+
+The game’s Shibakouen course starts on this segment in direction 0 at sample 118. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quick-race-result-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -3010,7 +3014,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 11 |
-| Primary next road | [450]({{ "/roads.html#road-450" | relative_url }}) |
+| Primary next road | [Shibakouen start area (Road 450)]({{ "/roads.html#road-450" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [502]({{ "/roads.html#road-502" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3030,7 +3034,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Source detail | Value |
 | --- | --- |
 | Samples | 11 |
-| Primary next road | [450]({{ "/roads.html#road-450" | relative_url }}) |
+| Primary next road | [Shibakouen start area (Road 450)]({{ "/roads.html#road-450" | relative_url }}) |
 | Secondary next road | — |
 | Previous road | [448]({{ "/roads.html#road-448" | relative_url }}) |
 | Source flags | `0x00020000` |
@@ -3052,7 +3056,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [10]({{ "/roads.html#road-10" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [450]({{ "/roads.html#road-450" | relative_url }}) |
+| Previous road | [Shibakouen start area (Road 450)]({{ "/roads.html#road-450" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 ## Road 298
@@ -3062,7 +3066,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 10 |
 | Primary next road | [452]({{ "/roads.html#road-452" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [450]({{ "/roads.html#road-450" | relative_url }}) |
+| Previous road | [Shibakouen start area (Road 450)]({{ "/roads.html#road-450" | relative_url }}) |
 | Source flags | `0x00020000` |
 
 **Rival pool starting positions:** [pool 1, slot 2]({{ "/rival-appearance-pools.html#pool-1" | relative_url }}) (sample 5).
@@ -4583,7 +4587,11 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Previous road | [292]({{ "/roads.html#road-292" | relative_url }}) |
 | Source flags | `0x00020100` |
 
-## Road 450
+<span id="road-450"></span>
+
+## Shibakouen start area (Road 450)
+
+The game’s Shibakouen course starts on this segment in direction 1 at sample 100. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quick-race-result-recovery.md).
 
 | Source detail | Value |
 | --- | --- |
@@ -5740,7 +5748,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 9 |
 | Primary next road | [204]({{ "/roads.html#road-204" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [202]({{ "/roads.html#road-202" | relative_url }}) |
+| Previous road | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) |
 | Source flags | `0x00010001` |
 
 ## Road 561
@@ -5750,7 +5758,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 | Samples | 9 |
 | Primary next road | [231]({{ "/roads.html#road-231" | relative_url }}) |
 | Secondary next road | — |
-| Previous road | [202]({{ "/roads.html#road-202" | relative_url }}) |
+| Previous road | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) |
 | Source flags | `0x00800001` |
 
 ## Road 562

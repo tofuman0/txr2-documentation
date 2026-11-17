@@ -36,7 +36,7 @@ The observation and its limits are recorded in the [original-session recovery no
 | 0 | [71]({{ "/roads.html#road-71" | relative_url }}) | 9 |
 | 1 | [190]({{ "/roads.html#road-190" | relative_url }}) | 110 |
 | 2 | [194]({{ "/roads.html#road-194" | relative_url }}) | 117 |
-| 3 | [202]({{ "/roads.html#road-202" | relative_url }}) | 148 |
+| 3 | [Shibakouen start area (Road 202)]({{ "/roads.html#road-202" | relative_url }}) | 148 |
 | 4 | [200]({{ "/roads.html#road-200" | relative_url }}) | 10 |
 | 5 | [213]({{ "/roads.html#road-213" | relative_url }}) | 2 |
 
