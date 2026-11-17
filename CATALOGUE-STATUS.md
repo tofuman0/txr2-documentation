@@ -345,3 +345,7 @@ and 512 car/rival PNGs. The images and 554 pages returned the expected
 content types and successful responses. Car 025 initially returned HTTP 503
 and returned HTTP 200 on a separate retry. This verifies availability during
 this check, not visual rendering, image identity or ongoing availability.
+
+## Additional Class B dealer comparisons
+
+The isolated US-game session with standard-car availability enabled in emulator memory produced dealer references for CH9 (099), CF4 (100), EASU0 (127), EACU0 (128) and BB6 (131). All five displayed prices and 20 headline weight, power, displacement and drivetrain values match their pages. Some frames crop the car or use dark paint, as noted on the pages. The seeded session does not demonstrate natural unlock paths, remaining specifications or exact port visual parity.
