@@ -125,3 +125,11 @@ All 372 rival-page car links match the car IDs stored at row offset `0x04`
 in the supported US T40211N V1.002 executable identified above. This verifies
 the source record’s vehicle binding and the page link; it does not verify
 the rival’s rendered appearance or paint against the original game.
+
+## Image file integrity
+
+All 140 car PNGs and 372 rival PNGs were opened and verified with Pillow.
+The rival images and 138 car images measure 1,280 × 800 pixels; the two
+remaining car images measure 1,024 × 768 pixels. All 512 files decoded
+successfully. This is a file-integrity check, not a comparison with the
+original game or proof of a correct model, paint or camera angle.
