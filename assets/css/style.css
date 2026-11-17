@@ -19,7 +19,7 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
 }
 
 .content img[src*="/team-logos/"] {
-    max-width: min(100%, 256px);
+    max-width: min(100%, 64px);
 }
 
 .content a:focus-visible {
