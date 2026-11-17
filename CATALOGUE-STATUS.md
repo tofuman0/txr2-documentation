@@ -109,7 +109,7 @@ The original-game reference screenshots for [AE86T3]({{ "/cars/001.html" | relat
 
 ## Team-member selection descriptions
 
-The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
+The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
 
 ## Original rival-rule record comparison
 
