@@ -169,6 +169,10 @@ tables; it does not verify stock unlocks, compatibility, part effects or a
 purchase in the original game. Class T quotes have a separate port-specific
 pricing check.
 
+## Original tyre and wheel price tables
+
+The port's tyre factors, tyre-size scales, wheel factors and wheel-diameter scales were compared directly with the supported US executable. All 78 entries match the original values at `0x8C0C4C00`, `0x8C0FB390`, `0x8C0C506C` and `0x8C0FB404`, respectively. This verifies the recovered source tables; the shop's indexing and purchase behaviour are separate. The delivery lorry's tyre-size substitution is a port-specific patch.
+
 ## Part shop-condition check
 
 All 10,564 part rows across the 140 car pages were checked against the
