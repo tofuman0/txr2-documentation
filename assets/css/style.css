@@ -135,3 +135,27 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     outline: 2px solid #fff;
     outline-offset: 3px;
 }
+
+.part-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin: 18px 0 8px;
+}
+
+.part-filter select {
+    max-width: 100%;
+    min-height: 44px;
+    padding: 6px 10px;
+    border: 1px solid #888;
+    border-radius: 7px;
+    background: #3c3c3e;
+    color: #fff;
+    font: inherit;
+}
+
+.part-filter select:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}

@@ -88,3 +88,63 @@
     });
     update();
 })();
+
+(() => {
+    const content = document.querySelector("main.content");
+    if (!content) {
+        return;
+    }
+
+    for (const table of content.querySelectorAll("table")) {
+        const headers = [...table.querySelectorAll("thead th")];
+        if (headers.length < 2 || headers[0].textContent.trim() !== "Part" ||
+            headers[1].textContent.trim() !== "Cost (CP)") {
+            continue;
+        }
+
+        const rows = [...table.querySelectorAll("tbody tr")];
+        const categories = rows.map((row) => {
+            const name = row.cells[0]?.textContent.trim() || "";
+            return name.replace(/ Type \d+.*$/, "");
+        });
+        if (!rows.length || categories.some((category) => !category)) {
+            continue;
+        }
+
+        const controls = document.createElement("div");
+        controls.className = "part-filter";
+        const label = document.createElement("label");
+        const select = document.createElement("select");
+        select.id = `part-filter-${[...content.querySelectorAll(".part-filter")].length + 1}`;
+        label.htmlFor = select.id;
+        label.textContent = "Filter parts";
+        const count = document.createElement("span");
+        count.setAttribute("aria-live", "polite");
+
+        function addOption(value, text) {
+            const option = document.createElement("option");
+            option.value = value;
+            option.textContent = text;
+            select.appendChild(option);
+        }
+
+        addOption("all", "All parts");
+        for (const category of new Set(categories)) {
+            addOption(category, category === "Muffler & air cleaner" ? "Exhaust & air cleaner" : category);
+        }
+        function update() {
+            let visible = 0;
+            rows.forEach((row, index) => {
+                row.hidden = select.value !== "all" && categories[index] !== select.value;
+                if (!row.hidden) {
+                    visible += 1;
+                }
+            });
+            count.textContent = `${visible} parts shown`;
+        }
+        controls.append(label, select, count);
+        table.before(controls);
+        select.addEventListener("change", update);
+        update();
+    }
+})();
