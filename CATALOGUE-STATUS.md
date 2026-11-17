@@ -47,8 +47,11 @@ at commit `a66040a6`. The check removed the inventory's leader marker and
 normalised its slash-separated name fields into the site’s displayed names;
 all 372 matched. The rival index also lists those 372 pages in source-ID order,
 with matching names, links and in-game numbers. This is a comparison with an
-existing recovery document, not a fresh executable inspection, and does not
-verify encounter conditions or vehicle appearances.
+existing recovery document and does not verify encounter conditions or
+vehicle appearances. A subsequent offline comparison also checked all 372
+page headings directly against the two 17-byte name fields at row offsets
+`0x18` and `0x29` in the supported US executable identified below. After
+removing the leader marker and joining the two fields, every heading matched.
 
 ## Car ID and TYPE code check
 
