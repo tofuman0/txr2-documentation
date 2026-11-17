@@ -3,6 +3,8 @@
   "resource_sha256": "df5c99555607836851dbdecc6bcd62356380e89b0b4ae38a2570d2f76ab57037",
   "specification_source": "CarSpecsCatalog::GetFactory, source-derived 04C436 formatting",
   "capture_source": "native capture-car batch, first factory paint",
+  "parts_price_source": "US 05F5E0 and 060308, transcribed in QuestPartsSession; original class, gear and tire/wheel dimensions from CarInfo",
+  "parts_price_scope": "Normal cars 000-131; prices are quotes, not a guarantee that the part is unlocked or compatible",
   "records": 140,
   "normal_records": 132,
   "additional_traffic_records": 8,
