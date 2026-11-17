@@ -127,6 +127,10 @@ Original US Quest dealer captures show the starting Class A selections R34RV (03
 
 Original US Quest dealer captures show all eight starting Class B selections: XE10RS (010), T231 (087), PS13X (027), S14K (021), DC2M (043), DB8M (045), DE3A (083) and FC3E3 (053). Each image displays the TYPE code, dealer price, weight, power, displacement and drivetrain; all eight prices and all 32 displayed specification values match their car pages. The rotary FC3E3 displays displacement as 0.7 × 2. Some frames crop part of the car or use dark paint, as noted on the relevant pages. These checks do not establish full visual parity or verify other specifications and modifications.
 
+## Original Class C dealer comparisons
+
+Original US Quest dealer captures show all eight starting Class C selections: AE86T3 (001), AE86L2 (002), W30 (088), N15N1 (084), EF8 (098), EG6 (077), EK9M (041) and NB8RS (076). Each image displays the TYPE code, dealer price, weight, power, displacement and drivetrain; all eight prices and all 32 displayed specification values match their car pages. The dark EG6 paint obscures some detail, as noted on its page. These checks do not establish full visual parity or verify other specifications and modifications.
+
 ## Team-member selection descriptions
 
 The player-facing team-selection text on all 255 regular team-member pages was checked against the original rival kind byte and the recovered selector branches. The pages distinguish ordinary members and the four alternatives that depend on whether ordinary teammates were encountered before being defeated. All 255 classifications and description patterns matched. The named ordinary-member lists and all 77 special-member conditions on the 33 affected team pages were also checked against the original team rows and selector kinds; no discrepancies were found. Pool limits, actor placement, challenge response and natural playthroughs remain separate checks.
