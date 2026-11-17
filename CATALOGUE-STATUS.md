@@ -214,3 +214,11 @@ All 372 rival references are present under their recorded car, with no extra
 entries. The first-win availability rule is based on the port’s recovered
 Quest result logic; individual rival encounter conditions and the separate
 dealer-roster exclusion for car 094 still apply.
+
+## Original-based team-logo comparison images
+
+All 43 original-based team-logo images were compared pixel-for-pixel with
+their locally retained source images after a vertical flip and an 8×
+nearest-neighbour enlargement. All matched. This checks those comparison
+images and the image currently displayed for team 00; it does not prove that
+the separate AI-upscaled sheet preserves the original designs.
