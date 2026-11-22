@@ -1897,7 +1897,7 @@ These are the 690 World 1 road records in the supported US release. Each ID iden
 
 ## Kandabashi start area (Road 188)
 
-The game’s Kandabashi course starts on this segment in direction 0 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Kandabashi course starts on this segment in direction 0 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -1969,7 +1969,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Kasumigaseki start area (Road 194)
 
-The game’s Kasumigaseki course starts on this segment in direction 0 at sample 87. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Kasumigaseki course starts on this segment in direction 0 at sample 87. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -2063,7 +2063,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Shibakouen start area (Road 202)
 
-The game’s Shibakouen course starts on this segment in direction 0 at sample 118. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quick-race-result-recovery.md).
+The game’s Shibakouen course starts on this segment in direction 0 at sample 118. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -2145,7 +2145,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Ginza start area (Road 209)
 
-The game’s Ginza course starts on this segment in direction 0 at sample 148. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Ginza course starts on this segment in direction 0 at sample 148. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -2421,7 +2421,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Daiba start area (Road 235)
 
-The game’s Daiba course starts on this segment in direction 1 at sample 208. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Daiba course starts on this segment in direction 1 at sample 208. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -2475,7 +2475,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Ariake start area (Road 239)
 
-The game’s Ariake course starts on this segment in direction 1 at sample 58. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Ariake course starts on this segment in direction 1 at sample 58. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -2541,7 +2541,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Fukuzumi start area (Road 244)
 
-The game’s Fukuzumi course starts on this segment in direction 0 at sample 318. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Fukuzumi course starts on this segment in direction 0 at sample 318. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -4633,7 +4633,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Ginza start area (Road 443)
 
-The game’s Ginza course starts on this segment in direction 1 at sample 65. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Ginza course starts on this segment in direction 1 at sample 65. Ginza is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -4715,7 +4715,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Shibakouen start area (Road 450)
 
-The game’s Shibakouen course starts on this segment in direction 1 at sample 100. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quick-race-result-recovery.md).
+The game’s Shibakouen course starts on this segment in direction 1 at sample 100. Shibakouen is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -4807,7 +4807,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Kasumigaseki start area (Road 458)
 
-The game’s Kasumigaseki course starts on this segment in direction 1 at sample 85. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Kasumigaseki course starts on this segment in direction 1 at sample 85. Kasumigaseki is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -4897,7 +4897,7 @@ The game’s Kasumigaseki course starts on this segment in direction 1 at sample
 
 ## Kandabashi start area (Road 466)
 
-The game’s Kandabashi course starts on this segment in direction 1 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Kandabashi course starts on this segment in direction 1 at sample 0. Kandabashi is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -5157,7 +5157,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Fukuzumi start area (Road 491)
 
-The game’s Fukuzumi course starts on this segment in direction 1 at sample 18. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Fukuzumi course starts on this segment in direction 1 at sample 18. Fukuzumi is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -5209,7 +5209,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Ariake start area (Road 495)
 
-The game’s Ariake course starts on this segment in direction 0 at sample 47. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Ariake course starts on this segment in direction 0 at sample 47. Ariake is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |
@@ -5275,7 +5275,7 @@ This approximate area label is inferred from the overhead road samples: this seg
 
 ## Daiba start area (Road 500)
 
-The game’s Daiba course starts on this segment in direction 0 at sample 100. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment. [Source and verification](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/course-selection-artwork-recovery.md).
+The game’s Daiba course starts on this segment in direction 0 at sample 100. Daiba is the starting-area label; the internal road ID does not establish a street name for every point on the segment.
 
 | Source detail | Value |
 | --- | --- |

@@ -32,7 +32,7 @@ Some parts list a “persistent unlock bit” as another way to change shop stoc
 | 10 | Rear spoiler: Normal and Types 1–5 |
 | 11 | Wheels: Normal and Types 1–8 |
 
-The stock calculation applies these saved-flag settings after checking defeated-rival priority. The unlock bank is separate from the main Quest progress block: the recovered Quest reset leaves it intact, and a full save load merges stored unlocks into it. That persistence does not establish how a particular flag was earned. See the [shop recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-parts-store-recovery.md#stock) and [save-bank analysis](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md#persistent-unlock-bank-check).
+The stock calculation applies these saved-flag settings after checking defeated-rival priority. The unlock bank is separate from the main Quest progress block: the recovered Quest reset leaves it intact, and a full save load merges stored unlocks into it. That persistence does not establish how a particular flag was earned.
 
 ## Priority 15
 

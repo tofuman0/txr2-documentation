@@ -328,4 +328,4 @@ Quick Race has three recorded sequences of 100 rivals. Find a round below and se
 
 ## Source and limits
 
-The sequences use the supported US T40211N V1.002 rival-order tables. The port’s [Quick Race rollover notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quick-race-result-recovery.md#rival-order-and-rollover-audit) describe the original table comparison and progression flags. The list is a source-data reference, not a guarantee that every transition has been observed in a complete playthrough.
+The sequences use the supported US T40211N V1.002 rival-order tables. The list is a source-data reference, not a guarantee that every transition has been observed in a complete playthrough.

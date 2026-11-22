@@ -27,8 +27,6 @@ In one observed US-release session, the player selected Kasumigaseki from a save
 | [3](#pool-3) | [Hot Head]({{ "/rivals/125.html" | relative_url }}), [Osaka Kid]({{ "/rivals/128.html" | relative_url }}), [Rev Freak]({{ "/rivals/127.html" | relative_url }}), [Tokyo Tami]({{ "/rivals/133.html" | relative_url }}), [Catch Me Kate]({{ "/rivals/343.html" | relative_url }}), [Lead Foot]({{ "/rivals/126.html" | relative_url }}) |
 | [4](#pool-4) | [Game Guy]({{ "/rivals/169.html" | relative_url }}), [Drift Queen]({{ "/rivals/170.html" | relative_url }}), [Pop Freak]({{ "/rivals/348.html" | relative_url }}) |
 
-The observation and its limits are recorded in the [original-session recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md).
-
 ## Pool 0
 
 | Slot | Road ID | Source offset |

@@ -11,15 +11,22 @@ This page explains mechanics shared across the game. Individual rival pages list
 
 ## Parts and drive torque
 
-Some parts tables show a change to the **drive-torque coefficient**. The port's recovered engine calculation multiplies this value into the torque sent through the drivetrain, alongside the selected gear ratio and engine response. It is a coefficient change from the single-part stock baseline, not an increase in engine horsepower or a percentage increase in wheel torque. The field is labelled with its original `0x308` offset for readers following the [engine calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_engine.cpp#L436) and [parts calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_tuning.cpp#L245).
+Some parts tables show a change to the **drive-torque coefficient**. The port's recovered engine calculation multiplies this value into the torque sent through the drivetrain, alongside the selected gear ratio and engine response. It is a coefficient change from the single-part stock baseline, not an increase in engine horsepower or a percentage increase in wheel torque. A differential changes this coefficient by multiplying the stock value by its part factor; the tables show the resulting change and label this field `0x308`. The drive calculation then multiplies the coefficient, gear ratio and engine response together and divides by a value based on the driven wheel diameter.
 
 ## Parts and turning response
 
-Some parts also change a **yaw response coefficient**, labelled with its source offset `0x2E8`. The port's recovered calculations use this value when working out how the car rotates from tyre forces and collisions. The number shown is a coefficient change from the single-part stock baseline; it is not a percentage change in steering or grip. The same value is adjusted for automatically controlled actors, as described below. See the port's [tyre-force calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_contact.cpp#L1099) and [collision calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_pair_collision.cpp#L431).
+Some parts also change a **yaw response coefficient**, labelled with its source offset `0x2E8`. The port's recovered calculations use this value when working out how the car rotates from tyre forces and collisions. The number shown is a coefficient change from the single-part stock baseline; it is not a percentage change in steering or grip. The same value is adjusted for automatically controlled actors, as described below. A body-weight change also scales the coefficient by the modified weight divided by the original weight.
 
 ## Parts and initial brake and grip inputs
 
-Some suspension parts list front and rear brake and grip **inputs** in their additional attributes. These are changes to values used to calculate the initial braking and grip coefficients; they are not percentage changes to braking distance or cornering grip. The separate grip column shows the calculated coefficient change for the single-part stock baseline. The source offsets remain alongside the labels for readers tracing the [physical-coefficient calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_tuning.cpp#L417) and [brake and grip bindings](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_motion_binding.cpp#L78).
+Some suspension parts list front and rear brake and grip **inputs** in their additional attributes. These are changes to values used to calculate the initial braking and grip coefficients; they are not percentage changes to braking distance or cornering grip. The separate grip column shows the calculated coefficient change for the single-part stock baseline. For each of the four inputs, the game multiplies the input by a fixed scale and adds a fixed baseline to obtain the starting coefficient. The front and rear braking factors use a separate scale and baseline.
+
+<details class="technical-details" markdown="1">
+<summary>Show the calculation</summary>
+
+Each of the four initial brake and grip coefficients is approximately **1.7 + 0.0298387073 × its input**. The two separate front and rear brake factors are approximately **0.375 + 0.0120967738 × their input**. The game uses these as inputs to its physics; other factors also affect the result.
+
+</details>
 
 ## Car condition during a drive
 
@@ -36,7 +43,7 @@ For the supported US T40211N V1.002 release, the active actor's distance counter
 
 The four current braking and grip inputs are calculated from their configured base values minus a configured wear slope multiplied by the counter and divided by 10,000. Each is clamped to a minimum of approximately 1.7. Automatic-control flags can override the current coefficients with twice their configured bases, as described below. This does not imply that final braking force or cornering grip doubles.
 
-The port implements these calculations in [actor condition](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_actor_dynamics.cpp), passes them to the engine and contact physics in [race motion](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_motion.cpp), and creates a zero-initialized condition in [fresh actor binding](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_motion_binding.cpp). Component tests cover the condition and grip calculations; the complete garage-return and second-outing sequence has not been separately measured in a player run.
+For example, at a counter value of 15,000 a stock car has reached half of its 9% maximum torque reduction: calculated torque is multiplied by 0.955. Each brake and grip input is its base value minus its wear slope × counter ÷ 10,000, with a minimum of approximately 1.7. Component checks cover these calculations; the complete garage-return and second-outing sequence has not been separately measured in a player run.
 
 </details>
 

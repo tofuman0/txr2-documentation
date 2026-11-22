@@ -29,9 +29,7 @@ On 17 November 2026, a headless Edge check opened all 372 published rival pages 
 
 ## Class T dealer price check
 
-The dealer prices on car pages 132–139 were compared with the port's
-[`CarCatalog::GetDealerPrice`](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/car_catalog.cpp#L157)
-and its [price fixture](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/tests/quest_purchase_tests.cpp#L96).
+The dealer prices on car pages 132–139 were compared with the port’s dealer prices and an existing set of expected prices.
 All eight page prices match the source and fixture at commit `a66040a6`:
 10,000, 15,000, 12,000, 30,000, 100,000, 20,000, 40,000 and 80,000 CP,
 respectively. This is a source comparison; the purchase test was not run as
@@ -39,12 +37,12 @@ part of this documentation check. These dealer prices are port additions.
 
 ## Class T challenge eligibility check
 
-The vehicle requirements on all eight traffic challenge pages were compared with the current port's [QuestTrafficCandidate::Find](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_cruise_candidate.cpp) and the Keep Garage gate in [RaceFreeRun](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/race_free_run.cpp). The taxi accepts a normal car with normal parts or a Class T car; the other ordinary models require Class T, with additional vehicle restrictions for the tanker and delivery lorry. The delivery lorry also requires wins against the seven other traffic models. All eight page prices match the current dealer-price source. This is a source comparison, not an end-to-end gameplay or save-persistence test.
+The vehicle requirements on all eight traffic challenge pages were compared with the current port’s traffic challenge and garage eligibility rules. The taxi accepts a normal car with normal parts or a Class T car; the other ordinary models require Class T, with additional vehicle restrictions for the tanker and delivery lorry. The delivery lorry also requires wins against the seven other traffic models. All eight page prices match the current dealer-price source. This is a source comparison, not an end-to-end gameplay or save-persistence test.
 
 ## Regular-team roster check
 
 The 43 published team pages were compared with the port project's
-[source-backed US rival roster](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-regular-rivals-by-name.md)
+source-backed US rival roster
 at commit `a66040a6`. All 298 regular rival IDs appear under the same teams,
 and each team has the same leader. The check also verified each roster link,
 rival-to-team link and in-game number (source ID plus one). The rival page
@@ -59,7 +57,7 @@ logo fidelity.
 ## Complete rival name and index check
 
 All 372 individual page headings were compared with the original-row names
-in the project's [recovered US rival inventory](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-inventory.md)
+in the project's recovered US rival inventory
 at commit `a66040a6`. The check removed the inventory's leader marker and
 normalised its slash-separated name fields into the site’s displayed names;
 all 372 matched. The rival index also lists those 372 pages in source-ID order,
@@ -76,14 +74,12 @@ All 140 car-list entries and individual page headings were compared with the
 TYPE fields in the supported US release’s local CARMODEL resource 0x2000.
 The IDs, links and codes match in source-ID order, including the eight traffic
 records. The check does not establish prices, part effects or visual fidelity.
-The source record layout is described in the port’s
-[car specification recovery notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md).
 
 ## Standard-car dealer prices and classes
 
 All 132 standard-car dealer classes and prices in the list and individual
 pages match the local original car records. The comparison used the field
-interpretation in the port's [CarCatalog reader](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/car_catalog.cpp#L73):
+recovered interpretation of the original car records:
 class byte at `0x06`, and signed price at `0x310` multiplied by ten. This
 check does not verify when each car becomes available. Class T uses the port's
 separate prices and is covered by the check above.
@@ -111,7 +107,7 @@ and Class T port-only upgrades are separate.
 
 ## Direct factory-record comparison
 
-All 13 factory specification fields on all 140 car pages were independently compared with the supplied US CARMODEL resource 0x2000 using the [recovered factory display field offsets and conversions](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/car-specs-recovery.md). All 1,820 values matched: the six dimensions, weight, engine type, displacement, drivetrain, final drive, factory power and torque. Engine and drivetrain labels were read directly from the supported original executable, including the documented car-125 drivetrain override. The comparison decodes the original records directly rather than reading the existing specification export. It uses the port's recovered interpretation of the original display logic, and does not establish part effects or original-game rendering.
+All 13 factory specification fields on all 140 car pages were independently compared with the supplied US CARMODEL resource 0x2000 using the recovered factory display field offsets and conversions. All 1,820 values matched: the six dimensions, weight, engine type, displacement, drivetrain, final drive, factory power and torque. Engine and drivetrain labels were read directly from the supported original executable, including the documented car-125 drivetrain override. The comparison decodes the original records directly rather than reading the existing specification export. It uses the port's recovered interpretation of the original display logic, and does not establish part effects or original-game rendering.
 
 ## Original-game displayed specification sample
 
@@ -196,7 +192,7 @@ Across the 48 Wanderer records, 32 documented day, garage-count, CP and prerequi
 
 All 18 recorded tuning values on each of the 372 rival pages were compared
 both with the existing local rival-settings export and directly with the
-[port’s recovered rival parameter records](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/include/txr2/race_session_data.hpp#L587)
+port’s recovered rival parameter records
 at commit `a66040a6`: all 6,696 values matched. The direct check reads the
 settings at parameter offsets `0x15`–`0x26`, treating the first 17 as signed
 and boost as unsigned. The port data is itself recovered from the supported
@@ -204,21 +200,20 @@ US release. A separate offline comparison also matched all 6,696 values
 against the supplied US T40211N V1.002 executable (SHA-256
 `e30d2f4372856c10f079f7e938989695196abb4a20a26af0fde299ff3940608f`).
 The executable table begins at `0x8C0DD020`, has `0xA0`-byte rows, and
-stores vehicle parameters at row offset `0x54`; see the project’s
-[rival record notes](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/docs/quest-rival-record.md).
+stores vehicle parameters at row offset `0x54`.
 This verifies the stored values under the port’s field mapping, not whether a
 setting is available to players or its gameplay effect.
 
 ## Rival appearance parameter comparison
 
-The complete 76-byte vehicle-parameter block for each of the 372 recovered rival records was reconstructed from the port's typed values and compared byte for byte with the supported US executable identified above. All 28,272 bytes matched, including the parts and settings, both paint-colour sets and plate fields. The comparison follows the [port's parameter serialization](https://github.com/tofuman0/TXR2-Port/blob/8f74cb578ed3b476af21e8f276b77aa3682fa180/src/race_session_config.cpp#L29) and the original row offset `0x54`. This verifies the recovered input values; it does not establish that every field affects the captures as it does in the original game or that all 372 images have been visually matched against the original.
+The complete 76-byte vehicle-parameter block for each of the 372 recovered rival records was reconstructed from the port's typed values and compared byte for byte with the supported US executable identified above. All 28,272 bytes matched, including the parts and settings, both paint-colour sets and plate fields. The comparison follows the port's parameter serialization and the original row offset `0x54`. This verifies the recovered input values; it does not establish that every field affects the captures as it does in the original game or that all 372 images have been visually matched against the original.
 
 ## Rival fitted-parts record check
 
 All 18 fitted-part entries on each of the 372 rival pages were compared
 offline with the supported US T40211N V1.002 executable identified above.
 All 6,696 entries match the original stored type indices, using the port’s
-[recovered parts-slot mapping](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp#L397)
+recovered parts-slot mapping
 and its 76-byte parameter block beginning at owned-car offset `0x14`.
 This verifies the recorded indices and their mapping into the pages; it does
 not independently verify the appearance of every part in game or establish that
@@ -253,7 +248,7 @@ All 372 published rival images were reviewed as contact sheets. Each shows a veh
 ## Standard-car part price check
 
 The 10,164 part-price rows across the 132 standard-car pages match the
-port’s [shop price tables](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp)
+port’s shop price tables
 at commit `a66040a6`, using each original car record’s class, engine type,
 gear count, tyre sizes and wheel diameter. This includes the listed engine,
 exhaust, drivetrain, body, aero, accessories, tyre and wheel variants. The
@@ -278,8 +273,7 @@ The port's tyre factors, tyre-size scales, wheel factors and wheel-diameter scal
 
 All 10,564 part rows across the 140 car pages were checked against the
 current port’s starting counts, rival-priority thresholds, persistent unlock
-bits, car compatibility flags and Class T final-stage override in
-[QuestPartsStock](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/quest_parts_stock.cpp).
+bits, car compatibility flags and the Class T final-stage override.
 The displayed conditions match those rules. The exact ways all persistent
 unlock bits are set remain to be traced, and this check does not independently
 verify every original-game purchase path.
@@ -320,7 +314,7 @@ navigation.
 
 The three displayed win-history components on each of the 372 rival pages
 match the original US executable’s rival priority and type fields when
-calculated using the port’s [battle award formula](https://github.com/tofuman0/TXR2-Port/blob/a66040a6/src/battle.cpp).
+calculated using the port’s battle award formula.
 All 1,116 values matched. These are components, not fixed total payouts:
 remaining SP, distance and the applicable multiplier also affect the award.
 The check does not independently verify the complete formula against every
