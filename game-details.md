@@ -21,6 +21,25 @@ Some parts also change a **yaw response coefficient**, labelled with its source 
 
 Some suspension parts list front and rear brake and grip **inputs** in their additional attributes. These are changes to values used to calculate the initial braking and grip coefficients; they are not percentage changes to braking distance or cornering grip. The separate grip column shows the calculated coefficient change for the single-part stock baseline. The source offsets remain alongside the labels for readers tracing the [physical-coefficient calculation](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_tuning.cpp#L417) and [brake and grip bindings](https://github.com/tofuman0/TXR2-Port/blob/d211e591/src/race_motion_binding.cpp#L78).
 
+## Car condition during a drive
+
+A car's performance can change during a long outing. The game tracks a distance-related value for the active car and uses it to gradually reduce engine torque and the inputs used for braking and tyre grip. The effect depends on the car's configuration and is limited by the game's minimum and maximum values. It is not a direct percentage reduction in top speed, braking distance or cornering speed.
+
+For a stock car, the recovered calculation caps the torque reduction at **9%**. Modified cars can have a different limit. The torque reduction reaches its cap when the internal distance counter reaches 30,000; the counter's real-world units have not yet been independently verified.
+
+In the port, returning to the garage and starting another Quest outing creates a fresh driving state, so this condition starts again at zero. The car's purchased parts and settings remain fitted. The original game's fresh actor also starts with a zero counter, and its Quest startup creates a new player actor; the complete original garage-to-road transition has not yet been independently verified in a running original game. This evidence points to a reset for a new outing rather than permanent degradation.
+
+<details class="technical-details" markdown="1">
+<summary>Show technical details</summary>
+
+For the supported US T40211N V1.002 release, the active actor's distance counter at `+0x6F4` feeds the condition update at `0x8C021A40`. On the ordinary path, the torque reduction rises proportionally to the counter until 30,000, then remains at the configured maximum. The engine stage at `0x8C01E3C0` multiplies its calculated torque by `1 - reduction`.
+
+The four current braking and grip inputs are calculated from their configured base values minus a configured wear slope multiplied by the counter and divided by 10,000. Each is clamped to a minimum of approximately 1.7. Automatic-control flags can override the current coefficients with twice their configured bases, as described below. This does not imply that final braking force or cornering grip doubles.
+
+The port implements these calculations in [actor condition](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_actor_dynamics.cpp), passes them to the engine and contact physics in [race motion](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_motion.cpp), and creates a zero-initialized condition in [fresh actor binding](https://github.com/tofuman0/TXR2-Port/blob/main/src/race_motion_binding.cpp). Component tests cover the condition and grip calculations; the complete garage-return and second-outing sequence has not been separately measured in a player run.
+
+</details>
+
 ## Shared multipliers
 
 Rivals receive an automatic-control adjustment to the grip values used by the physics. The game doubles the configured front and rear grip coefficients for those actors; that does not mean their cornering speed or final tyre force simply doubles.
@@ -76,3 +95,4 @@ The original automatic driver can adjust a non-player rival’s **target speed**
 The selected rival’s source flag 0x02 can apply an additional 0.90× target-speed factor when the runtime actor’s flag 0x04 is also set. This is applied in the following-curve branch and can combine with the distance factor. Individual rival pages show their category-specific values and whether their source flag enables the additional condition. These values change an AI speed target, not engine horsepower, and do not describe every AI speed rule.
 
 The implementation follows the source-recovered `085EA0` relation adjustment and `084E38` flag-gated factor for US T40211N V1.002. The project has source-comparison and boundary tests; full gameplay effects depend on the active driving state.
+
