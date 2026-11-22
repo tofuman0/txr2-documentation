@@ -212,3 +212,94 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
 .content .garage-launch:focus-visible {
   background: #9a2028;
 }
+
+/* Article hierarchy follows the game's framed menu panels. */
+.content h1 {
+    color: #fff;
+    font-size: clamp(24px, 2.5vw, 32px);
+    border-bottom: 2px solid #a82429;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: clamp(18px, 1.5vw, 22px);
+    background: #303033;
+    border-left: 5px solid #bc292d;
+    border-radius: 4px 8px 8px 4px;
+    padding: 10px 14px;
+    margin: 36px 0 16px;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 17px;
+    border-bottom: 1px solid #6c6c6c;
+    padding-bottom: 7px;
+    margin: 27px 0 13px;
+}
+
+.content p,
+.content li {
+    line-height: 1.8;
+}
+
+.content p {
+    margin-bottom: 18px;
+}
+
+.content details {
+    margin: 18px 0 24px;
+    border: 1px solid #777;
+    border-radius: 8px;
+    background: #171719;
+    overflow: hidden;
+}
+
+.content details > summary {
+    padding: 10px 14px;
+    background: #39393c;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.content details > summary:hover {
+    background: #555558;
+}
+
+.content details > summary:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: -3px;
+}
+
+.content details[open] > summary {
+    border-bottom: 1px solid #777;
+}
+
+.content details > :not(summary) {
+    margin: 16px;
+}
+
+@media (max-width: 500px) {
+    .content h2 {
+        padding: 9px 10px;
+        margin-top: 30px;
+    }
+
+    .content details > summary {
+        min-height: 44px;
+    }
+}
+
+@font-face {
+    font-family: TXR2Thin;
+    src: url('../fonts/txr2-caption-thin.woff2') format('woff2');
+    font-display: swap;
+}
+
+.content p,
+.content li {
+    font-family: TXR2Thin, TXR2, Arial, sans-serif;
+}
