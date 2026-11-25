@@ -17,51 +17,51 @@ Jump to [teams](#teams), [all rivals](#all-rivals), or the [port’s Class T tra
 
 ## Teams
 
-| Team ID | Team |
-| ---: | --- |
-| 00 | [ROLLING GUY]({{ "/teams/00.html" | relative_url }}) |
-| 01 | [LITTLE GANG]({{ "/teams/01.html" | relative_url }}) |
-| 02 | [KNIFE &amp; FORKS]({{ "/teams/02.html" | relative_url }}) |
-| 03 | [SS LIMITED]({{ "/teams/03.html" | relative_url }}) |
-| 04 | [BLACK KNIGHTS]({{ "/teams/04.html" | relative_url }}) |
-| 05 | [FINE DRIVE]({{ "/teams/05.html" | relative_url }}) |
-| 06 | [CURVING EDGE]({{ "/teams/06.html" | relative_url }}) |
-| 07 | [GALAXY RACERS]({{ "/teams/07.html" | relative_url }}) |
-| 08 | [MAX RACING]({{ "/teams/08.html" | relative_url }}) |
-| 09 | [ELEGANT WILD]({{ "/teams/09.html" | relative_url }}) |
-| 10 | [DEPARTURES]({{ "/teams/10.html" | relative_url }}) |
-| 11 | [TWISTER]({{ "/teams/11.html" | relative_url }}) |
-| 12 | [Diamond Image]({{ "/teams/12.html" | relative_url }}) |
-| 13 | [RHYTHM BOX]({{ "/teams/13.html" | relative_url }}) |
-| 14 | [WIND STARS]({{ "/teams/14.html" | relative_url }}) |
-| 15 | [Harmonize]({{ "/teams/15.html" | relative_url }}) |
-| 16 | [Super Speed Wagon]({{ "/teams/16.html" | relative_url }}) |
-| 17 | [ANOTHER STAR]({{ "/teams/17.html" | relative_url }}) |
-| 18 | [R.GANGS]({{ "/teams/18.html" | relative_url }}) |
-| 19 | [CUPID ARROWS]({{ "/teams/19.html" | relative_url }}) |
-| 20 | [TOKIO JUNGLE]({{ "/teams/20.html" | relative_url }}) |
-| 21 | [TR RACING]({{ "/teams/21.html" | relative_url }}) |
-| 22 | [TOP LEVEL]({{ "/teams/22.html" | relative_url }}) |
-| 23 | [FREE WAY]({{ "/teams/23.html" | relative_url }}) |
-| 24 | [RATT]({{ "/teams/24.html" | relative_url }}) |
-| 25 | [GESELLSCHAFT]({{ "/teams/25.html" | relative_url }}) |
-| 26 | [Queen's Paradise]({{ "/teams/26.html" | relative_url }}) |
-| 27 | [RINGS]({{ "/teams/27.html" | relative_url }}) |
-| 28 | [CATZ]({{ "/teams/28.html" | relative_url }}) |
-| 29 | [The Road of Justice]({{ "/teams/29.html" | relative_url }}) |
-| 30 | [EXPLOSION]({{ "/teams/30.html" | relative_url }}) |
-| 31 | [HIGHWAY OUTLAW]({{ "/teams/31.html" | relative_url }}) |
-| 32 | [DRY CRUISE]({{ "/teams/32.html" | relative_url }}) |
-| 33 | [E.R.O.]({{ "/teams/33.html" | relative_url }}) |
-| 34 | [TEAM ALPHA]({{ "/teams/34.html" | relative_url }}) |
-| 35 | [RR]({{ "/teams/35.html" | relative_url }}) |
-| 36 | [THUNDER DRAGOON]({{ "/teams/36.html" | relative_url }}) |
-| 37 | [TRUE RIDE]({{ "/teams/37.html" | relative_url }}) |
-| 38 | [UNLIMITED]({{ "/teams/38.html" | relative_url }}) |
-| 39 | [FANATIC FUTURE]({{ "/teams/39.html" | relative_url }}) |
-| 40 | [SPEED MASTER]({{ "/teams/40.html" | relative_url }}) |
-| 41 | [COMMANDER]({{ "/teams/41.html" | relative_url }}) |
-| 42 | [DOUBLE MIND]({{ "/teams/42.html" | relative_url }}) |
+| Team ID | Team | Sticker |
+| ---: | --- | :---: |
+| 00 | [ROLLING GUY]({{ "/teams/00.html" | relative_url }}) | ![ROLLING GUY team sticker]({{ "/assets/team-logos/team-00.png" | relative_url }}) |
+| 01 | [LITTLE GANG]({{ "/teams/01.html" | relative_url }}) | ![LITTLE GANG team sticker]({{ "/assets/team-logos/team-01.png" | relative_url }}) |
+| 02 | [KNIFE &amp; FORKS]({{ "/teams/02.html" | relative_url }}) | ![KNIFE &amp; FORKS team sticker]({{ "/assets/team-logos/team-02.png" | relative_url }}) |
+| 03 | [SS LIMITED]({{ "/teams/03.html" | relative_url }}) | ![SS LIMITED team sticker]({{ "/assets/team-logos/team-03.png" | relative_url }}) |
+| 04 | [BLACK KNIGHTS]({{ "/teams/04.html" | relative_url }}) | ![BLACK KNIGHTS team sticker]({{ "/assets/team-logos/team-04.png" | relative_url }}) |
+| 05 | [FINE DRIVE]({{ "/teams/05.html" | relative_url }}) | ![FINE DRIVE team sticker]({{ "/assets/team-logos/team-05.png" | relative_url }}) |
+| 06 | [CURVING EDGE]({{ "/teams/06.html" | relative_url }}) | ![CURVING EDGE team sticker]({{ "/assets/team-logos/team-06.png" | relative_url }}) |
+| 07 | [GALAXY RACERS]({{ "/teams/07.html" | relative_url }}) | ![GALAXY RACERS team sticker]({{ "/assets/team-logos/team-07.png" | relative_url }}) |
+| 08 | [MAX RACING]({{ "/teams/08.html" | relative_url }}) | ![MAX RACING team sticker]({{ "/assets/team-logos/team-08.png" | relative_url }}) |
+| 09 | [ELEGANT WILD]({{ "/teams/09.html" | relative_url }}) | ![ELEGANT WILD team sticker]({{ "/assets/team-logos/team-09.png" | relative_url }}) |
+| 10 | [DEPARTURES]({{ "/teams/10.html" | relative_url }}) | ![DEPARTURES team sticker]({{ "/assets/team-logos/team-10.png" | relative_url }}) |
+| 11 | [TWISTER]({{ "/teams/11.html" | relative_url }}) | ![TWISTER team sticker]({{ "/assets/team-logos/team-11.png" | relative_url }}) |
+| 12 | [Diamond Image]({{ "/teams/12.html" | relative_url }}) | ![Diamond Image team sticker]({{ "/assets/team-logos/team-12.png" | relative_url }}) |
+| 13 | [RHYTHM BOX]({{ "/teams/13.html" | relative_url }}) | ![RHYTHM BOX team sticker]({{ "/assets/team-logos/team-13.png" | relative_url }}) |
+| 14 | [WIND STARS]({{ "/teams/14.html" | relative_url }}) | ![WIND STARS team sticker]({{ "/assets/team-logos/team-14.png" | relative_url }}) |
+| 15 | [Harmonize]({{ "/teams/15.html" | relative_url }}) | ![Harmonize team sticker]({{ "/assets/team-logos/team-15.png" | relative_url }}) |
+| 16 | [Super Speed Wagon]({{ "/teams/16.html" | relative_url }}) | ![Super Speed Wagon team sticker]({{ "/assets/team-logos/team-16.png" | relative_url }}) |
+| 17 | [ANOTHER STAR]({{ "/teams/17.html" | relative_url }}) | ![ANOTHER STAR team sticker]({{ "/assets/team-logos/team-17.png" | relative_url }}) |
+| 18 | [R.GANGS]({{ "/teams/18.html" | relative_url }}) | ![R.GANGS team sticker]({{ "/assets/team-logos/team-18.png" | relative_url }}) |
+| 19 | [CUPID ARROWS]({{ "/teams/19.html" | relative_url }}) | ![CUPID ARROWS team sticker]({{ "/assets/team-logos/team-19.png" | relative_url }}) |
+| 20 | [TOKIO JUNGLE]({{ "/teams/20.html" | relative_url }}) | ![TOKIO JUNGLE team sticker]({{ "/assets/team-logos/team-20.png" | relative_url }}) |
+| 21 | [TR RACING]({{ "/teams/21.html" | relative_url }}) | ![TR RACING team sticker]({{ "/assets/team-logos/team-21.png" | relative_url }}) |
+| 22 | [TOP LEVEL]({{ "/teams/22.html" | relative_url }}) | ![TOP LEVEL team sticker]({{ "/assets/team-logos/team-22.png" | relative_url }}) |
+| 23 | [FREE WAY]({{ "/teams/23.html" | relative_url }}) | ![FREE WAY team sticker]({{ "/assets/team-logos/team-23.png" | relative_url }}) |
+| 24 | [RATT]({{ "/teams/24.html" | relative_url }}) | ![RATT team sticker]({{ "/assets/team-logos/team-24.png" | relative_url }}) |
+| 25 | [GESELLSCHAFT]({{ "/teams/25.html" | relative_url }}) | ![GESELLSCHAFT team sticker]({{ "/assets/team-logos/team-25.png" | relative_url }}) |
+| 26 | [Queen's Paradise]({{ "/teams/26.html" | relative_url }}) | ![Queen's Paradise team sticker]({{ "/assets/team-logos/team-26.png" | relative_url }}) |
+| 27 | [RINGS]({{ "/teams/27.html" | relative_url }}) | ![RINGS team sticker]({{ "/assets/team-logos/team-27.png" | relative_url }}) |
+| 28 | [CATZ]({{ "/teams/28.html" | relative_url }}) | ![CATZ team sticker]({{ "/assets/team-logos/team-28.png" | relative_url }}) |
+| 29 | [The Road of Justice]({{ "/teams/29.html" | relative_url }}) | ![The Road of Justice team sticker]({{ "/assets/team-logos/team-29.png" | relative_url }}) |
+| 30 | [EXPLOSION]({{ "/teams/30.html" | relative_url }}) | ![EXPLOSION team sticker]({{ "/assets/team-logos/team-30.png" | relative_url }}) |
+| 31 | [HIGHWAY OUTLAW]({{ "/teams/31.html" | relative_url }}) | ![HIGHWAY OUTLAW team sticker]({{ "/assets/team-logos/team-31.png" | relative_url }}) |
+| 32 | [DRY CRUISE]({{ "/teams/32.html" | relative_url }}) | ![DRY CRUISE team sticker]({{ "/assets/team-logos/team-32.png" | relative_url }}) |
+| 33 | [E.R.O.]({{ "/teams/33.html" | relative_url }}) | ![E.R.O. team sticker]({{ "/assets/team-logos/team-33.png" | relative_url }}) |
+| 34 | [TEAM ALPHA]({{ "/teams/34.html" | relative_url }}) | ![TEAM ALPHA team sticker]({{ "/assets/team-logos/team-34.png" | relative_url }}) |
+| 35 | [RR]({{ "/teams/35.html" | relative_url }}) | ![RR team sticker]({{ "/assets/team-logos/team-35.png" | relative_url }}) |
+| 36 | [THUNDER DRAGOON]({{ "/teams/36.html" | relative_url }}) | ![THUNDER DRAGOON team sticker]({{ "/assets/team-logos/team-36.png" | relative_url }}) |
+| 37 | [TRUE RIDE]({{ "/teams/37.html" | relative_url }}) | ![TRUE RIDE team sticker]({{ "/assets/team-logos/team-37.png" | relative_url }}) |
+| 38 | [UNLIMITED]({{ "/teams/38.html" | relative_url }}) | ![UNLIMITED team sticker]({{ "/assets/team-logos/team-38.png" | relative_url }}) |
+| 39 | [FANATIC FUTURE]({{ "/teams/39.html" | relative_url }}) | ![FANATIC FUTURE team sticker]({{ "/assets/team-logos/team-39.png" | relative_url }}) |
+| 40 | [SPEED MASTER]({{ "/teams/40.html" | relative_url }}) | ![SPEED MASTER team sticker]({{ "/assets/team-logos/team-40.png" | relative_url }}) |
+| 41 | [COMMANDER]({{ "/teams/41.html" | relative_url }}) | ![COMMANDER team sticker]({{ "/assets/team-logos/team-41.png" | relative_url }}) |
+| 42 | [DOUBLE MIND]({{ "/teams/42.html" | relative_url }}) | ![DOUBLE MIND team sticker]({{ "/assets/team-logos/team-42.png" | relative_url }}) |
 
 ## All rivals
 
