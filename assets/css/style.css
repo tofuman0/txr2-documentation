@@ -304,6 +304,11 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
     font-family: TXR2Thin, TXR2, Arial, sans-serif;
 }
 
+/* Limit the team and rival tables on wide screens. */
+.content table.sticker-table {
+    max-width: min(760px, calc(100% + 16px));
+}
+
 /* Keep sticker columns close to the width of their images. */
 .content table.sticker-table th:last-child,
 .content table.sticker-table td:last-child {
