@@ -303,3 +303,17 @@ body, .content, .content table, .content th, .content td, .image-placeholder spa
 .content li {
     font-family: TXR2Thin, TXR2, Arial, sans-serif;
 }
+
+/* Keep sticker columns close to the width of their images. */
+.content table.sticker-table th:last-child,
+.content table.sticker-table td:last-child {
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content table.sticker-table td:last-child img {
+    display: block;
+    margin: 0 auto;
+}
