@@ -62,7 +62,6 @@ Jump to [teams](#teams), [all rivals](#all-rivals), or the [port’s Class T tra
 | 40 | [SPEED MASTER]({{ "/teams/40.html" | relative_url }}) | ![SPEED MASTER team sticker]({{ "/assets/team-logos/team-40.png" | relative_url }}) |
 | 41 | [COMMANDER]({{ "/teams/41.html" | relative_url }}) | ![COMMANDER team sticker]({{ "/assets/team-logos/team-41.png" | relative_url }}) |
 | 42 | [DOUBLE MIND]({{ "/teams/42.html" | relative_url }}) | ![DOUBLE MIND team sticker]({{ "/assets/team-logos/team-42.png" | relative_url }}) |
-
 {: .sticker-table }
 
 ## All rivals
@@ -441,7 +440,6 @@ Jump to [teams](#teams), [all rivals](#all-rivals), or the [port’s Class T tra
 | 369 | 370 | [Faithful Fred]({{ "/rivals/369.html" | relative_url }}) | WANDERER | <img src="{{ "/assets/stickers/sticker-114.png" | relative_url }}" alt="Faithful Fred sticker" width="56" height="56" loading="lazy"> |
 | 370 | 371 | [Rainy Day]({{ "/rivals/370.html" | relative_url }}) | WANDERER | <img src="{{ "/assets/stickers/sticker-115.png" | relative_url }}" alt="Rainy Day sticker" width="56" height="56" loading="lazy"> |
 | 371 | 372 | [Sneaky South]({{ "/rivals/371.html" | relative_url }}) | WANDERER | <img src="{{ "/assets/stickers/sticker-116.png" | relative_url }}" alt="Sneaky South sticker" width="56" height="56" loading="lazy"> |
-
 {: .sticker-table }
 
 ## Class T traffic challenges
