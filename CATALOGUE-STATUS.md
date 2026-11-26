@@ -19,6 +19,10 @@ images are native-port captures, with the exceptions described in
 [vehicle image sources](vehicle-image-sources.md); they are not evidence that
 the original game renders each car identically.
 
+## Rival biographies
+
+All 372 rival pages include the corresponding biography from the supported US release’s Rivals screen. Each biography comes from the matching zero-based rival record in the menu text bank. The wording is retained as written in the game; display line breaks have been joined into paragraphs.
+
 ## Live car page check
 
 On 17 November 2026, a headless Edge check opened all 140 published car pages at a 390-pixel viewport. Every page returned HTTP 200, loaded its primary car image, displayed a parts-filter selector with multiple options, and had no page-level horizontal overflow. A subsequent check exercised all 2,596 filter options across those pages: each category showed all and only matching rows, and All parts restored the full table. These checks do not verify table values, image identity or visual appearance.
